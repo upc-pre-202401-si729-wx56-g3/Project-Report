@@ -320,8 +320,11 @@ se incluyen servicios externos (si hay pocos bounded context se incluyen ahi)
 1. Component diagrams: Estos van a mostrar las ordenes, procesos, mensajes y componentes utilizados en el uso del aplicativo, claro se deben hacer diferentes de estos para cada bounded o USER GOALS
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
-Esta yaselasaben (diagrama de clases)
-Clases(name), objetos(nombre-objeto [como objeto]), metodos("Accion") y atributos(Correo, edad,nombre como valor, ID)
+
+Respecto a las necesidades del producto, se decidió plantear las clases en el siguiente diagrama:
+<img src="./assets/Class Diagrams/class-diagram.png">
+Las clases serán explicadas en el siguiente apartado de forma más específica.
+
 ### 4.7.2. Class Dictionary.
 Inherit (ave(superclase) -> (subclase)canario )
 Polymorphism (Ej. funcion de persona hablar() -> Peruano hablar() , Gringo hablar() todos tienen una funcion que contiene persona y van cambiando sus formas)
@@ -336,10 +339,137 @@ Diagrama de base de datos (la relacion entre clases PK FK el Normalizar tmbn, is
 Especificaciones de donde vamos a hacer el proyecto (vscode supongo)
 extensiones tmbn? nose bn q quieren aca
 ### 5.1.2. Source Code Management.
-El gitjab donde tengamos el proyecto
+
+- Repositorios:
+    - Url del repositorio de GitHub para el Landing Page:
+    [URL del Landing Page](https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-LandingPage)
+    - URL del repositorio de GitHub para los Acceptance Tests:
+    [URL de los Acceptance Tests](https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-acceptance-tests)
+- Git Flow:
+    <img src="./assets/Product Implementation/gitflow.png">
+    Se aplicará GitFlow utilizando el artículo de Vincent Driessen, “A successful Git branching model”.
+    A continuación se dará una explicación de cada Branch que se utiliza en el modelo GitFlow.
+    - **MASTER**: Se utilizara esta rama como la versión estable y lista para producción. Todos los cambios que se fusionan aquí ya se consideran seguros y listos para implementar.
+    - **DEVELOP**: Esta rama es donde se trabajarán nuevas características y correcciones de errores. Es la rama principal de desarrollo.
+    - **FEATURE BRANCHES**: Son ramas de características para trabajar en nuevas funciones. Cada característica tendrá su propia rama, para que se trabaje de manera aislada, luego se fusiona con la rama DEVELOP.
+    - **RELEASE BRANCHES**: Son las ramas de lanzamiento que sirven para preparar una nueva versión del software. Se corrigen errores, pruebas finales y se prepara para fusionarse con MASTER y DEVELOP.
+    - **HOTFIX BRANCHES**: Son esenciales cuando ocurren errores en la producción. Se crean directamente desde MASTER, se solucionan los problemas y se fusionan los cambios en las ramas de MASTER y DEVELOP.
+- Commit Conventions    
+Para el formato de los COMMITS se aplicará lo siguiente:
+    ```<type>:<description>```
+Donde:
+
+    - TYPE: Solo pueden ser 3 tipos, sea BREAKING que se relaciona con X, luego FEAT que se relaciona con Y y por último FIX que se relaciona con Z.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
-Que usamos con css (en caso usemos software para SASS)
-supongo q tmbn cositas de como hacemo el code capas algun tipo de codigo para comunicarse entre comments
+
+**HTML**: https://www.w3schools.com/html/html5_syntax.asp
+           
+**Index.html**
+
+Es la página por defecto dentro de los directorios de los servidores de cualquier sitio web que se carga siempre que se solicita un dominio y no se especifica el nombre de un archivo en específico. Y en la mayoría de los casos el propio servidor web es el que se encarga de buscar el archivo index.
+
+**Convenciones de HTML**:
+
+- Se debe declarar el tipo de documento en la primera línea: `<!DOCTYPE html>`
+- Se recomienda usar minúsculas en las etiquetas y estructuras: `<body>` `<p>`
+- Se recomienda cerrar todas las etiquetas y estructuras: `<p>This is a paragraph.</p>`
+- Se recomienda usar minúsculas en los atributos: `<a href="https://www.google.com/html/">`
+- Se recomienda usar comillas en los valores de atributo: `<table class="striped">`
+- Se debe especificar el alt, ancho y alto de las imágenes: `<img src="html5.gif" alt="HTML5" style="width:128px;height:128px">`
+- Se recomienda no usar espacios a la hora de usar el signo “=”: `<link rel="stylesheet" href="styles.css">`
+- Solo se debe usar líneas en blaco para facilitar la lectura de bloques de códigos grandes o lógicos.
+- No se debe omitir el elemento `<title>` ya que es vital para el motor de búsqueda, así como también se recomienda que el contenido de los `<title>` sea preciso y significativo: `<title>HTML Style Guide and Coding Conventions</title>`
+- No se recomienda omitir las etiquetas `<html>` y `<body>` ya que puede producir errores en navegadores antiguos y puede bloquear el software DOM y XML.
+- Se debe usar el atributo lang para declarar el idioma de la página web: `<html lang="en-us">`
+- Se debe utilizar el atributo meta para una interpretación adecuada e indexación correcta en los motores de búsqueda: `<meta charset="UTF-8">`
+
+**CSS**: https://google.github.io/styleguide/htmlcssguide.html
+           
+**Style.css**
+
+El estilo de cascada (CSS) se puede usar para estilos de texto, por ejemplo, cambiar de color y el tamaño de los encabezados, enlaces, entre otras cosas.
+
+**Convenciones de CSS**:
+
+- Utilizar el protocolo HTTPS para imágenes y otros archivos multimedia: `@import 'https://fonts.googleapis.com/css?family=Open+Sans'` ; Todo el código debe estar en minúsculas como nombres de elementos HTML, atributos, valores de atributo, entre otros: `color : #e5e5e5;`
+- El nombre de una clase debe transmitir lo que hace de la forma más breve posible ya que de esta manera se apoya la comprensibilidad y eficiencia del código: navegación {} . autor {} Se debe separar los nombres de las clases con un guión (“-”): navegación {} . autor {}
+- Se recomienda usar propiedades abreviadas cuando sea posible: `border - top : 0 ;`
+- Se recomienda usar la notación hexadecimal de 3 caracteres en colores que lo permitan: `color : #ebc;`
+- Se recomienda ordenar las declaraciones de propiedades y características en orden alfabético
+- Se debe usar un “;” después de cada declaración: `pantalla : bloque ;`
+- Se debe usar un espacio después de los “:” de cada nombre de la propiedad: `font - weight : bold ;`
+- Se debe usar un espacio entre el último sector y la llave “{ “ que comienza el bloque de declaración:. vídeo {.....}
+- Se debe usar las comillas simples (‘ ‘) para los atributos y valores de propiedad: `familia de fuentes : ' open sans' , arial , sans - serif ;`
+
+**Gherkin**: https://cucumber.io/docs/gherkin/reference/
+
+**`<usertStoryID>`.featrue** :
+
+En este archivo de formato feature estarán las historias de usuario como características de la aplicación. Asimismo se pueden encontrar los criterios de aceptación para las diversas situaciones.
+
+**Convenciones de Gherkin**:
+
+- Se utiliza la palabra Feature para introducir una descripción de alto nivel de una función de software y agruparlos en escenarios relacionados
+- Example o Scenario sirven para plantear una situación
+- Se utiliza Given para describir el contexto inicial, When para describir un evento y Then para describir un resultado esperado y And para adicionar información. Given,When,Then y And se usan para describir un escenario
+- El carácter “|” sirve para formar una tabla datos, las cuales son útiles para pasar una lista de valores a una definición de paso.
+
+**Java**: https://google.github.io/styleguide/javaguide.html 
+
+**Convenciones de Java**:
+
+- Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
+- Los nombres de los métodos deben ser minúsculas.
+- El nombre de las variables debe ser en minúsculas y usar camel case.
+- Para las sentencias if,else,for,do y while se deben usar “ { } “.
+- Los nombres de variables que son Constantes deben ir en mayúsculas.
+
+**JavaScript**: https://google.github.io/styleguide/jsguide.html. 
+
+**Convenciones de JavaScript**:
+
+- Se debe usar Camelcase para los nombres de variables y funciones.
+- Se debe usar Pascalcase para los nombres de constructores o clases.
+- Se debe usar mayúsculas y guiones bajos para los nombres de la constantes, por ejemplo UPPER_CASE_WITH_UNDERSCORES..
+- Se debe usar let y const para definir las variables, var debe evitarse.
+- Para los comentarios de una sola línea debe usar “ // ” y para bloques de comentario se debe usar  “ /* */ ”.
+Se debe incluir un punto y coma al final de cada instrucción.
+
+**TypeScript**: https://google.github.io/styleguide/tsguide.html
+
+**Convenciones de TypeScript**:
+
+- Se debe usar Camelcase para los nombres de variables y funciones.
+- Se debe usar Pascalcase para los nombres de interfaces o clases.
+- Se debe usar number para valores numéricos, string para cadenas de texto y boolean para los valores booleanos.
+- Se debe usar const para las constantes.
+- Se debe usar extends para la herencia 
+- Se debe usar implements para la implementación de interfaces
+- Se debe usar por imports y exports para modularizar el código
+- Se debe usar “ | ” para la unión y “ & ” para las intersecciones
+
+**Spring Boot** : https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
+
+**Convenciones de Spring Boot**:
+
+- Se debe emplear @Controller, @Service, @Repository, @Component, @Autowired, entre otros más, para poder definir y gestionar los componentes de Spring.
+- Para el manejo de excepciones se debe hacer uso de @ControllerAdvice y @ExceptionHandler para poder gestionar los errores de manera consistente.
+- Se debe usar @Transactional para gestionar las transacciones.
+- En el caso que se quiera gestionar la autenticación y autorización de una aplicación, se debe usar Spring Security.
+- Se debe usar nombre de paquetes y clases descriptivas que reflejan la funcionalidad de los componentes.
+
+**Angular** : https://angular.io/guide/styleguide
+
+**Convenciones de Angular**:
+
+- Se debe usar kebab-case para los nombres de archivos y carpetas, por ejemplo: my-component.component.ts.
+- Se debe usar UpperCamelCase para nombrar clases y componentes, por ejemplo: MyComponent
+- Se debe usar camelCase para nombrar propiedades y métodos, por ejemplo:myProperty, myMethod().
+- Se debe evitar las dependencias circulares entre módulos y componentes.
+- Se recomienda usar Typescript en vez de Javascript para poder aprovechar la verificación de tipos estáticos.
+- Es recomendable habilitar el modo estricto de Typescript: strict: true en tsconfig.json.
+
 ### 5.1.4. Software Deployment Configuration.
 Configuraciones de donde y como deployeamos el proyecto
 ## 5.2. Landing Page, Services & Applications Implementation.
