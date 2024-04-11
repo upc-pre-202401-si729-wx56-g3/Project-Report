@@ -35,7 +35,7 @@
 #### 1.1.2. Perfiles de integrantes del equipo
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
-|Compañero 1 	![Imagen del compañero](image.jpg)|U20...|Ingenieria de software|C++, piton .etc|
+| Velasquez Pizarro Jair <img src="./assets/members-profile/Jair.jpeg" alt="Imagen del compañero" style="width:60%"> | U202218114   |Ingenieria de software| C++, Java, HTML5, CSS3, Tailwind CSS Javascript, SQL. Detallista y proactivo.  |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
