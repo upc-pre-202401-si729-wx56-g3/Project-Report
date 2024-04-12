@@ -11,6 +11,7 @@
 - Nombre
 - Nombre
 - Nombre
+
 19/03/2024
 ---
 # Registro de Versiones del Informe
@@ -36,7 +37,7 @@
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
 | Velasquez Pizarro Jair <img src="./assets/members-profile/Jair.jpeg" alt="Imagen del compañero" style="width:60%"> | U202218114   |Ingenieria de software| C++, Java, HTML5, CSS3, Tailwind CSS Javascript, SQL. Detallista y proactivo.  |
-| Velasquez Pizarro Jair <img src="./assets/members-profile/Gerardo.png" alt="Gerardo Quilla" style="width:60%"> | U20211B197   |Ingenieria de software| Python, Java, HTML5, CSS, Typescript y SQL. Puntual y responsable.  |
+| Quilla Luyo Jorge Gerardo <img src="./assets/members-profile/Gerardo.png" alt="Gerardo Quilla" style="width:60%"> | U20211B197   |Ingenieria de software| Python, Java, HTML5, CSS, Typescript y SQL. Puntual y responsable.  |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -212,10 +213,12 @@ Ocupación: _____
 {texto}
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
-**Segmento PYMEs**  
+**Segmento PYMEs** 
+
 ![User Persona PYME](assets/user-personas/Emilio-Vargas.png)
 
 **Segmento Freelancer**
+
 ![User Persona](assets/user-personas/Leandro-Martinez.png)
 
 ### 2.3.2. User Task Matrix.
@@ -237,16 +240,20 @@ Ocupación: _____
 ### 2.3.3. User Journey Mapping.
 
 **Segmento PYMEs**
+
 ![PYME Journey Map](assets/user-journey-mapping/pyme-journey-mapping.png)
 
 **Segmento Freelancer**
+
 ![Freelancer Journey Map](assets/user-journey-mapping/freelancer-journey-mapping.png)
 
 ### 2.3.4. Empathy Mapping.
 **Segmento PYMEs**
+
 ![PYME Empathy Map](assets/empathy-mapping/pyme-empathy-map.png)
 
 **Segmento Freelancer**
+
 ![Freelancer Empathy Map](assets/empathy-mapping/freelancer-empathy-map.png)
 ### 2.3.5. As-is Scenario Mapping.
 
