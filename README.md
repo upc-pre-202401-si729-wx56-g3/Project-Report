@@ -6,7 +6,7 @@
 "TechConnect Solutions"
 "OfficeTech"
 ### Integrantes:
-- Nombre
+- Jorge Gerardo Quilla Luyo - U20211B197
 - Nombre
 - Nombre
 - Nombre
@@ -36,6 +36,7 @@
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
 | Velasquez Pizarro Jair <img src="./assets/members-profile/Jair.jpeg" alt="Imagen del compañero" style="width:60%"> | U202218114   |Ingenieria de software| C++, Java, HTML5, CSS3, Tailwind CSS Javascript, SQL. Detallista y proactivo.  |
+| Velasquez Pizarro Jair <img src="./assets/members-profile/Gerardo.png" alt="Gerardo Quilla" style="width:60%"> | U20211B197   |Ingenieria de software| Python, Java, HTML5, CSS, Typescript y SQL. Puntual y responsable.  |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -62,52 +63,133 @@ Texto
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
+
+Luego del planteamiento de nuestra startup y de nuestro proyecto, hemos identificado a los principales competidores:
+
+- Toptal: Plataforma enfocada a conectar empresas con desarrolladores de software de distintas áreas.
+
+- RemoteOk: Plataforma que se centra en el trabajo remoto, lo cual permite conectar empresas y desarrolladores de distintas partes del mundo. 
+- Workana: Plataforma que conecta empresas y desarrolladores en una variedad de campos
+
 ### 2.1.1. Análisis competitivo.
 
-| Competitive Analysis Landscape                          |  |
-| ------------------------------------------------------- | -|
-| ¿Por qué llevar a cabo este análisis?                   | -- |
+| Competitive Analysis Landscape | |
+| - | - |
+| ¿Por qué llevar a cabo este análisis? | Para conocer el valor que ofrece cada uno de nuestros competidores en este sector |
 
 
-| |  | (Nosotros) | Competidor  | Comptdor |
-|-|-|-|-|-|
-| PERFIL| Overview | lorem | ipsum | lorem |
-|| Ventaja competitiva ¿Qué valor ofrece a los clientes? |  ipsu | impuz |
-|| Mercado Objetivo                                        | Jeda | asa | asa2 |
-| Perfil de marketing                                     | Estrategia de Marketing | Redes Sociales | Redes Sociales | Televisión, Redes Sociales |
-| Perfil del producto                                     | Productos y servicios | Elementos Gráficos Interactivos Enseñanza de Matemáticas Lúdica y Autodidacta Educación matemática interactiva Ámbito Freemium | Educación matemática interactiva Mas de 100 cursos en 28 idiomas diferentes | Educación general interactiva Contratos con Movistar |
-|| Precios y costos                                        | Freemium (Cuenta Premium permite personalizar los juegos) Gratis | Gratuito | Gratuito |
-|| Canales de distribución (Web y/o Móvil)                 | Web y Móvil Web | Móvil Web | Web y móvil Web |
+| | | FromZero | Toptal  | RemoteOK | Workana |
+|-|-|-|-|-| - |
+| Perfil | Overview | Plataforma para publicación y postulaciones a proyectos de desarrollos de páginas web, aplicaciones web, etc. | Plataforma donde las empresas pueden contratar a desarrolladores con bastante experiencia en el mundo laboral. | Plataforma donde empresas publican oportunidades de trabajo remoto desde distintas partes del mundo | Plataforma de latino América donde desarrolladores pueden aplicar a un trabajo y las empresas pueden contratar desarrolladores o freelancers. |
+|| Ventaja competitiva ¿Qué valor ofrece a los clientes? |  FromZero cuenta con un sistema de hitos o entregables, y opción para hacer un seguimiento al proyecto. | Toptal significa Top Talent, su nombre indica que quiere trabajar con los mejores del mundo. Cuenta con un riguroso proceso el cual identifica si son expertos en su área. Es por ello que de las miles de aplicaciones solo el 3% son aceptados | Ofrece trabajos remotos, además los desarrolladores pueden aplicar diferentes filtros para encontrar el trabajo más adecuado a lo que se busca. | Ofrece una plataforma de confianza para los desarrolladores y empresas. Cuenta con múltiples campos en donde las empresas pueden encontrar desarrolladores con habilidades necesarias para sus proyectos. |
+| Perfil de marketing | Mercado Objetivo | PYMEs o emprendimientos que quieran lograr reconocimiento a través de páginas web, o mejorar su negocio con ayuda de aplicaciones web. <br><br> Freelancers que busquen oportunidad de trabajo para expandir sus conocimientos y lograr escalar. | Medianas y grandes empresas que requieran de un equipo de desarrolladores con bastante experiencia. <br><br> Desarrolladores freelance con amplia experiencia. | PYMEs que deseen contratar de forma remota.<br><br> Desarrolladores en busca de trabajos remotos. | PYMEs que deseen contratar buenos desarrolladores de forma remota en latino américa. <br><br> Desarrolladores en busca de trabajos remotos que ayuden a impulsar sus carreras. |
+| | Estrategia de Marketing | Promoción en redes sociales, participar en eventos y colaborar en proyectos. | Colaborar con empresas reconocidas a nivel mundial | Publicidad en línea y eventos virtuales. | Promoción en redes sociales y contenido educativo. |
+| Perfil del producto | Productos y servicios | Aplicación Web | Plataforma de trabajo | Plataforma de trabajo | Plataforma de trabajo |
+|| Precios y costos | Membresías para Empresa y Desarrollador. <br><br> Empresa: <br> - Cuenta Free <br> - Cuenta Premium PEN 20.00/Mes<br><br> Desarrollador: <br> - Cuenta Free <br> - Cuenta Premium PEN 20.00/Mes | Tarifas varían según la experiencia y habilidades del freelancer contratado | Freelancers pueden pagar para destacar sus perfiles dentro de la plataforma | Dependiendo del tiempo que quieran trabajar junto con la plataforma Workana, los freelancers pueden cambiar su membresía <br>- Plus: USD 4.90 <br> -Professional: USD 16.90 <br>- Premium: USD 24.90 |
+|- | Canales de distribución (Web y/o Móvil) | Página web | Página web | Página web | Página web |
+| Análisis SWOT | Fortalezas | Sistema de  entregables eficiente.<br>La empresa puede gestionar los entregables que deben realizar los desarrolladores.<br> Los freelancers cuentan con ventajas gracias a las membresías de pago. | Sistema de contratación efectivo, en donde se encontrará un desarrollador en el menor tiempo posible y con las habilidades o experiencia necesaria según los requisitos dados. | Lista masiva de ofertas de trabajo alrededor del mundo, con detalles de localidad, beneficios y salario. | Transparencia con por parte de los desarrolladores, se puede ver portfolios, su experiencia y opiniones acerca de ellos. |
+| | Debilidades | Debido al pago que se realiza al finalizar el proyecto, y cierta cantidad de entregables, muchos desarrolladores pueden sentirse presionados por entregar una solución eficiente. | Debido al proceso de selección riguroso, es posible que aquellos desarrolladores elegidos tengan tarifas que salgan del presupuesto de las empresas. Por parte de los desarrolladores, el ingreso a esta plataforma es muy difícil. | Al ser una plataforma donde hay publicaciones masivas de ofertas de trabajo, y que además son remotos, la gran cantidad de postulaciones puede ser un problema. | Al ofrecer varias categorías de trabajo, es posible que no todas cuenten con los suficientes desarrolladores. |
+| | Oportunidades | Posibilidad de contratar a todo un equipo de freelancers para formar parte del proyecto. | Desarrolladores disponibles para proyectos grandes y desafiantes. | Plataforma con una interfaz de fácil uso en donde los freelancers pueden aplicar filtros de búsqueda para ofertas de trabajo. | Buscar más talentos para las categorías que ofrecen |
+| | Amenazas | Posible falta de desarrolladores freelance.<br>Plataformas del mismo sector.<br>Pocas ofertas de trabajo por día. | Plataformas con más desarrolladores freelancers  disponibles.<br>Dificultad para incrementar sus desarrolladores en su plataforma debido al proceso de selección. | Debido a las publicaciones diarias, es posible que algunas no especifiquen todos los detalles. | Posibles problemas en algunas categorías de trabajo que Workana ofrece. |
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
-
-
-|Competidores ->|  | Nosotros | Competidor2| Competidor3|
-|-|-|-|-|-|
-| Análisis SWOT | Fortalezas | lorem | Lorem | lorem |
-|| Debilidades   | lorem | lorem | lorem | lorem | 
-|| Oportunidades | lorem | lorem | lorem | lorem | 
-|| Amenazas      | lorem | lorem | lorem | lorem |
+| Competidores | ¿Qué se puede hacer para ganarle a la competencia? |
+|-|-|
+|Competidor:1<br>Toptal|Toptal cuenta con una sistema de contratación bastante riguroso, pocos freelancers logran ser parte de esta plataforma. Por lo tanto, FromZero puede ofrecer un sistema más accesible para los freelancers ya que así lograrían tener una oportunidad dentro de la plataforma y así expandir sus experiencias en el mundo laboral.|
+|Competidor:1<br>RemoteOK|RemoteOK tiene al día muchas publicaciones de oferta de trabajo, cada una cuenta con su respectiva descripción y requisitos de proyecto. Sin embargo, la plataforma no permite hacer un seguimiento al proyecto en cuestión, ya que solo se limita a comunicación simple entre empresa y desarrollador.<br>FromZero da la oportunidad de hacer un seguimiento al proyecto desde inicio a fin.|
+|Competidor:1<br>Workana|Workana ofrece dentro de su plataforma diversos campos de trabajo tales como diseño, programación y marketing. Sin embargo, puede que la plataforma se enfoque más en un campo que en otro, y en consecuencia descuidando la cantidad de postulantes en esa área, protección a cada uno y el soporte.<br>FromZero al contar con un único campo le puede dedicar todos los servicios y atención necesaria.|
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
-**Preguntas generales:**
 
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
+**Segmento objetivo: Freelancer**
 
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
+**Preguntas de información personal:** 
+
+- ¿Cuál es tu nombre?
+
+- En la actualidad, ¿Estudias o trabajas?
+	
+	**Estudia:**
+
+	- ¿Qué carrera estudias y en qué ciclo te encuentras?
+	
+	- ¿En qué te gustaría especializarte?
+	
+	**Trabaja:**
+
+	Cuéntanos un poco de tu trabajo
+
+
+**Preguntas de indagación:**
+
+- ¿Cuáles son los lenguajes de programación que dominas?
+
+- ¿Posees experiencia en el desarrollo de programas de software?
+
+- ¿Podrías describir los tipos de proyectos en los que has trabajado anteriormente?
+
+- ¿Cuáles han sido los principales desafíos que has enfrentado como desarrollador freelance?
+
+- ¿Qué aspectos considerar al evaluar la viabilidad de un proyecto antes de aceptarlo?
+
+- ¿Podrías compartir un ejemplo del mayor desafío que has enfrentado como desarrollador freelance y cómo lo resolviste?
+
+- ¿Cómo gestionas la comunicación con tus clientes a lo largo del ciclo de vida de un proyecto?
+
+- ¿Qué tan familiarizado estás con las plataformas de contratación freelance disponibles en el mercado?
+
+<br>**Presentación de FromZero.**
+
+**Preguntas de validación:**
+
+- ¿Como desarrollador que opinas del sistema de entregables?
+
+- ¿Consideras importante mantener a la empresa actualizada sobre el proyecto en el que estás trabajando?
+
+- ¿Qué beneficios esperas de nuestra plataforma?
+
+- ¿Tienes alguna sugerencia de mejora?
+
+
+<br>**Segmento objetivo: PYMEs o emprendimientos**
+
+**Preguntas de información personal:**
+
+- ¿Cuál es su nombre?
+
+- ¿Cómo se llama tu negocio y a que se dedica?
+
+- ¿Cómo se animó a realizar el emprendimiento?
+
+- ¿Cual es su objetivo?
+ 
+**Preguntas de indagación:**
+
+- ¿Su empresa o emprendimiento actualmente tiene una presencia establecida en el ámbito digital?
+
+- ¿Considera que es crucial en la actualidad que las empresas y emprendimientos tengan una presencia sólida en Internet? ¿Cuál es la razón detrás de esta opinión?
+
+- ¿Qué estrategias implementaría para mejorar la presencia digital de su negocio?
+
+- ¿Ha enfrentado alguna vez su empresa o emprendimiento la necesidad de implementar soluciones de software? En caso afirmativo, ¿qué tipo de soluciones han sido requeridas?
+
+- ¿Ha contemplado la posibilidad de llevar a cabo proyectos de software con el propósito de mejorar el rendimiento o las operaciones de su empresa o emprendimiento? ¿Cuál sería la justificación detrás de esta consideración?
+
+- ¿Qué tan familiarizado estás con las plataformas dedicadas a la contratación de desarrolladores freelance para proyectos de software?
+
+<br>**Presentación de FromZero.**
+
+**Preguntas de validación:**
+
+- ¿Estaría tu negocio dispuesto a utilizar el sistema de entregables con el o los desarrolladores a cargo de su proyecto?
+
+- ¿Qué información quisieras que el desarrollador te mantenga actualizada?
+
+- ¿Qué beneficios esperas de nuestra plataforma?
+
+- ¿Alguna sugerencia de mejora?
+
 ### 2.2.2. Registro de entrevistas.
 **Segmento 1**  
 Nombre: _____
@@ -130,67 +212,64 @@ Ocupación: _____
 {texto}
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
-**Segmento 1:**  
-![Imagen User Persona 1](image.jpg)
+**Segmento PYMEs**  
+![User Persona PYME](assets/user-personas/Emilio-Vargas.png)
 
-**Segmento 2:**
-![Imagen User Persona 1](image.jpg)
+**Segmento Freelancer**
+![User Persona](assets/user-personas/Leandro-Martinez.png)
 
 ### 2.3.2. User Task Matrix.
-| --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
-| --- | ------ | ----------- | ------------ | ----------- | ---------- |
-| ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
-| U01X| {Texto}| Alta        | Alta         | Media       | Baja       |
+
+|  | Segmento PYMEs |  | Segmento Freelancer |  |
+| - | ----------- | ------------ | ----------- | ---------- |
+| | Importancia | Frecuencia   | Importancia | Frecuencia |
+| Crear página web para mi negocio | Media | Alta | - | - |
+| Publicar requerimientos y detalles de mi negocio | Baja | Alta | - | - |
+| Buscar desarrolladores para la realización de mi página web | Baja | Media | - | - |
+| Acordar entregables | Alta | Alta | - | - |
+| Establecer fechas de entrega | Alta | Media | - | - |
+| Postular al proyecto | - | - | Alta | Media |
+| Elaborar diseño y código de la página web | - | - | Alta | Alta |
+| Realizar seguimiento al proyecto | Alta | Alta | Alta | Alta |
+| Acordar fecha de presentación de avances | Media | Alta | - | - |
+| Probar página web | Media | Media | Alta | Alta |
+
 ### 2.3.3. User Journey Mapping.
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
-  
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
+
+**Segmento PYMEs**
+![PYME Journey Map](assets/user-journey-mapping/pyme-journey-mapping.png)
+
+**Segmento Freelancer**
+![Freelancer Journey Map](assets/user-journey-mapping/freelancer-journey-mapping.png)
 
 ### 2.3.4. Empathy Mapping.
-**Segmento 1:**
-![Empathy Map Segmento1](image.jpg)
+**Segmento PYMEs**
+![PYME Empathy Map](assets/empathy-mapping/pyme-empathy-map.png)
 
-**Segmento 2:**
-![Empathy Map Segmento1](image.jpg)
+**Segmento Freelancer**
+![Freelancer Empathy Map](assets/empathy-mapping/freelancer-empathy-map.png)
 ### 2.3.5. As-is Scenario Mapping.
 
-**Segmento 1**  
-Escenario: {escenario}
+**Segmento PYMEs**  
 
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
+![PYME AS-IS Scenario Map](assets/as-is-scenario-mapping/as-is-pyme.png)
 
-**Segmento 2**  
-Escenario: Dificultad para entender Matemáticas
+**Segmento Freelancer** 
 
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
+![Freelancer AS-IS Scenario Map](assets/as-is-scenario-mapping/as-is-freelancer.png)
+
 ## 2.4. Ubiquitous Language.
-```
-Texto ubiquo: Definicion de este
-```
+
+**Desarrollador freelance:** persona que trabaja de manera independiente en proyectos de diseño web o aplicaciones, no trabaja para una empresa en específico.
+
+**PYME:** Pequeñas y medianas empresas. Tienen una cantidad moderada de empleados e ingresos en comparación con grandes empresas. 
+
+**Página web:** documento en línea que puedes ver en distintos navegadores y que contiene información sobre un tema específico, mayormente para negocios o emprendimientos. 
+
+**Sistema de entregables:** es un sistema el cual permite a la empresa a cargo del proyecto, crear o editar entregables. Estos contienen muchos requisitos que deben ser cumplidos por el desarrollador según la fecha que se establezca.
+
+**Aplicación web:** es un programa que se usa en el navegador. Puede incluir herramientas, guardado de datos, inicios de sesión y red de contactos.
+
 
 ---
 
