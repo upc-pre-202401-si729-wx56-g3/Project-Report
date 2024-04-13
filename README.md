@@ -7,7 +7,7 @@
 "OfficeTech"
 ### Integrantes:
 - Jorge Gerardo Quilla Luyo - U20211B197
-- Nombre
+- Rony Piero Ticona Luque - U201420422
 - Nombre
 - Nombre
 - Nombre
@@ -33,32 +33,126 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Somos SiteForge, una startup que plantea una solución a la creciente demanda de PYMEs que buscan realizar proyectos en conjunto con desarrolladores freelance. El surgimiento de nuestra startup se debe a la creciente demanda de empresas en búsqueda de soluciones digitales de calidad, así como a los desarrolladores freelance en busca de proyectos para generar ingresos.
+
+Nuestra principal meta es ofrecer una plataforma web intuitiva y fácil de usar que permita a las empresas publicar proyectos de software, y a los desarrolladores freelance postularse para trabajar en ellos. Nos enfocamos en satisfacer las necesidades tanto de las empresas que requieren soluciones digitales personalizadas, como de los desarrolladores freelance que buscan oportunidades para aplicar sus habilidades y obtener ingresos.
+
+Misión:
+
+Nuestro objetivo es simplificar la comunicación entre empresas que buscan soluciones digitales y desarrolladores freelance en busca de oportunidades laborales. Nos comprometemos a ofrecer una plataforma transparente y eficaz que fomente la colaboración, la calidad y la innovación en cada proyecto. Estamos comprometidos con el crecimiento y éxito tanto de nuestros usuarios como de nuestra empresa.
+
+Visión:
+
+Nuestra meta es ser el principal recurso para empresas que requieran soluciones digitales y para desarrolladores freelance en busca de oportunidades laborales en el campo del desarrollo de software. Aspiramos a ser reconocidos como líderes en innovación, calidad y eficiencia, siendo la primera opción tanto para empresas en busca de soluciones digitales como para desarrolladores en búsqueda de proyectos emocionantes y rentables.
+
+
 #### 1.1.2. Perfiles de integrantes del equipo
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
 | Velasquez Pizarro Jair <img src="./assets/members-profile/Jair.jpeg" alt="Imagen del compañero" style="width:60%"> | U202218114   |Ingenieria de software| C++, Java, HTML5, CSS3, Tailwind CSS Javascript, SQL. Detallista y proactivo.  |
 | Quilla Luyo Jorge Gerardo <img src="./assets/members-profile/Gerardo.png" alt="Gerardo Quilla" style="width:60%"> | U20211B197   |Ingenieria de software| Python, Java, HTML5, CSS, Typescript y SQL. Puntual y responsable.  |
+| Ticona Luque, Rony Piero <img src="./assets/members-profile/Piero.png" alt="Gerardo Quilla" style="width:60%"> | U202420422   |Ingenieria de software| Python, Java, HTML5, CSS y SQL. Ordenado y responsable.  |
 
 ## 1.2. Solution Profile
+Para entender adecuadamente el perfil de la solución, es imprescindible analizar la naturaleza del problema que estamos tratando de resolver. Esto implica identificar con detalle los aspectos fundamentales que nuestra solución debe abordar y establecer objetivos y restricciones que orienten nuestra definición. Con el fin de facilitar este proceso de análisis y enfoque, emplearemos herramientas ampliamente reconocidas como "Las 5W y 2H" y el "Proceso Lean UX".
 ### 1.2.1 Antecedentes y problemática
+2.1.1.	What/Qué<br><br>
+El escenario post COVID-19 para las microempresas peruanas fue crucial, lo que condujo a muchas de ellas a iniciar un proceso de adaptación digital. Según un estudio realizado por Microsoft en 2023, el 95% de las pequeñas y medianas empresas en Perú aceleraron este proceso. En la actualidad las pymes enfrentan obstáculos en la digitalización de sus operaciones.
+
+2.1.2.	Why/Por qué<br><br>
+Varios elementos inciden en estas complicaciones en la digitalización de los negocios, siendo el desconocimiento de las herramientas digitales necesarias uno de los principales.
+
+2.1.3.	Who/Quién<br><br>
+Esta situación representa un desafío para cualquier emprendedor o pequeño empresario mayor de 18 años, especialmente a aquellos con escaso conocimiento sobre las herramientas digitales requeridas para establecer una presencia web propia y virtualizar su empresa.
+
+2.1.4.	When/Cuándo<br><br>
+Los microempresarios se enfrentan a esta problemática diariamente, ya que, al tratarse de negocios en funcionamiento, no tienen la opción de detener su producción, lo que potencialmente podría incrementar sus deudas. Además, teniendo en cuenta el alto porcentaje de aceleración en el proceso de transformación digital para las empresas, la presión para adaptarse se vuelve aún más intensa.
+
+2.1.5.	Where/Dónde<br><br>
+Esta dificultad afecta a empresas de todos los tamaños, ya que en la era digital en la que vivimos, la falta de aprovechamiento de las herramientas tecnológicas puede ser un obstáculo significativo para el crecimiento y la competitividad. Esto es especialmente relevante para las micro y pequeñas empresas, que pueden quedarse rezagadas si no se adaptan a las demandas del entorno digital.
+
+2.1.6.	How/Cómo<br><br>
+La problemática surge cuando los microempresarios buscan formas de mejorar sus ventas mediante el uso de herramientas digitales. En cuanto a las oportunidades que estas herramientas ofrecen, se destaca que el 43% de los líderes empresariales mencionan que la tecnología les permite abrirse a nuevos mercados y clientes, según un informe de Microsoft del año 2023.
+
+2.1.7.	How much/Cuánto<br><br>
+El presupuesto para los proyectos podrán ser de un alcance muy competitivo debido a la plataforma se podrán postular y comunicar con diversos freelancers.
+
 ### 1.2.2 Lean UX Process.
+
+
+
 #### 1.2.2.1. Lean UX Problem Statements.
+
+Segmento PYMEs<br><br>
+Las PYMEs enfrentan dificultades para encontrar recursos técnicos adecuados para desarrollar soluciones digitales que impulsen su crecimiento y competitividad en el mercado.<br><br>
+¿Cómo podríamos crear una solución accesible y profesional para el desarrollo de soluciones digitales dirigidas a propietarios de empresas que están en medio de un proceso de crecimiento?<br><br>
+Segmento Desarrolladores Freelance<br><br>
+Los desarrolladores independientes carecen de acceso a oportunidades significativas para aplicar sus habilidades y generar ingresos de manera flexible y consistente.<br><br>
+¿Cómo podríamos crear una opción de trabajo para desarrolladores en nuestra aplicación?
+
+
 #### 1.2.2.2. Lean UX Assumptions.
-|Business Assumptions|User Assumptions|
-|-|-|
-|1. - 12. |1. - 6.|
+
+**Creo que mis clientes necesitan**<br>
+Empresarios: Soluciones digitales personalizadas que mejoren la eficiencia operativa y la experiencia del cliente.
+Desarrolladores: Oportunidades para aplicar sus habilidades en proyectos.
+
+**Estas necesidades se pueden resolver con**<br>
+Empresarios: Una plataforma donde pueda publicar su proyecto en mente y contratar desarrolladores que lo hagan realidad. 
+Desarrolladores: Acceso a una amplia variedad de proyectos que les permitan demostrar su experiencia y generar ingresos.
+
+**Mis clientes iniciales serán**<br>
+Pequeñas y medianas empresas que buscan expandir su presencia en línea o mejorar sus procesos comerciales.
+Profesionales independientes con experiencia en desarrollo de software, con deseos de formar parte de proyectos desafiantes.
+
+**El valor #1 que un cliente quiere de nuestro servicio es**<br>
+Soluciones digitales de alta calidad que les permitan mantenerse competitivos en un mercado en constante crecimiento.
+Oportunidades para trabajar en proyectos interesantes y desafiantes que les permitan expandir sus habilidades y generar ingresos significativos.
+
+**Obtendremos la mayoría de nuestros clientes a través de**<br>
+Estrategias de marketing digital dirigidas a empresas emergentes.
+Redes sociales y plataformas en línea.
+
+**Haremos dinero a través de**<br>
+Tarifas de suscripción para acceder a ventajas exclusivas en nuestra plataforma.
+
+**Mi competencia principal es**<br>
+Plataformas de freelancers y agencias de empleo que conectan a profesionales independientes con oportunidades de trabajo.
+
+**Los venceremos…**<br>
+Ofreciendo una plataforma intuitiva, transparente y centrada en el cliente que satisfaga las necesidades específicas de las PYMEs.
+Brindando una amplia gama de proyectos atractivos, una experiencia de usuario sólida y un soporte dedicado para los profesionales independientes.
+
+**Mi mayor riesgo es…**<br>
+La falta de adopción por parte de las PYMEs debido a la resistencia al cambio o la percepción de que las soluciones digitales son costosas o difíciles de implementar.
+
+**Resolveremos esto…**<br>
+Destacando los beneficios y la accesibilidad de nuestras soluciones digitales, así como ofreciendo un soporte continuo para facilitar el cambio y la adopción del producto.
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
-Texto
+
+Hypothesis Statement 1<br><br>
+Creemos que al proporcionar una plataforma intuitiva y centrada en el cliente para la colaboración entre PYMEs y desarrolladores freelance, aumentará la cantidad de proyectos completados en nuestra plataforma.<br><br>
+Sabremos que hemos tenido éxito cuando veamos un aumento significativo en el número de proyectos publicados y completados en nuestra plataforma, así como un aumento en la satisfacción del cliente medida por las reseñas y comentarios positivos.<br><br>
+Hypothesis Statement 2 <br><br>
+Creemos que al ofrecer una amplia variedad de proyectos atractivos y bien remunerados, aumentará la participación y la retención de los desarrolladores freelance en nuestra plataforma.<br><br>
+Sabremos que hemos tenido éxito cuando observemos un aumento en el número de desarrolladores activos en nuestra plataforma, así como una disminución en la tasa de abandono y una mayor frecuencia de participación en proyectos.<br><br>
+Hypothesis Statement 3<br><br>
+Creemos que al proporcionar transparencia y eficiencia en el proceso de colaboración entre PYMEs y desarrolladores freelance, aumentará la confianza y la satisfacción de los usuarios en nuestra plataforma.<br><br>
+Sabremos que hemos tenido éxito cuando veamos una mejora en la calificación de satisfacción del usuario, así como un aumento en el número de referencias y recomendaciones de nuestra plataforma por parte de los usuarios satisfechos.
+
+
 #### 1.2.2.4. Lean UX Canvas.
-(imagen con texto)
+
+![Canvas](assets/Lean-UX-Canvas/canvas.png)
+
+
 ## 1.3. Segmentos objetivo.
-| | Segmento 1 | Segmento 2  |
-| - | - |-|
-| Variables                 |  |  |
-| Geográfica                |  |  |
-| Demográfica               |  |  |
-| Psicológica               |  |  |
-| Función de comportamiento |  |  |
+Hemos planteado los siguientes segmentos para nuestra aplicación:<br><br>
+Pequeñas y Medianas Empresas (PYME): Estos negocios buscan nuevo público y quieren expandirse. Por lo tanto, tendrán que recurrir a usar tecnologías modernas, por ejemplo: páginas web atractivas, aplicaciones que faciliten procesos, gestionen el negocio, etc. Y para lograrlo tendrán que contratar desarrolladores freelance, los cual les puede resultar más económico.<br><br>
+Freelancers: Los profesionales independientes, como diseñadores gráficos, fotógrafos y consultores, también pueden necesitar un sitio web para mostrar su trabajo y promocionar sus servicios. Estas personas podrían estar interesadas en una plataforma que les ayude a encontrar desarrolladores web para crear sus sitios.
+
 
 ---
 
