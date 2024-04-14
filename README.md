@@ -375,16 +375,24 @@ Luego del planteamiento de nuestra startup y de nuestro proyecto, hemos identifi
 - ¿Alguna sugerencia de mejora?
 
 ### 2.2.2. Registro de entrevistas.
-**Segmento PYMEs**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
+**Segmento Empresas**  
+
+**Entrevista 1**
+
+ - Entrevistador: Jair Velasquez Pizarro
+  - Entrevistado: Alexandra Ñañez
+  - Edad: 21
+  - Residencia: Lima - Comas
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218114_upc_edu_pe/ERCqSU_2GapEunt22M-Mkd8BcsWU3E48f1Yi64nZnEtWqA?e=KUw5GE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="./assets/interview-images/Alexandra.png" alt="Imagen de entrevista1" style="width:60% align-center">
+	
+Resumen: 
+Mi entrevistada, Alexandra Ñañez, es estudiante de la carrera de Administración y Marketing, y es asesora de Marketing en un negocio que brinda el servicio de juegos infantiles, estimulación temprana y alquiler de local para fiestas infantiles. Menciona que actualmente la empresa solo maneja Facebook e Instagram con anuncios, por lo que cree que la adquisición de una página web mejoraría la rentabilidad del negocio. También menciona que la parte más importante al implementar una página web es la parte del diseño y la arquitectura. También recalca que lo principal al momento de contratar un programador para un producto de software es la seguridad, comunicación y pruebas de trabajos anteriores para comprender si su forma de diseño se asemeja a la empresa.
 
 **Segmento Freelancer**  
 
-Entrevista 1
+**Entrevista 1**
 
 Entrevistador: Jorge Gerardo Quilla Luyo
 
@@ -589,21 +597,48 @@ un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]**
 [URL del Prototipo (Hecho en figma)](https://www.example.com)
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
-1. System Context Diagram: Diagrama que muestra la relacion del aplicativo con los usuarios
-se incluyen servicios externos (si hay pocos bounded context se incluyen ahi)
 
-2. Bounded Context Map: Muestra la relacion entre bounded contexts (los bounded context son como una burbuja que encapsula palabras clave en los procesos para poder diferenciarlos [Ej. Bounded context enfocado en las ventas(ventas), otro en revisar el stock(gestion) y otro enfocado en los proveedores (suministros)]) Se hace como un brainstorm y se ve en que pueden conectarse o comunicarse [se usa un circulo entre conexiones lineales (upstream o downstream) para definir comunicacion, algunos context se pueden integrar para representar por ejemplo un share model por database, tambien se mencionan los (third party context para definir los restful apis)]
+<img src="./assets/C4 model/structurizr-90965-FromZeroSystemContext.png">
    
 ### 4.6.2. Software Architecture Container Diagrams.
-1. Bounded Context Deployable / Container Diagrams. Sirve para entender como funciona y el proceso, Se especifican DB's, indexers, Search engine, las Apis que usen los bounded context y se conectan por flechas, las cuales tienen como objetivo explicar la direcion y relacion junto a que se esta enviando/comunicando (TCP) 
+
+<img src="./assets/C4 model/structurizr-90965-FromZeroContainer.png">
 
 ### 4.6.3. Software Architecture Components Diagrams.
-1. Component diagrams: Estos van a mostrar las ordenes, procesos, mensajes y componentes utilizados en el uso del aplicativo, claro se deben hacer diferentes de estos para cada bounded o USER GOALS
+
+#### Login and Registration Bounded Context
+
+<img src="./assets/C4 model/structurizr-90965-LoginAndRegistrationComponent.png">
+
+#### Developer Profile Bounded Context
+
+<img src="./assets/C4 model/structurizr-90965-DeveloperProfileComponent.png">
+
+#### Enterprise Profile Bounded Context
+
+<img src="./assets/C4 model/structurizr-90965-EnterpriseProfileComponent.png">
+
+#### Project Proposal and Hire a Developer Bounded Context
+
+<img src="./assets/C4 model/structurizr-90965-ProjectProposalAndHireADeveloperComponent.png">
+
+#### Apply for Projects Bounded Context
+
+<img src="./assets/C4 model/structurizr-90965-ApplyForProjectComponent.png">
+
+#### Project Development Bounded Context
+
+<img src="./assets/C4 model/structurizr-90965-ProjectDevelopmentComponent.png">
+
+#### Tech Support Bounded Context
+
+<img src="./assets/C4 model/structurizr-90965-TechnicalSupportComponent.png">
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
 Respecto a las necesidades del producto, se decidió plantear las clases en el siguiente diagrama:
-<img src="./assets/Class Diagrams/class-diagram.png">
+<img src="./assets/Class Diagram/class-diagram.png">
 Las clases serán explicadas en el siguiente apartado de forma más específica.
 
 ### 4.7.2. Class Dictionary.
@@ -617,8 +652,55 @@ Diagrama de base de datos (la relacion entre clases PK FK el Normalizar tmbn, is
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
-Especificaciones de donde vamos a hacer el proyecto (vscode supongo)
-extensiones tmbn? nose bn q quieren aca
+
+A continuación, daremos a conocer los productos de software que hemos utilizado para el desarrollo de nuestro proyecto.<br>
+**Project Management**				
+
+- **Whatsapp: [https://web.whatsapp.com/](https://web.whatsapp.com/)**<br>
+  La plataforma de Whatsapp se empleó para realizar la organización de tareas para el equipo, así como también para poder ayudarnos entre nosotros ante cualquier duda que se tuviera en el trabajo.
+- **Discord: [https://discord.com/](https://discord.com/)**<br>
+  La plataforma Discord se empleó para poder realizar las reuniones de forma virtual, en dichas reuniones dábamos un reporte sobre el avance de las tareas que se nos habían asignado así como también se usó para la elaboración de idea de negocio.
+
+**Product UX/UI Design**
+
+- **Miro: [https://www.miro.com](https://www.miro.com)**<br>
+  La plataforma Miro se empleó para el desarrollo del Lean ux canvas, Análisis de competidores,  As-is Scenario mapping, To-be Scenery mapping
+- **Uxpresia: [https://uxpressia.com/](https://uxpressia.com/)**<br>
+  La plataforma Uxpresia se empleó para la elaboración del User Persona, Empathy maps, Journey Maps e Impact maps.
+- **Figma: [https://www.figma.com/](https://www.figma.com/)**<br>
+  La plataforma figma se empleó para el desarrollo wireframes y mock up del landing page, y para los wireframes, mock up y prototyping del web applications 
+
+**Software Development**
+
+- **Landing Page**<br>
+  Para el desarrollo de nuestro landing page se usará  HTML5, CSS y Javascript.
+- **Frontend Web Application**<br>
+  Se ha utilizado a Angular como framework de Typescript. En adición, para la implementación de componentes reutilizables y accesibles se usó Angular Material como biblioteca de componentes UI. 
+
+**Software Testing**<br>
+Para la realización de pruebas de testeo de software  que se ha utilizado para el landing page y  la aplicación web hemos empleado las herramientas de desarrollador de los siguientes navegadores web: Google Chrome (<https://www.google.com/chrome/>), Microsoft Edge (<https://www.microsoft.com/en-us/edge>) y Mozilla Firefox (<https://www.mozilla.org/en-US/firefox/browsers/>). Asimismo, dichos navegadores cuentan con aplicaciones desktop y móviles las cuales son totalmente gratuitas y por consiguientes accesible para todas las personas.
+
+**IDE's de desarrollo**
+
+- **Webstorm: [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)**<br>
+  Webstorm es un IDE enfocado al desarrollo de frontend y posee una gran cantidad de herramientas que pueden agilizar el proceso de desarrollo. Para poder usar Webstorm es necesario tener una licencia
+
+**Software Deployment**
+
+- **Netlify: [https://www.netlify.com/](https://www.netlify.com/)**<br>
+  La plataforma Netlify se empleó para el deployment del landing page, para ello fue necesario vincular el repositorio de github con Netlify. De esta manera, Netlify se encargará automáticamente del deploy de la página.
+
+**Software Documentation**
+
+- **Google Drive: [https://www.google.com/intl/es-419_pe/drive/](https://www.google.com/intl/es-419_pe/drive/)**<br>
+   La plataforma Google Drive se empleó para la creación de archivos de documento (Google Docs)  y presentación. Se optó por esta plataforma ya que permite el desarrollo colaborativo.
+- **Github: https: [https://github.com/](https://github.com/)**<br>
+    La plataforma Github se empleó para la creación de documentación de nuestro proyecto así como del landing page. Se optó por esta plataforma porque permite el desarrollo colaborativo entre desarrolladores. La evidencia de commits demuestra la participación que ha tenido cada uno de los integrantes en el desarrollo del proyecto.
+- **Structurizr: [https://structurizr.com/](https://structurizr.com/)**<br>
+    La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
+- **Vertabelo: [https://vertabelo.com/](https://vertabelo.com/)**<br>
+    La plataforma Vertabelo es una aplicación web colaborativa la cual ha sido empleada para la elaboración del diseño de base de datos.
+
 ### 5.1.2. Source Code Management.
 
 - Repositorios:
@@ -752,24 +834,91 @@ Se debe incluir un punto y coma al final de cada instrucción.
 - Es recomendable habilitar el modo estricto de Typescript: strict: true en tsconfig.json.
 
 ### 5.1.4. Software Deployment Configuration.
-Configuraciones de donde y como deployeamos el proyecto
+
+En esta sección abordaremos el despliegue de nuestro Landing Page mediante el servicio de Netlify, a continuación se describirán los pasos a seguir
+
+- Nos situamos en el apartado principal como organización
+Como organización contamos con un repositorio del landing page, es la cual se estuvo desarrollando la implementación del código. Y este repositorio será el que se vincula a Netlify.
+    <img src="./assets/Landing Implementation/step1.png">
+- Luego procedemos a iniciar sesión (o crear una cuenta) en https://www.netlify.com. Una vez ingresemos, buscaremos la sección de sitios y le daremos a la opcion de: “Add new site” y luego a “Import from Git”
+    <img src="./assets/Landing Implementation/step2.png">
+- Una vez estemos seleccionando el proveedor de Git, escogeremos Github
+    <img src="./assets/Landing Implementation/step3.png">
+- Por último, seleccionaremos el repositorio e indicaremos cual es la branch donde se realizará el deploy y le damos al botón de Deploy.
+    <img src="./assets/Landing Implementation/step4.png">
+    <img src="./assets/Landing Implementation/step5.png">
+
 ## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.X. Sprint n
-#### 5.2.X.1. Sprint Planning n.
-Explicar como vamos a plannear el sprint?
-#### 5.2.X.2. Sprint Backlog n.
-![SprintBacklog n](image.jpg) Nica hago la tabla 
-#### 5.2.X.3. Development Evidence for Sprint Review.
-![Sprint review development Evidence](image.jpg)
-#### 5.2.X.4. Testing Suite Evidence for Sprint Review.
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning 1.
+
+|<a name="_6cxtvwxzjfs6"></a>Sprint #|Sprint 1|
+| :- | :- |
+|Sprint Planning Background||
+|Date|9 del 2024|
+|Time|10 horas (GMT -5)|
+|Location|Modalidad remota por Meet|
+|Prepared By|SiteForge|
+|Attendees (to planning meeting)|Todos los miembros del grupo SiteForge|
+|Sprint n – 0 Review Summary|Dado que se trata del primer sprint, no hay un review summary de un sprint anterior.|
+|Sprint n – 1 Retrospective Summary|En este sprint se planea desarrollar el landing page con el framework de estilos Boostrap, herramienta nueva para algunos miembros del equipo. Además, se conversó sobre el contenido de los textos dentro del landing page y el diseño que se ha implementado anteriormente a través de Figma. Al finalizar este sprint, el landing page debe estar desplegado en Netlify y cualquier usuario debería poder acceder y visualizar la página a través del link.|
+|Sprint Goal & User Stories||
+|Sprint 1 Velocity|8|
+|Sum of Story Points|8|
+
+#### 5.2.1.2. Sprint Backlog 1.
+
+<table><tr><th colspan="2" valign="top"><a name="_6cxtvwxzjfs6"></a><b>SPRINT</b></th><th colspan="6" valign="top"><b>SPRINT 1</b></th></tr>
+<tr><td colspan="2" valign="top"></td><td colspan="6" valign="top"><b>Work-Item / Task</b></td></tr>
+<tr><td valign="top"><b>User Story ID</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Tiempo (horas)</b></td><td valign="top"><b>Assigned to</b> </td><td valign="top"><b>Status (to-do/ in process/ To review/ done</b></td></tr>
+<tr><td rowspan="2" valign="top">E1-US101</td><td rowspan="2" valign="top">Barra de navegación del Landing Page</td><td valign="top">T1</td><td valign="top">Navbar section</td><td valign="top">Implementación del navbar con botón de ingreso a la aplicación WebMasters.</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T2</td><td valign="top">Responsive design navbar section</td><td valign="top">Añadir el diseño responsive para la barra de navegación</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US102</td><td rowspan="2" valign="top">Sección hero de landing page</td><td valign="top">T3</td><td valign="top">Hero section</td><td valign="top">Implementación del apartado hero section</td><td valign="top">3</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T4</td><td valign="top">Responsive design hero section</td><td valign="top">Añadir el diseño responsive para la hero section</td><td valign="top">4</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US103</td><td rowspan="2" valign="top">Sección de producto de landing page</td><td valign="top">T5</td><td valign="top">Features section</td><td valign="top">Implementar sección de características de la aplicación.</td><td valign="top">3</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T6</td><td valign="top">Responsive design features section</td><td valign="top">Añadir el diseño responsive para la features section</td><td valign="top">1</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US104</td><td rowspan="2" valign="top">Sección de testimonios en landing page</td><td valign="top">T7</td><td valign="top">Testimonials section</td><td valign="top">Implementar las tarjetas con los testimonios de los usuarios.</td><td valign="top">3</td><td valign="top">Samira Alvarez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T8</td><td valign="top">Responsive design  testimonials section</td><td valign="top">Añadir el diseño responsive para la sección de testimonios</td><td valign="top">0\.5 </td><td valign="top">Samira Alvarez</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US105</td><td rowspan="2" valign="top">Sección de planes en landing page</td><td valign="top">T19</td><td valign="top">Pricing section</td><td valign="top">Implementar sección de membresía de acuerdo al segmento.</td><td valign="top">3</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T10</td><td valign="top">Responsive design  pricing section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">4</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US106</td><td rowspan="2" valign="top">Sección de footer a la aplicación en landing page</td><td valign="top">T11</td><td valign="top">Footer section</td><td valign="top">Implementación del footer</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">To-Do</td></tr>
+<tr><td valign="top">T12</td><td valign="top">Responsive design  footer section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">To-Do</td></tr>
+<tr><td rowspan="2" valign="top">E1-US107</td><td rowspan="2" valign="top">Sección para conocer al equipo de trabajo</td><td valign="top">T1</td><td valign="top">Team presentation section</td><td valign="top">Implementar sección con contactos del equipo de trabajo</td><td valign="top">3</td><td valign="top">Zaid Ramirez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T2</td><td valign="top">Responsive design  team presentation section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">1</td><td valign="top">Zaid Ramirez</td><td valign="top">Done</td></tr>
+</table>
+
+#### 5.2.1.3. Development Evidence for Sprint Review.
+
+A continuación, se presentan los commits realizados en el repositorio de la landing page en el Github.
+Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-LandingPage
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
+| :- | :- | :- | :- | :- | :- |
+|FromZero-LandingPage|develop|c37d83725370c6241b03f2c3084fcd0cb12b9232|Initial commit||26/03/2024|
+||develop|b4f78db787a4cb34cbf152d7ad84c34f1344eccb|feat: add index.html and directiroesfor css and js||09/04/2024|
+||develop|49eb5c4c33cc1ac3f890acb5603d50fa627f5c81|feat: add example.js for directory structure||09/04/2024|
+||develop|32be507c3c556d174585131055964a2ce883e083|feat: add bootstrap, html code basic and logoico||09/04/2024|
+||develop|80b55e427f570663e638c015cd6e3178f02ae6de|feat: add membership page and styles||09/04/2024|
+||develop|089f264d1d20a888f7f44ea61c691c4ad54f61d2|Merge pull request #1 from upc-pre-202401-si729-wx56-g3/feature/membership-weOffer|feat: add membership page and styles and we offer section|09/04/2024|
+||develop|896427c7fccaf0dd0d48a34021127bf9d0499bd3|feat: adding subjects 1-3||13/04/2024|
+||develop|ec53dba4fb8d94aa86dec0f22ad8ad1472137b86|feat: footer testimonial and blogs added||13/04/2024|
+||develop|98180a0fbab193723e74e820b5c15e7708dfa417|Merge pull request #2 from upc-pre-202401-si729-wx56-g3/feature/1-3|feat: adding hero section and created pages|13/04/2024|
+||develop|467a343b50eb92ce398eb4b47c0fbe1cdb9c7860|Merge pull request #3 from upc-pre-202401-si729-wx56-g3/feature/featured-section|feat: footer testimonial and blogs added|14/04/2024|
+||main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+||main|51b10c25def082c8e92eb8b6c2def9fd86464766|feat: fixing the project structure||14/04/2024|
+||main|0c68a9d22dbd3054779c4c0152cd688841e48dfe|feat: fixing # On branch main||14/04/2024|
+||main|0c0bdb8b390624c045dbd7b0f5e9dbb8472fb830|Merge branch 'develop'||14/04/2024|
+||main|875ea235bf1eb791f9400a6e73bfb9fcdbb0b0f3|feat: fixing logo icon||14/04/2024|
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 ![Sprint review Testing suite Evidence](image.jpg)
-#### 5.2.X.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 ![Sprint review Execution Evidence](image.jpg)
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 ![Sprint review Services Documentation Evidence](image.jpg)
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 ![Sprint review Software Deployment Evidence](image.jpg)
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 ![Sprint review Team Collaboration Insights](image.jpg) imagenes de colaboraciones github
 
 ## 5.3. Validation Interviews.
