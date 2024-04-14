@@ -11,7 +11,7 @@
 - Jair Velasquez Pizarro - U202218114
 - Juan Fernando Carrasco Godos - U20211D118
 
-19/03/2024
+14/04/2024
 ---
 # Registro de Versiones del Informe
 | Version | Fecha | Autor | Descripcion de Modificacion |
@@ -27,8 +27,8 @@
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|Compañero1:<br> *TB1:*  Su texto *TB2:* texto etc.. |Su texto de conclusion|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Compañero1:<br> *TB1:*  Su texto<br> *TB2:* texto etc.. |Su texto de conclusion|
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Su texto<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | Su texto de conclusion|
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  Su texto<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | Su texto de conclusion |
 
 # Contenido
 ## Tabla de contenidos
@@ -137,10 +137,10 @@ Nuestra meta es ser el principal recurso para empresas que requieran soluciones 
 #### 1.1.2. Perfiles de integrantes del equipo
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
-| Velasquez Pizarro Jair <img src="./assets/members-profile/Jair.jpeg" alt="Imagen del compañero" style="width:60%"> | U202218114   |Ingenieria de software| C++, Java, HTML5, CSS3, Tailwind CSS Javascript, SQL. Detallista y proactivo.  |
-| Quilla Luyo Jorge Gerardo <img src="./assets/members-profile/Gerardo.png" alt="Gerardo Quilla" style="width:60%"> | U20211B197   |Ingenieria de software| Python, Java, HTML5, CSS, Typescript y SQL. Puntual y responsable.  |
-| Ticona Luque, Rony Piero <img src="./assets/members-profile/Piero.png" alt="Piero Ticona" style="width:60%"> | U202420422   |Ingenieria de software| Python, Java, HTML5, CSS y SQL. Ordenado y responsable.  |
-| Carrasco Godos, Juan Fernando <img src="./assets/members-profile/Fernando.png" alt="Fernando Carrasco" style="width:60%"> | U20211D118   |Ingenieria de software| - |
+| Velasquez Pizarro Jair <br> <img src="./assets/members-profile/Jair.jpeg" alt="Imagen del compañero" style="width:60%"> | U202218114   |Ingenieria de software| C++, Java, HTML5, CSS3, Tailwind CSS Javascript, SQL. Detallista y proactivo.  |
+| Quilla Luyo Jorge Gerardo <br> <img src="./assets/members-profile/Gerardo.png" alt="Gerardo Quilla" style="width:60%"> | U20211B197   |Ingenieria de software| Python, Java, HTML5, CSS, Typescript y SQL. Puntual y responsable.  |
+| Ticona Luque, Rony Piero <br> <img src="./assets/members-profile/Piero.png" alt="Piero Ticona" style="width:60%"> | U201420422   |Ingenieria de software| Python, Java, HTML5, CSS y SQL. Ordenado y responsable.  |
+| Carrasco Godos, Juan Fernando <br> <img src="./assets/members-profile/Fernando.png" alt="Juan Carrasco" style="width:60%"> | U20211D118   |Ingenieria de software| - |
 
 ## 1.2. Solution Profile
 Para entender adecuadamente el perfil de la solución, es imprescindible analizar la naturaleza del problema que estamos tratando de resolver. Esto implica identificar con detalle los aspectos fundamentales que nuestra solución debe abordar y establecer objetivos y restricciones que orienten nuestra definición. Con el fin de facilitar este proceso de análisis y enfoque, emplearemos herramientas ampliamente reconocidas como "Las 5W y 2H" y el "Proceso Lean UX".
