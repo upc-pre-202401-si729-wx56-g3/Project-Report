@@ -286,19 +286,31 @@ Luego del planteamiento de nuestra startup y de nuestro proyecto, hemos identifi
 - ¿Alguna sugerencia de mejora?
 
 ### 2.2.2. Registro de entrevistas.
-**Segmento 1**  
+**Segmento PYMEs**  
 Nombre: _____
 Edad: _ años 
 Ocupación: _____  
 ![Imagen de entrevista](image.jpg)  
 {texto mucho}
 
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
+**Segmento Freelancer**  
+
+Entrevista 1
+
+Entrevistador: Jorge Gerardo Quilla Luyo
+
+Entrevistado: Miguel Angel Ybañez Esquerre
+
+Residencia: Lima - Rimac
+
+Enlace del video: [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EZ1U0me5C-5BlBpIhcB6_3EBukZ9KM5DxziaR7ZtPGDVPw?e=HGiIcu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="./assets/interview-images/entrevistaJorgeQuilla.png" alt="Entrevista Jorge Quilla">
+
+Resumen: 
+
+El entrevistado Miguel Ybañez estudia la carrera de Ingeniería de Software. Tiene experiencia desarrollando páginas web y videojuegos. Cuenta que ha realizado un trabajo como freelancer para una empresa extranjera de forma remota. Además, conoce plataformas para contratación de freelancers. Opina que FromZero promete una buena gestión de proyectos gracias a su sistema de entregables en su plataforma. También apoya la creación de esta solución la cual ofrece más oportunidades de trabajo a los freelancers. Sugiere que se implementen foros de discusión o chats ya integrados en la plataforma, este último como una herramienta de colaboración adicional.
+
 
 ### 2.2.3. Análisis de entrevistas.
 **Segmento 1:**
