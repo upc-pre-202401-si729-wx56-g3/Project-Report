@@ -2269,4 +2269,3 @@ Ambler, S. W. (2004). The object primer: Agile model-driven development with UML
 
 **Repositorio en Github**: https://github.com/upc-pre-202401-si729-wx56-g3
 
-**Presentación TB1**: [upc-pre-202401-si730-WX54- FromZero-expo-tb1]()
