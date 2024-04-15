@@ -577,19 +577,162 @@ Mockup es todo lo relacionado al diseño de la pagina
 ![Landing page mockup](image.jpg)
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
-lo funcional de cada aspecto del wireframe 
-![Web Aplication Wireframe](image.jpg)
+
+**Inicio de Sesión**<br>
+<img src="./assets/web-applications/wireframes/Inicio de Sesion - Develop.png" alt="Login Page">
+
+**Registro**<br>
+<img src="./assets/web-applications/wireframes/Crear cuenta - Desplegable.png" alt="Sign Up Page">
+<img src="./assets/web-applications/wireframes/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
+<img src="./assets/web-applications/wireframes/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
+
+**Cambiar contraseña**
+<img src="./assets/web-applications/wireframes/Olvidaste tu contraseña.png" alt="Sign Up Page">
+<img src="./assets/web-applications/wireframes/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
+
+##### Empresas
+**HomePage**<br>
+<img src="./assets/web-applications/wireframes/Inicio-Empresas.png" alt="Homepage Empresa">
+<img src="./assets/web-applications/wireframes/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
+<img src="./assets/web-applications/wireframes/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
+<img src="./assets/web-applications/wireframes/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
+
+**ProjectsPage**<br>
+<img src="./assets/web-applications/wireframes/Publicar-Proyecto.png" alt="Adding new project">
+<img src="./assets/web-applications/wireframes/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
+
+**Deliverables Timeline**<br>
+<img src="./assets/web-applications/wireframes/Cronograma-entregables.png" alt="Timeline Deliverables">
+<img src="./assets/web-applications/wireframes/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
+<img src="./assets/web-applications/wireframes/Inicio-Empresas-1.png" alt="View Deliverable">
+
+**Explore Devs**
+<img src="./assets/web-applications/wireframes/Explorar-Desarrolladores.png" alt="Exploring Developers">
+<img src="./assets/web-applications/wireframes/Ver-Perfil-dev.png" alt="See Profile">
+
+**Messages**<br>
+<img src="./assets/web-applications/wireframes/Mensaje-Desarrollador.png" alt="Message to developer">
+
+**Explorar Proyectos Destacados**
+<img src="./assets/web-applications/wireframes/Proyectos destacados.png" alt="Proyectos destacados">
+
+**Support**<br>
+<img src="./assets/web-applications/wireframes/Soporte.png" alt="Support Page">
+
+##### Desarrolladores
+**HomePage**<br>
+<img src="./assets/web-applications/wireframes/Inicio-Desarrolladores.png" alt="Homepage Dev">
+<img src="./assets/web-applications/wireframes/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
+<img src="./assets/web-applications/wireframes/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
+
+**Browse Projects**<br>
+<img src="./assets/web-applications/wireframes/Explorar-Proyectos.png" alt="Browse projects">
+<img src="./assets/web-applications/wireframes/Ver_Perfil-Empresas.png" alt="See Company's profile">
+
+**Apply for Job**<br>
+<img src="./assets/web-applications/wireframes/Postular-proyecto.png" alt="Application form">
+<img src="./assets/web-applications/wireframes/Confirmar-postulación.png" alt="Confirm application">
+
+**Deliverables Timeline**<br>
+<img src="./assets/web-applications/wireframes/Cronograma_entregables-Dev.png" alt="Deliverables">
+<img src="./assets/web-applications/wireframes/Subir-Entregable.png" alt="Upload deliverable">
+
+**Messages**<br>
+<img src="./assets/web-applications/wireframes/Mensaje-Desarrollador.png" alt="Message for recruiter">
+
+**Support**<br>
+<img src="./assets/web-applications/wireframes/Soporte.png" alt="Support Page">
+
+**Explorar Proyectos Destacados**
+<img src="./assets/web-applications/wireframes/Proyectos destacados.png" alt="Proyectos destacados">
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y este me regresa)
 ![Web Aplication Wireflow](image.jpg)
 ### 4.4.2. Web Applications Mock-ups.
-Diseño en todo aspecto
-![Web Aplication Mockup](image.jpg)
+
+**Inicio de Sesión**<br>
+<img src="./assets/web-applications/mockup/Inicio de Sesion - Develop.png" alt="Login Page">
+
+**Registro**<br>
+<img src="./assets/web-applications/mockup/Crear cuenta - Desplegable.png" alt="Sign Up Page">
+<img src="./assets/web-applications/mockup/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
+<img src="./assets/web-applications/mockup/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
+
+**Cambiar contraseña**
+<img src="./assets/web-applications/mockup/Olvidaste tu contraseña.png" alt="Sign Up Page">
+<img src="./assets/web-applications/mockup/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
+
+##### Empresas
+**HomePage**<br>
+<img src="./assets/web-applications/mockup/Inicio-Empresas.png" alt="Homepage Empresa">
+<img src="./assets/web-applications/mockup/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
+<img src="./assets/web-applications/mockup/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
+<img src="./assets/web-applications/mockup/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
+
+**ProjectsPage**<br>
+<img src="./assets/web-applications/mockup/Publicar-Proyecto.png" alt="Adding new project">
+<img src="./assets/web-applications/mockup/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
+
+**Deliverables Timeline**<br>
+<img src="./assets/web-applications/mockup/Cronograma-entregables.png" alt="Timeline Deliverables">
+<img src="./assets/web-applications/mockup/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
+<img src="./assets/web-applications/mockup/Inicio-Empresas-1.png" alt="View Deliverable">
+
+**Explore Devs**
+<img src="./assets/web-applications/mockup/Explorar-Desarrolladores.png" alt="Exploring Developers">
+<img src="./assets/web-applications/mockup/Ver-Perfil-dev.png" alt="See Profile">
+
+**Messages**<br>
+<img src="./assets/web-applications/mockup/Mensaje-Desarrollador.png" alt="Message to developer">
+
+**Explorar Proyectos Destacados**
+<img src="./assets/web-applications/mockup/Proyectos destacados.png" alt="Proyectos destacados">
+
+**Support**<br>
+<img src="./assets/web-applications/mockup/Soporte.png" alt="Support Page">
+
+##### Desarrolladores
+**HomePage**<br>
+<img src="./assets/web-applications/mockup/Inicio-Desarrolladores.png" alt="Homepage Dev">
+<img src="./assets/web-applications/mockup/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
+<img src="./assets/web-applications/mockup/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
+
+**Browse Projects**<br>
+<img src="./assets/web-applications/mockup/Explorar-Proyectos.png" alt="Browse projects">
+<img src="./assets/web-applications/mockup/Ver_Perfil-Empresas.png" alt="See Company's profile">
+
+**Apply for Job**<br>
+<img src="./assets/web-applications/mockup/Postular-proyecto.png" alt="Application form">
+<img src="./assets/web-applications/mockup/Confirmar-postulación.png" alt="Confirm application">
+<img src="./assets/web-applications/mockup/Ver_Proyecto-trabajar.png" alt="Work with the company">
+
+**Deliverables Timeline**<br>
+<img src="./assets/web-applications/mockup/Cronograma_entregables-Dev.png" alt="Deliverables">
+<img src="./assets/web-applications/mockup/Subir-Entregable.png" alt="Upload deliverable">
+
+**Messages**<br>
+<img src="./assets/web-applications/mockup/Mensaje-Desarrollador.png" alt="Message for recruiter">
+
+**Support**<br>
+<img src="./assets/web-applications/mockup/Soporte.png" alt="Support Page">
+
+**Explorar Proyectos Destacados**
+<img src="./assets/web-applications/mockup/Proyectos destacados.png" alt="Proyectos destacados">
+
 ### 4.4.3. Web Applications User Flow Diagrams.
 un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]** 
 ![Web Aplication User Flow Diagram](image.jpg)
 ## 4.5. Web Applications Prototyping.
-[URL del Prototipo (Hecho en figma)](https://www.example.com)
+
+<img src="./assets/extras/prototipo.png">
+
+[URL del Prototipo en vista de empresa(Hecho en figma)](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=YuGoXqkU7ZGQ3s2N-0&scaling=scale-down&starting-point-node-id=3254%3A359&show-proto-sidebar=1)
+
+[URL del Prototipo en vista de desarrollador(Hecho en figma)](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=YuGoXqkU7ZGQ3s2N-0&scaling=scale-down&starting-point-node-id=3254%3A319&show-proto-sidebar=1)
+
+[URL de video de flujos de interaccion]()
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
 
