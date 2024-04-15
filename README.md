@@ -1199,8 +1199,47 @@ Basicamente aqui definimos como funciona la navegacion del web app
 <img src="./assets/web-applications/wireframes/Proyectos destacados.png" alt="Proyectos destacados">
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y este me regresa)
-![Web Aplication Wireflow](image.jpg)
+
+**Registrar Usuario_Reestablecer contraseña**
+
+![Registrar usuario y reestablecer contraseña](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
+
+**Inicio de la aplicación**
+
+![Inicio de la aplicacion](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.jpg)
+
+**Proyectos Destacados**
+
+![Ver proyectos destacados](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Proyectos%20Destacados.jpg)
+
+**Atencion al cliente**
+
+![Atencion al cliente](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20De%20soporte%20técnico%20para%20los%202%20segmentos.jpg)
+
+**Segmento Empresa**
+
+**Ver entregables de proyecto**
+
+![Ver entregables de proyecto](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
+
+**Explorar, ver perfil y contactar con desarrollador**
+
+![Explorar ver perfil y contactar con desarrollador](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
+
+**Crear proyecto**
+
+![Crear proyecto](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.jpg)
+
+**Segmento Desarrollador**
+
+**Trabajar en proyecto, ver entregables y comunicar con empresa**
+
+![Trabajar en proyecto ver entregables y comunicar con empresa](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
+
+**Explorar y postular a proyecto**
+
+![Explorar y postular proyecto](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
+
 ### 4.4.2. Web Applications Mock-ups.
 
 **Inicio de Sesión**<br>
