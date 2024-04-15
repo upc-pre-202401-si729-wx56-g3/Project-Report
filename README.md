@@ -1251,8 +1251,47 @@ Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y e
 <img src="./assets/web-applications/mockup/Proyectos destacados.png" alt="Proyectos destacados">
 
 ### 4.4.3. Web Applications User Flow Diagrams.
-un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]** 
-![Web Aplication User Flow Diagram](image.jpg)
+
+**Registrar Usuario_Reestablecer contraseña**
+
+![Registrar usuario y reestablecer contraseña](assets/userflow-diagrams/Userflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
+
+**Inicio de la aplicación**
+
+![Inicio de la aplicacion](assets/userflow-diagrams/Userflow%20Inicio%20de%20aplicacion.jpg)
+
+**Proyectos Destacados**
+
+![Ver proyectos destacados](assets/userflow-diagrams/Userflow%20Proyectos%20Destacados.jpg)
+
+**Atencion al cliente**
+
+![Atencion al cliente](assets/userflow-diagrams/Userflow%20Atencion%20al%20cliente.jpg)
+
+**Segmento Empresa**
+
+**Ver entregables de proyecto**
+
+![Ver entregables de proyecto](assets/userflow-diagrams/Userflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
+
+**Explorar, ver perfil y contactar con desarrollador**
+
+![Explorar ver perfil y contactar con desarrollador](assets/userflow-diagrams/Userflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
+
+**Crear proyecto**
+
+![Crear proyecto](assets/userflow-diagrams/Userflow%20Empresas%20Crear%20proyecto.jpg)
+
+**Segmento Desarrollador**
+
+**Trabajar en proyecto, ver entregables y comunicar con empresa**
+
+![Trabajar en proyecto ver entregables y comunicar con empresa](assets/userflow-diagrams/Userflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
+
+**Explorar y postular a proyecto**
+
+![Explorar y postular proyecto](assets/userflow-diagrams/Userflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
+
 ## 4.5. Web Applications Prototyping.
 
 <img src="./assets/extras/prototipo.png">
