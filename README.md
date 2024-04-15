@@ -911,71 +911,55 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 ||main|875ea235bf1eb791f9400a6e73bfb9fcdbb0b0f3|feat: fixing logo icon||14/04/2024|
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
-![Sprint review Testing suite Evidence](image.jpg)
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
+| :- | :- | :- | :- | :- | :- |
+|FromZero-LandingPage|main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
-![Sprint review Execution Evidence](image.jpg)
+
+Para esta entrega, el equipo SiteForge logró la implementación del landing page, en donde se encontratan secciones con información especifica para conocer mejor a la organización, planeas de pago y proyectos realizados en la página.
+
+Link a la página del landing page: https://fromzeroupc.netlify.app
+
+<img src="./assets/Landing/herosection.png">
+<img src="./assets/Landing/proyectos.png">
+<img src="./assets/Landing/clientes.png">
+<img src="./assets/Landing/membresias.png">
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-![Sprint review Services Documentation Evidence](image.jpg)
+
+En este sprint los miembros de SiteForge completaron de forma satisfactoria las tareas propuestas. El sprint estuvo netamente enfocado con el diseño y desarrollo de la Landing Page, que con el lanzamiento de la página web se confirma que se termino de forma efectiva el Sprint.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-![Sprint review Software Deployment Evidence](image.jpg)
+
+Par el actual sprint, se ha desarrollado el landing page. Par su desplique se ha utilizado las siguientes herramientas:
+
+- Git: Sistema de control de versiones que nos ayudó a trabajar en equipo durante todo el desarrollo del landing page.
+- GitFlow: Flujo de trabajo que nos ayudó a controlar el avance de cada integrante del equipo en el desarrollo del landing page.
+- GitHub: Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones del proyecto.
+- Netlify: Plataforma que automatiza webs estáticas que nos permitió alojar y desplegar el landing page.
+
+Evidencias del despliegue en Netlify:
+Repositorio vinculado al deploy e la pagina web:
+<img src="./assets/landing/repositorio.png">
+Prueba de lanzamiento en Netlify:
+<img src="./assets/landing/lanzamiento.png">
+Prueba del landing en un navegador:
+<img src="./assets/landing/herosection.png">
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
-![Sprint review Team Collaboration Insights](image.jpg) imagenes de colaboraciones github
 
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
-**Preguntas generales:**
+El equipo de desarrollo del landing utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentará el insight del equipo a través de GitHub:
+<img src="./assets/Insights/contribuciones.png">
 
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
+<img src="./assets/Insights/ramas.png
 
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 5.3.2. Registro de Entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
-
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
-### 5.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN ✅❌ | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del usuario                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
-## 5.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
 # Conclusiones
 {texto}
 # Conclusiones y recomendaciones.
 {texto}
-# Video About-the-Team.
-[URL del video about the team](https://www.example.com)
+
 
 # Bibliografía
 qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
