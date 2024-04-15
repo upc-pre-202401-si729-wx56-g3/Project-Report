@@ -390,6 +390,21 @@ Luego del planteamiento de nuestra startup y de nuestro proyecto, hemos identifi
 Resumen: 
 Mi entrevistada, Alexandra Ñañez, es estudiante de la carrera de Administración y Marketing, y es asesora de Marketing en un negocio que brinda el servicio de juegos infantiles, estimulación temprana y alquiler de local para fiestas infantiles. Menciona que actualmente la empresa solo maneja Facebook e Instagram con anuncios, por lo que cree que la adquisición de una página web mejoraría la rentabilidad del negocio. También menciona que la parte más importante al implementar una página web es la parte del diseño y la arquitectura. También recalca que lo principal al momento de contratar un programador para un producto de software es la seguridad, comunicación y pruebas de trabajos anteriores para comprender si su forma de diseño se asemeja a la empresa.
 
+**Segmento Empresas**  
+
+**Entrevista 2**
+
+ - Entrevistador: Rony Piero Ticona Luque
+  - Entrevistado: Alexandra Cabezas
+  - Edad: 28
+  - Residencia: Lima - Breña
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EWGhcxzGt2BLpVsB7m8vXcgBCiMmiX2IBt3_MfYN2NrFPw?e=R8nPJ6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="./assets/interview-images/AlexandraCabezas.png" alt="Imagen de entrevista2" style="width:60% align-center">
+    
+Resumen: 
+Alexandra es un joven de 28 años, tiene su emprendimiento llamado DeliAle dedicada al comercio de postres tradicionales. Nos comenta que en la actualidad tiene presencial digital solo en redes sociales como Facebook e Instagram debido a que es un mercado que le permite llegar a nuevos clientes, próximamente va a lanzar su emprendimiento por la plataforma de TikTok. Alexandra nos dijo que esta un poco familiarizada con las plataformas de freelance y en un futuro le parecería interesante implementar un proyecto de software a su emprendimiento. En esta parte de la entrevista le comentamos de FromZero para Alexandra le parece una plataforma adecuada desde un punto económico y confianza en el desarrollo, entre las ideas que le gustaría que el desarrollador le envié continuamente el diseño en cada paso del proyecto y entre los beneficios que espera es llegar a más publico y la marca sea mas conocida y la sugerencia para la página que la información sea clara y precisa para contactar a los desarrolladores.
+
 **Segmento Freelancer**  
 
 **Entrevista 1**
@@ -1098,13 +1113,20 @@ Basicamente aqui definimos como funciona la navegacion del web app
 **Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
-la pagina donde te registras y ves info del web app (te manda al web app)
 
-Wireframe es todo lo funcional de la pagina
-![Landing page Wireframe](image.jpg)
+![Wireframe1](assets/Figma/Wireframe1.png)
+
+![Wireframe2](assets/Figma/Wireframe2.png)
+
+![Wireframe3](assets/Figma/Wireframe3.png)
+
 ### 4.3.2. Landing Page Mock-up.
-Mockup es todo lo relacionado al diseño de la pagina
-![Landing page mockup](image.jpg)
+
+![Mock up 1](assets/Figma/MockUp1.png)
+
+![Mock up 2](assets/Figma/MockUp2.png)
+
+![Mock up 3](assets/Figma/MockUp3.png)
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
