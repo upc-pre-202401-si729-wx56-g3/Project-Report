@@ -1059,15 +1059,35 @@ Como</strong> freelancer \
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
-Descripcion del porque estos elementos seran importantes
+**Branding**<br>
+Nuestra marca debe reflejar la esencia de nuestra plataforma, que es la conexión entre desarrolladores web independientes y empresas. Asimismo, la marca debe transmitir confianza, colaboración y creatividad. También, utilizaremos un enfoque moderno y limpio en nuestro diseño, incorporando elementos relacionados con el desarrollo web, como líneas limpias y símbolos de conexión, para representar nuestra especialización. De igual forma, la marca debe evocar la idea de una comunidad unida de profesionales, por lo que los elementos de diseño pueden incluir personas trabajando juntas o elementos que sugieran colaboración.
 
-**Color:** (Descripcion de los colores escogidos y porque)  
-![Colores generales](image.jpg)
+![Wireframe2](assets/styleGuidelines/style1.png)
 
-**Tipografia:** (Descripcion de la tipografia escogida para el proyecto y porque)
-![Tipografias generales](image.jpg)
-**Branding** (Describir logotipo y porque)
-![Branding general](image.jpg)
+**Typography**<br>
+La tipografía de nuestra marca debe ser legible. Por lo tanto, utilizaremos Lato como nuestra fuente principal, ya que combina un aspecto profesional con una sensación amigable. Asimismo, es adecuada para una amplia gama de aplicaciones y transmite confianza. 
+
+![Wireframe2](assets/styleGuidelines/style2.png)
+
+Además, se utilizará Open Sans para resaltar detalles y elementos secundarios, aportando variedad visual sin sacrificar la coherencia. 
+
+![Wireframe2](assets/styleGuidelines/style3.png)
+
+Finalmente, los tamaños de fuente se seleccionarán cuidadosamente para garantizar la legibilidad y la jerarquía de la información en la interfaz de usuario.
+
+**Colors**<br>
+Nuestra paleta de colores principales, compuesta por Azul (#0072FF), Gris Claro (#F5F7FA) y Verde Acento (#28A745). La combinación de estos tres colores en la paleta logra un equilibrio entre un aspecto profesional, la claridad necesaria y un toque de dinamismo. Asimismo, el azul continúa siendo el color primordial que genera una sensación de confianza, mientras que el gris claro y el verde se emplean para garantizar legibilidad y resaltar los elementos importantes.
+
+![Wireframe2](assets/styleGuidelines/style4.png)
+
+Por otro lado, los colores secundarios Naranja Suave (#FFA500), Gris Oscuro (#333333) y Fucsia (#FF00FF) se utilizarán con moderación para resaltar elementos importantes en el aplicativo.
+
+![Wireframe2](assets/styleGuidelines/style5.png)
+
+**Spacing**<br>
+El espaciado en nuestra interfaz de usuario es esencial para una experiencia ordenada. Estableceremos márgenes y rellenos coherentes para mantener una disposición organizada. Los elementos interactivos, como botones y enlaces, tendrán suficiente espacio para evitar toques accidentales en dispositivos móviles.
+
+
 ### 4.1.2. Web Style Guidelines.
 Descripcion de los elementos que se utilizaran en el web app
 
