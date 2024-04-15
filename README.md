@@ -494,12 +494,535 @@ Segmento 2: Desarrolladores
 ![alt text](image-2.png)
 
 ## 3.2. User Stories.
-*Epic 1: Landing page *Como* empresario o freelancer *Quiero* visualizar una página *Para* saber acerca de la aplicación e ingresar a la aplicación
-
-|<div style="width:40px">Story ID</div>|<div style="width:50px">Título</div>|<div style="width:60px">Descripción</div>|<div style="width:100px">Criterio de aceptación</div>|<div style="width:30px">Epic ID</div>|
-|---|---|---|---|---|
-|E1-US101|<p>Barra de navegación en landing page</p><p> </p>|*Como* usuario *quiero* una barra de navegación de landing page *para* tener accesos directos a la información de la aplicación |<p>*Escenario 1: El usuario quiere saber cómo funciona la aplicación</p><p>Dado que* el usuario se encuentra en el landing page</p><p>*Y* se dirige en la barra de navegación<br>*Cuando* presiona la opción “Cómo funciona”</p><p>*Entonces* es dirigido a la sección de cómo funciona el producto.</p><p>*Escenario 2: El usuario quiere saber los testimonios de usuario que utilizaron la aplicación</p><p>Dado que* el usuario se encuentra en el landing page</p><p>*Y* se dirige en la barra de navegación<br>*Cuando* presiona la opción “Testimonios”</p><p>*Entonces* es dirigido a la sección de Testimonios</p><p>*Escenario 3: El usuario quiere hacer preguntas frecuentes de la aplicación</p><p>Dado que* el usuario se encuentra en el landing page</p><p>*Y* se dirige en la barra de navegación<br>*Cuando* presiona la opción “Preguntas Frecuentes”</p><p>*Entonces* es dirigido a la sección de Preguntas Frecuentes.</p>|1|
-|E1-US102|Sección hero de landing page	|*Como* usuario *quiero* visualizar una sección hero en el landing page *para* tener una idea sobre lo que ofrece la aplicación|<p>*Escenario 1: El usuario se encuentra en la sección de hero</p><p>Dado que* el reclutador o postulante se encuentra en el landing page</p><p>*Cuando* se encuentra en la sección de hero</p><p>*Entonces* visualiza una presentación de la aplicación.</p>|1|
+<table>
+  <tr>
+   <td>Epic / Story ID
+   </td>
+   <td>Título
+   </td>
+   <td>Descripción
+   </td>
+   <td>Criterio de aceptación
+   </td>
+   <td>Epic 
+<p>
+ID
+   </td>
+  </tr>
+  <tr>
+   <td colspan="5" ><strong>Epic 1: Landing page \
+Como</strong> empresario o freelancer \
+<strong>Quiero</strong> visualizar una página \
+<strong>Para </strong>saber acerca de la aplicación e ingresar a la aplicación
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US101
+   </td>
+   <td>Barra de navegación en landing page
+<p>
+ 
+   </td>
+   <td><strong>Como</strong> usuario <strong>quiero </strong>una barra de navegación de landing page <strong>para </strong>tener accesos directos a la información de la aplicación 
+   </td>
+   <td><strong>Escenario 1: El usuario quiere saber cómo funciona la aplicación \
+Dado que</strong> el usuario se encuentra en el landing page
+<p>
+<strong>Y</strong> se dirige en la barra de navegación \
+<strong>Cuando</strong> presiona la opción “Cómo funciona”
+<p>
+<strong>Entonces</strong> es dirigido a la sección de cómo funciona el producto. \
+<strong>Escenario 2: El usuario quiere saber los testimonios de usuario que utilizaron la aplicación \
+Dado que</strong> el usuario se encuentra en el landing page
+<p>
+<strong>Y</strong> se dirige en la barra de navegación \
+<strong>Cuando</strong> presiona la opción “Testimonios”
+<p>
+<strong>Entonces</strong> es dirigido a la sección de Testimonios
+<p>
+<strong>Escenario 3: El usuario quiere hacer preguntas frecuentes de la aplicación \
+Dado que</strong> el usuario se encuentra en el landing page
+<p>
+<strong>Y</strong> se dirige en la barra de navegación \
+<strong>Cuando</strong> presiona la opción “Preguntas Frecuentes”
+<p>
+<strong>Entonces</strong> es dirigido a la sección de Preguntas Frecuentes.
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US102
+   </td>
+   <td>Sección hero de landing page	
+   </td>
+   <td><strong>Como</strong> usuario
+<p>
+<strong>quiero</strong> visualizar una sección hero en el landing page
+<p>
+<strong>para</strong> tener una idea sobre lo que ofrece la aplicación<strong>	</strong>
+   </td>
+   <td><strong>Escenario 1: El usuario se encuentra en la sección de hero</strong>
+<p>
+<strong>Dado que</strong> el reclutador o postulante se encuentra en el landing page
+<p>
+<strong>Cuando</strong> se encuentra en la sección de hero
+<p>
+<strong>Entonces</strong> visualiza una presentación de la aplicación.
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US103
+   </td>
+   <td>Sección de preguntas frecuentes
+   </td>
+   <td><strong>Como</strong> usuario
+<p>
+<strong>Quiero</strong> tener acceso a una sección de preguntas frecuentes
+<p>
+<strong>para </strong>resolver mis posibles dudas
+   </td>
+   <td><strong>Escenario 1: El usuario se encuentra en la sección de preguntas frecuentes</strong>
+<p>
+<strong>Dado que</strong> el usuario se encuentra en el landing page
+<p>
+<strong>Cuando</strong> llegue en la sección de preguntas frecuentes
+<p>
+<strong>Entonces</strong> podrá leer las preguntas y respuestas más populares
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US104
+   </td>
+   <td>Sección de footer a la aplicación en landing page
+   </td>
+   <td><strong>Como </strong>usuario
+<p>
+<strong>quiero </strong>visualizar la sección de footer
+<p>
+<strong>para</strong> visualizar links de navegación e información de conctacto
+   </td>
+   <td><strong>Escenario 1: El usuario se encuentra en la sección de footer</strong>
+<p>
+<strong>Dado</strong> que el usuario se encuentra en el landing page
+<p>
+<strong>Cuando</strong> llegue al footer de la página
+<p>
+<strong>Entonces</strong> puede usar los links de navegación y/o obtener información de contacto
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US105
+   </td>
+   <td>Sección trabajo en equipo de la pestaña sobre nosotros
+   </td>
+   <td><strong>Como </strong>usuario
+<p>
+<strong>quiero</strong> acceder una sección acerca los involucrados en el proyecto
+<p>
+<strong>para</strong> conocer un poco más del equipo de trabajo
+   </td>
+   <td><strong>Escenario 1: El usuario se encuentra en la sección Sobre Nosotros</strong>
+<p>
+<strong>Dado </strong>que el reclutador o postulante se encuentra en la landing page
+<p>
+<strong>Cuando </strong>seleccione la sección “Sobre Nosotros” en la barra de navegación
+<p>
+<strong>Entonces</strong> se muestra la sección para conocer más sobre el equipo de trabajo.
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US106
+   </td>
+   <td>Sección de testimonios de la pestaña sobre nosotros
+   </td>
+   <td><strong>Como</strong> usuario
+<p>
+<strong>quiero</strong> leer comentarios o testimonios acerca de la página
+<p>
+<strong>para</strong> saber sobre experiencias reales de usuarios
+   </td>
+   <td><strong>Escenario 1: El usuario se encuentra en la sección de testimonios</strong>
+<p>
+<strong>Dado</strong> que el usuario se encuentra en la pestaña “Sobre Nosotros”
+<p>
+<strong>Cuando</strong> se desplace hacia abajo
+<p>
+<strong>Entonces</strong> visualiza testimonios de usuario que utilizaron la aplicación
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US107
+   </td>
+   <td>Sección plan para empresas de la pestaña membresias
+   </td>
+   <td><strong>Como </strong>representante de una empresa<strong>, quiero </strong>conocer los planes que se ofrecen <strong>para </strong>analizar servicios y costos y tomar decisiones
+   </td>
+   <td><strong>Escenario 1:Visualización correcta</strong>
+<p>
+<strong>Dado que </strong>el usuario se encuentra la pestaña membresias <strong>Cuando </strong>seleccione la sección membresias en la barra de navegación
+<p>
+<strong>Entonces </strong>se muestran los planes planes disponibles para empresas.
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US108
+   </td>
+   <td>Sección plan para desarrolladores de la pestaña membresías
+   </td>
+   <td><strong>Como </strong>desarrollador<strong>, quiero </strong>conocer los planes que se ofrecen <strong>para </strong>decidir si me conviene o no
+   </td>
+   <td><strong>Escenario 1:Visualización correcta</strong>
+<p>
+<strong>Dado que </strong>el usuario se encuentra la pestaña membresías <strong>Cuando </strong>se desplace hacia abajo
+<p>
+<strong>Entonces </strong>se muestran los planes disponibles para desarrolladores.
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US109
+   </td>
+   <td>Sección plan Te Ofrecemos de la pestaña membresías
+   </td>
+   <td><strong>Como </strong>posible usuario<strong>, quiero </strong>saber más acerca de los servicios de membresía <strong>para </strong>decidir si inscribirse o no
+   </td>
+   <td><strong>Escenario 1:Visualización correcta</strong>
+<p>
+<strong>Dado que </strong>el usuario se encuentra la pestaña membresías <strong>Cuando </strong>se desplace hacia abajo
+<p>
+<strong>Entonces </strong>se muestran los servicios de membresía de la aplicación.
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td colspan="5" ><strong>Epic 2: Autenticación y perfil del usuario \
+Como</strong> empresario o freelancer \
+<strong>Quiero</strong> autenticar y configurar mi perfil del usuario \
+<strong>Para </strong>ingresar a la aplicación
+   </td>
+  </tr>
+  <tr>
+   <td>E2-US101
+   </td>
+   <td>Registro e inicio de sesión
+   </td>
+   <td><strong>Como </strong>usuario <strong>quiero </strong>tener en la app un apartado de inicio de sesión <strong>para </strong>que se guarde mi información
+   </td>
+   <td><strong>Escenario 1:</strong>Usuario ingresa a la aplicación,y se encuentra con el inicio de sesión
+<p>
+<strong>Dado que</strong> el usuario ya está en el inicio de sesión 
+<p>
+<strong>Cuando </strong>el usuario haga click en registrarse 
+<p>
+<strong>Entonces </strong>el sistema le mostrará un apartado donde podrá llenar su información
+<p>
+<strong>Escenario 2:</strong>Usuario se registra 
+<p>
+<strong>Dado que </strong>el usuario ya se encuentra en el apartado de registro 
+<p>
+<strong>Cuando </strong>el usuario complete todo el formulario de registro
+<p>
+<strong>Entonces</strong> el sistema guardará todos sus datos
+   </td>
+   <td>2
+   </td>
+  </tr>
+  <tr>
+   <td>E2-US102
+   </td>
+   <td>Formulario de login
+   </td>
+   <td><strong>Como </strong>usuario de la página web<strong>, quiero </strong>ingresar con mi cuenta con la cual me registre<strong> para </strong>usar las herramientas a mi disposición.
+   </td>
+   <td><strong>Escenario 1: </strong>Iniciar sesión
+<p>
+<strong>Dado que </strong>el usuario se encuentra en el formulario “Login”
+<p>
+<strong>Cuando </strong>ingrese el correo electrónico y contraseña
+<p>
+<strong>Entonces </strong>puede ingresar a la app de manera exitosa
+   </td>
+   <td>2
+   </td>
+  </tr>
+  <tr>
+   <td>E2-US103
+   </td>
+   <td>Recuperación de contraseñas 
+   </td>
+   <td><strong>Como</strong> usuario <strong>quiero</strong> que la aplicación tenga un apartado que me permita recuperar mi contraseña en caso me olvide  <strong>para </strong>ingresar a mi cuenta de usuario
+   </td>
+   <td><strong>Escenario 1: </strong>Usuario recupera su contraseña 
+<p>
+<strong>Dado que </strong>el usuario está en la parte de incio en el log in 
+<p>
+<strong>Cuando </strong>coloque una contraseña errónea más de 4 veces 
+<p>
+<strong>Entonces </strong>la aplicación mostrará un aviso de recuperación de contraseña con el correo brindado anteriormente 
+<p>
+<strong>Escenario 2: </strong>Usuario olvidó su contraseña y no puede entrar a su cuenta
+<p>
+<strong>Dado que</strong> el usuario olvida su contraseña y no puede entrar a su cuenta
+<p>
+<strong>Cuando </strong>el usuario entre a su correo y no logre cambiar su contraseña 
+<p>
+<strong>Entonces </strong>la aplicación mostrará un mensaje para que se contacte con soporte técnico  
+   </td>
+   <td>2
+   </td>
+  </tr>
+  <tr>
+   <td colspan="5" ><strong>Epic 3: Funcionalidades del empresario \
+Como</strong> empresario \
+<strong>Quiero</strong> funcionalidades que me facilite encontrar freelancer  \
+<strong>Para </strong>poder desarrollar mi proyecto de software
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US101
+   </td>
+   <td>Publicar una solicitud de proyecto de desarrollo web
+   </td>
+   <td><strong>Como</strong> empresario que necesita una página web, <strong>quiero </strong>utilizar la aplicación para publicar una solicitud de proyecto de desarrollo web <strong>para</strong> que los desarrolladores web independientes interesados puedan contactarnos.
+   </td>
+   <td><strong>Escenario: </strong>Publicar mi solicitud de proyecto web
+<p>
+<strong>Dado</strong> <strong>que </strong>soy un empresario y he iniciado sesión en la aplicación, 
+<p>
+<strong>Cuando</strong> acceda a mi panel de control, debería ver la opción para "Publicar un Proyecto" y seleccione "Publicar un Proyecto", debería completar un formulario que incluye detalles del proyecto, presupuesto, fecha límite y requisitos específicos.
+<p>
+<strong>Cuando</strong> haya completado el formulario y confirmado la publicación, el proyecto debe aparecer en la lista de proyectos disponibles para los desarrolladores web independientes.
+<p>
+<strong>Entonces</strong>, los desarrolladores web interesados en el proyecto deben poder verlo y contactarnos a través de la aplicación.
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US102
+   </td>
+   <td>Pantalla de inicio empresario
+   </td>
+   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar todos los proyectos publicados <strong>para</strong> poder ver fácilmente el progreso de los mismos
+   </td>
+   <td><strong>Escenario 1: </strong>Visualización de proyectos en la pantalla de inicio
+<p>
+<strong>Dado que</strong> soy empresario <strong>Y </strong>he iniciado sesion en la aplicación
+<p>
+<strong>Cuando</strong> esté en la pantalla de inicio \
+<strong>Entonces</strong> podré ver todos los proyectos que he publicado
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US103
+   </td>
+   <td>Sistema de calificacion de desarrolladores
+   </td>
+   <td><strong>Como</strong> empresario <strong>quiero</strong> un sistema de calificación <strong>para</strong> conocer la fiabilidad de los desarrolladores web.
+   </td>
+   <td><strong>Escenario 1: </strong>Visualización de calificaciones.
+<p>
+<strong>Dado</strong> <strong>que </strong>soy un empresario
+<p>
+<strong>Y </strong>he iniciado sesion en la aplicación
+<p>
+<strong>Cuando</strong> esté visualizando la lista de desarrolladores que postularon para mi proyecto debería poder visualizar la calificación promedio que tienen los desarrolladores
+<p>
+<strong>Entonces</strong>, podré conocer la fiabilidad de los desarrolladores
+<p>
+<strong>Escenario 2: </strong>Dar una calificación
+<p>
+<strong>Dado</strong> <strong>que </strong>soy un empresario
+<p>
+<strong>Y </strong>he iniciado sesion en la aplicación
+<p>
+<strong>Y</strong> he desarrollado un proyecto con ayuda de un desarrollador web
+<p>
+<strong>Cuando</strong> finalice el proyecto, la pagina me brindara la opción de dar una calificación
+<p>
+<strong>Entonces</strong>, calificare al desarrollador. 
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US104
+   </td>
+   <td>Visualizar lista de desarrolladores por calificación
+   </td>
+   <td><strong>Como </strong>empresario <strong>quiero</strong>
+<p>
+visualizar una lista con los desarrolladores mejor calificados <strong>para</strong> ahorrar tiempo de contacto y contratación
+   </td>
+   <td><strong>Escenario 1:</strong> Busco desarrolladores en el apartado de “Lista de desarrolladores”
+<p>
+<strong>Dado que</strong> se encuentra en la pestaña principal de la aplicación 
+<p>
+<strong>Cuando </strong>el usuario ingresa al apartado ”Lista de desarrolladores”
+<p>
+<strong>Entonces </strong>el usuario visualizará la lista de desarrolladores mejor calificados para ser contratados
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US105
+   </td>
+   <td>Visualizar repositorio de un desarrollador 
+   </td>
+   <td><strong>Como</strong> empresario <strong>quiero</strong>
+<p>
+visualizar una lista con los trabajos realizados por un desarrollador <strong>para</strong> poder tener una mayor confianza al momento de necesitar contactar con alguno 
+   </td>
+   <td><strong>Escenario 1</strong>: Visualizar repositorio de un desarrollador
+<p>
+<strong>Dado que </strong>soy un empresario y he iniciado sesion en la aplicación
+<p>
+<strong>Cuando </strong>busque los trabajos desarrollados por los programadores
+<p>
+<strong>Entonces </strong>el usuario ingresará al apartado de desarrollador para visualizar sus trabajos realizados
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US106
+   </td>
+   <td>Chat con el desarrollador del proyecto
+   </td>
+   <td><strong>Como </strong>empresario <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el desarrollador
+   </td>
+   <td><strong>Escenario: </strong>Chat con el desarrollador
+<p>
+<strong>Dado que</strong> soy un empresario \
+<strong>Cuando</strong> elija la opción “Chat” 
+<p>
+<strong>Entonces</strong> podre iniciar una conversación virtual con el desarrollador
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td colspan="5" ><strong>Epic 4: Funcionalidades del freelancer \
+Como</strong> freelancer \
+<strong>Quiero</strong> funcionalidades que me ayuden a encontrar proyectos de software \
+<strong>Para </strong>recibir una remuneración por el desarrollo
+   </td>
+  </tr>
+  <tr>
+   <td>E4-US101
+   </td>
+   <td>Postularse para Proyectos de Desarrollo Web
+   </td>
+   <td><strong>Como </strong>freelancer, <strong>quiero</strong> utilizar la aplicación <strong>para</strong> buscar proyectos de desarrollo web publicados por empresas y postularse a aquellos que se ajusten a mis habilidades y disponibilidad.
+   </td>
+   <td><strong>Escenario: </strong>Selección de proyecto web
+<p>
+<strong>Dado que</strong> soy un freelancer y he iniciado sesión en la aplicación
+<p>
+<strong>Cuando</strong> seleccione un proyecto que me interesa y me postule
+<p>
+<strong>Entonces</strong> la empresa que publicó el proyecto debe recibir mi solicitud y revisar mi perfil y experiencia.
+   </td>
+   <td>4
+   </td>
+  </tr>
+  <tr>
+   <td>E4-US102
+   </td>
+   <td>Pantalla de inicio del freelancer
+   </td>
+   <td><strong>Como </strong>freelancer <strong>quiero</strong> visualizar todos los proyectos que debo de desarrollar  <strong>para</strong> poder tener facilidades en el  envío de los avances
+   </td>
+   <td><strong>Escenario 1: </strong>Visualización de proyectos en la pantalla de inicio
+<p>
+<strong>Dado que</strong> soy freelancer <strong>Y </strong>he iniciado sesion en la aplicación
+<p>
+<strong>Cuando</strong> esté en la pantalla de inicio \
+<strong>Entonces</strong> podré ver todos los proyectos que debo de desarrollar
+   </td>
+   <td>4
+   </td>
+  </tr>
+  <tr>
+   <td>E4-US103
+   </td>
+   <td>Sistema de notificaciones para la entrega de avance de la página web
+   </td>
+   <td><strong>Como</strong> freelancer <strong>quiero </strong>que la aplicación me notifique las fechas que yo he establecido a los avances <strong>para </strong>entregar la página web a tiempo.  
+   </td>
+   <td><strong>Escenario 1: </strong>El freelancer organiza la fecha de los entregables del proyecto.
+<p>
+<strong>Dado que </strong>el freelancer desea organizar sus fechas de entrega en los avances de la página web
+<p>
+<strong>Cuando </strong>asigne una fecha establecida para un entregable dentro de la aplicación
+<p>
+<strong>Entonces </strong>la aplicación notificará al freelancer con 3 días de anticipación para presentar un avance del proyecto.
+<p>
+<strong>Escenario 2: </strong>El freelancer registra fechas en una aplicación distinta para presentar el proyecto.
+<p>
+<strong>Dado que </strong>el freelancer desea organizar sus fechas de entrega en los avances de la página web
+<p>
+<strong>Cuando </strong>ingrese a una aplicación que no es la nuestra
+<p>
+<strong>Entonces </strong>no será seguro que el desarrollador reciba notificaciones con anticipación para la entrega de sus avances.
+   </td>
+   <td>4
+   </td>
+  </tr>
+  <tr>
+   <td>E4-US104
+   </td>
+   <td>Sistema de calificación de pago de los proyectos
+   </td>
+   <td><strong>Como </strong>freelancer <strong>quiero</strong> que la aplicación organice los proyecto en función del más pagado <strong>para </strong>escoger más rápido el proyecto de software
+   </td>
+   <td><strong>Escenario:</strong> el freelancer organiza los proyectos en función del más pagado
+<p>
+<strong>Dado que </strong>el freelancer desea organizar los proyectos de software en función del más pagado,
+<p>
+<strong>Cuando</strong> seleccione la opción “Más pagados”
+<p>
+<strong>Entonces </strong>los proyectos se organizaron del más pagado al menos pagado
+   </td>
+   <td>4
+   </td>
+  </tr>
+  <tr>
+   <td>E4-US105
+   </td>
+   <td>Chat con el empresario del proyecto
+   </td>
+   <td><strong>Como </strong>freelancer <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el empresario
+   </td>
+   <td><strong>Escenario: </strong>Chat con el empresario
+<p>
+<strong>Dado que</strong> soy un freelancer \
+<strong>Cuando</strong> elija la opción “Chat” 
+<p>
+<strong>Entonces</strong> podre iniciar una conversación virtual con el empresario.
+   </td>
+   <td>4
+   </td>
+  </tr>
+</table>
 
 ## 3.3. Impact Mapping.
 
