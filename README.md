@@ -3,8 +3,6 @@
 ## CURSO: SI729 Desarrollo de Aplicaciones Open Source | SECCIÓN WX54 
  Profesor: Hugo Allan Mori Paiva
 # Informe de TB1
-"TechConnect Solutions"
-"OfficeTech"
 ### Integrantes:
 - Jorge Gerardo Quilla Luyo - U20211B197
 - Rony Piero Ticona Luque - U201420422
@@ -16,19 +14,23 @@
 # Registro de Versiones del Informe
 | Version | Fecha | Autor | Descripcion de Modificacion |
 | ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 19/03/2024 |Grupo 1 |Se crea el documento |
+| 0.0 | 25/03/2024 | Grupo 3 | Se crea el documento |
+| 1.0 | 09/04/2024 | Grupo 3 | Se crea la rama correspondiente |
+| 1.1 | 10/04/2024 | Grupo 3 | Capitulo 1 |
+| 1.1 | 10/04/2024 | Grupo 3 | Capitulo 2 |
+| 1.1 | 11/04/2024 | Grupo 3 | Capitulo 3 |
+| 1.1 | 13/04/2024 | Grupo 3 | Capitulo 4 |
+| 1.1 | 14/04/2024 | Grupo 3 | Capitulo 5 |
 
 # Project Report Collaboration Insights
-[URL del repositorio](https://www.example.com)
-
-(Imagenes de los commits cada entrega)
+[URL del repositorio](https://github.com/upc-pre-202401-si729-wx56-g3)
 
 
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Su texto<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | Su texto de conclusion|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  Su texto<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | Su texto de conclusion |
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Durante el desarrollo del TB1, mi principal aporte fue en la elaboración de diagramas (Diagrama de clases y C4 model) aunque de realizo el planteamiento de estas de forma colaborativa para que hayan multiples ideas en la creación de estas. De igual forma, colabore en el desarrolló del landing page, asi como en secciones de la unidad 5 como el Source Code Management y la configuración del Deploy del landing. De igual forma buscamos constantemente mejoras al momento de realizadas modificaciones de acuerdo a observaciones.<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto |En este proyecto, no solo amplié mis habilidades técnicas, sino que también fortalecí mi comprensión de metodologías clave como el Mapeo del Escenario Futuro y el Mapeo de Impacto, fundamentales para alinear los objetivos del proyecto con las expectativas de los stakeholders. La etapa de Especificación de Requisitos fue fundamental, ya que nos permitió detallar y documentar cada requisito a través de Historias de Usuario y un Product Backlog bien definido. Este enfoque colaborativo y sistemático no solo aseguró la coherencia entre las funcionalidades y los objetivos del proyecto, sino que también resaltó la importancia de la adaptabilidad y la colaboración en equipo en el desarrollo de software.|
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
 
 # Contenido
 ## Tabla de contenidos
@@ -425,10 +427,14 @@ El entrevistado Miguel Ybañez estudia la carrera de Ingeniería de Software. Ti
 
 
 ### 2.2.3. Análisis de entrevistas.
-**Segmento 1:**
-{texto}
-**Segmento 2:**
-{texto}
+**Segmento 1: Freelancer**
+
+En la entrevista, Miguel Ybañez, estudiante de Ingeniería de Software con experiencia en desarrollo web y videojuegos, así como en trabajo freelance remoto para empresas extranjeras, destaca la promesa de una buena gestión de proyectos de FromZero gracias a su sistema de entregables, respaldando la plataforma por su potencial para ofrecer más oportunidades laborales a los freelancers. Además, sugiere mejoras como la implementación de foros de discusión o chats integrados para fomentar la colaboración, resaltando la importancia de la organización y la comunicación en el éxito de los proyectos remotos.
+
+**Segmento 2: Empresas**
+
+En las entrevistas con dos personas diferentes llamadas Alexandra, se evidencia una tendencia hacia la ampliación de la presencia digital en sus respectivos negocios. La primera, relacionada con un negocio de juegos infantiles, subraya la necesidad de una página web para mejorar la rentabilidad, enfocándose en el diseño y la seguridad al contratar desarrolladores. Mientras que la segunda, dueña de un emprendimiento de postres tradicionales, considera tanto la implementación de una página web como la exploración de plataformas de freelance, como FromZero, para proyectos de software, priorizando la claridad en la comunicación con los desarrolladores y la expansión de su marca.
+
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
 **Segmento PYMEs** 
