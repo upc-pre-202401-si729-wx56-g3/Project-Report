@@ -1097,16 +1097,8 @@ El espaciado en nuestra interfaz de usuario es esencial para una experiencia ord
 ### 4.1.2. Web Style Guidelines.
 Descripcion de los elementos que se utilizaran en el web app
 
-**Background:** (primary, secondary, terniary)  
-![Background Preview web](image.jpg)
-**Text Styles:** (H1, H2, p, a,)  
-![Text Style Preview web](image.jpg)
-**Button Styles:** (Button, dropdowns, Switches)
-![Button Preview web](image.jpg)
-**Icons:** (Fondo blanco con los iconos que vamos a usar)
-![Icons Preview web](image.jpg)
-**Misc** (Cosas como nav var o slideshows que pensemos usar)
-![Miscellaneos preview web](image.jpg)
+En la parte superior izquierda de la portada de WebMaster, encontramos un encabezado limpio y elegante con nuestro logotipo, reflejando la conexión entre desarrolladores web y empresarios. A la derecha del logotipo, se encuentra un menú desplegable que representa las diferentes secciones de la aplicación, lo que permite a los usuarios navegar fácilmente por la plataforma.
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 Descripcion corta respecto a los sistemas de organizacion que usaremos  (Escoger)
