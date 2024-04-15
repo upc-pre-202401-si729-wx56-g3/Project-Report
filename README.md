@@ -747,25 +747,25 @@ Como</strong> empresario o freelancer \
   <tr>
    <td>E2-US101
    </td>
-   <td>Registro e inicio de sesión
+   <td>Registro de usuario
    </td>
-   <td><strong>Como </strong>usuario <strong>quiero </strong>tener en la app un apartado de inicio de sesión <strong>para </strong>que se guarde mi información
+   <td><strong>Como </strong>usuario <strong>quiero </strong>acceder a un apartado de registro <strong>para </strong>crear una cuenta
    </td>
-   <td><strong>Escenario 1:</strong>Usuario ingresa a la aplicación,y se encuentra con el inicio de sesión
+   <td><strong>Escenario 1:</strong>Usuario crea una cuenta
 <p>
-<strong>Dado que</strong> el usuario ya está en el inicio de sesión 
+<strong>Dado que</strong> el usuario ya está en la pestaña de registro
 <p>
-<strong>Cuando </strong>el usuario haga click en registrarse 
+<strong>Cuando </strong>el usuario ingrese sus datos
 <p>
-<strong>Entonces </strong>el sistema le mostrará un apartado donde podrá llenar su información
+<strong>Entonces </strong>el sistema le creara una cuenta
 <p>
-<strong>Escenario 2:</strong>Usuario se registra 
+<strong>Escenario 2: </strong>Usuario intenta registrarse pero los datos son inválidos
 <p>
-<strong>Dado que </strong>el usuario ya se encuentra en el apartado de registro 
+<strong>Dado que </strong>el usuario ya está en la pestaña de registro
 <p>
-<strong>Cuando </strong>el usuario complete todo el formulario de registro
+<strong>Cuando </strong>el usuario ingrese sus datos
 <p>
-<strong>Entonces</strong> el sistema guardará todos sus datos
+<strong>Entonces</strong> el sistema informará que los datos son inválidos
    </td>
    <td>2
    </td>
@@ -773,9 +773,9 @@ Como</strong> empresario o freelancer \
   <tr>
    <td>E2-US102
    </td>
-   <td>Formulario de login
+   <td>Iniciar Sesión
    </td>
-   <td><strong>Como </strong>usuario de la página web<strong>, quiero </strong>ingresar con mi cuenta con la cual me registre<strong> para </strong>usar las herramientas a mi disposición.
+   <td><strong>Como </strong>usuario de la página web<strong>, quiero </strong>acceder a una pestaña de login<strong> para </strong>iniciar sesión
    </td>
    <td><strong>Escenario 1: </strong>Iniciar sesión
 <p>
@@ -784,6 +784,14 @@ Como</strong> empresario o freelancer \
 <strong>Cuando </strong>ingrese el correo electrónico y contraseña
 <p>
 <strong>Entonces </strong>puede ingresar a la app de manera exitosa
+<p>
+<strong>Escenario 1: </strong>Datos inválidos
+<p>
+<strong>Dado que </strong>el usuario se encuentra en el formulario “Login”
+<p>
+<strong>Cuando </strong>ingrese el correo electrónico y contraseña
+<p>
+<strong>Entonces </strong>el sistema informará que los datos son inválidos
    </td>
    <td>2
    </td>
@@ -824,15 +832,15 @@ Como</strong> empresario \
   <tr>
    <td>E3-US101
    </td>
-   <td>Publicar una solicitud de proyecto de desarrollo web
+   <td>Publicar una solicitud de proyecto de software
    </td>
-   <td><strong>Como</strong> empresario que necesita una página web, <strong>quiero </strong>utilizar la aplicación para publicar una solicitud de proyecto de desarrollo web <strong>para</strong> que los desarrolladores web independientes interesados puedan contactarnos.
+   <td><strong>Como</strong> empresario que necesita una página web, <strong>quiero </strong>emplear la aplicación para hacer pública una solicitud de proyecto de desarrollo web. <strong>para</strong> que los desarrolladores web independientes interesados puedan contactarnos.
    </td>
    <td><strong>Escenario: </strong>Publicar mi solicitud de proyecto web
 <p>
 <strong>Dado</strong> <strong>que </strong>soy un empresario y he iniciado sesión en la aplicación, 
 <p>
-<strong>Cuando</strong> acceda a mi panel de control, debería ver la opción para "Publicar un Proyecto" y seleccione "Publicar un Proyecto", debería completar un formulario que incluye detalles del proyecto, presupuesto, fecha límite y requisitos específicos.
+<strong>Cuando</strong> visite el panel de control, donde encontrará la opción "Publicar un Proyecto". Haga clic en "Publicar un Proyecto" y proceda a completar un formulario que solicitará detalles sobre el proyecto, su presupuesto, la fecha límite y los requisitos necesarios.
 <p>
 <strong>Cuando</strong> haya completado el formulario y confirmado la publicación, el proyecto debe aparecer en la lista de proyectos disponibles para los desarrolladores web independientes.
 <p>
@@ -846,14 +854,14 @@ Como</strong> empresario \
    </td>
    <td>Pantalla de inicio empresario
    </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar todos los proyectos publicados <strong>para</strong> poder ver fácilmente el progreso de los mismos
+   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar el proyecto o proyectos publicados <strong>para</strong> darme cuenta si hay propuestas de desarrolladores
    </td>
    <td><strong>Escenario 1: </strong>Visualización de proyectos en la pantalla de inicio
 <p>
 <strong>Dado que</strong> soy empresario <strong>Y </strong>he iniciado sesion en la aplicación
 <p>
 <strong>Cuando</strong> esté en la pantalla de inicio \
-<strong>Entonces</strong> podré ver todos los proyectos que he publicado
+<strong>Entonces</strong> podré ver el proyecto o proyectos que he publicado
    </td>
    <td>3
    </td>
@@ -893,26 +901,6 @@ Como</strong> empresario \
   <tr>
    <td>E3-US104
    </td>
-   <td>Visualizar lista de desarrolladores por calificación
-   </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong>
-<p>
-visualizar una lista con los desarrolladores mejor calificados <strong>para</strong> ahorrar tiempo de contacto y contratación
-   </td>
-   <td><strong>Escenario 1:</strong> Busco desarrolladores en el apartado de “Lista de desarrolladores”
-<p>
-<strong>Dado que</strong> se encuentra en la pestaña principal de la aplicación 
-<p>
-<strong>Cuando </strong>el usuario ingresa al apartado ”Lista de desarrolladores”
-<p>
-<strong>Entonces </strong>el usuario visualizará la lista de desarrolladores mejor calificados para ser contratados
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>E3-US105
-   </td>
    <td>Visualizar repositorio de un desarrollador 
    </td>
    <td><strong>Como</strong> empresario <strong>quiero</strong>
@@ -931,9 +919,9 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>E3-US106
+   <td>E3-US105
    </td>
-   <td>Chat con el desarrollador del proyecto
+   <td>Comunicación con el desarrollador mediante correo
    </td>
    <td><strong>Como </strong>empresario <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el desarrollador
    </td>
@@ -942,7 +930,58 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <strong>Dado que</strong> soy un empresario \
 <strong>Cuando</strong> elija la opción “Chat” 
 <p>
-<strong>Entonces</strong> podre iniciar una conversación virtual con el desarrollador
+<strong>Entonces</strong> podré ingresar un texto que se le enviará un correo al desarrollador
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US106
+   </td>
+   <td>Aceptación de propuesta de solución
+   </td>
+   <td><strong>Como </strong>empresario <strong>quiero</strong> una opción de seleccionar <strong>para</strong> para aceptar la propuesta de un desarrollador
+   </td>
+   <td><strong>Escenario: </strong>Aceptar propuesta
+<p>
+<strong>Dado que</strong> que el empresario puede observar propuestas de solución a su proyecto \
+<strong>Cuando</strong> elija la opción <strong>Y</strong> seleccione una propuesta
+<p>
+<strong>Entonces</strong> podrá aceptarla
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US107
+   </td>
+   <td>Seguimiento del proyecto
+   </td>
+   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar entregas <strong>para</strong> evaluar los avances del desarrollador
+   </td>
+   <td><strong>Escenario: </strong>El usuario observa las entregas parciales de su proyecto
+<p>
+<strong>Dado que </strong>el empresario se encuentra en su dashboard \
+<strong>Cuando</strong> seleccione un proyecto en proceso
+<p>
+<strong>Entonces</strong> podrá observar las entregas parciales del mismo
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US108
+   </td>
+   <td>Pago y cierre
+   </td>
+   <td><strong>Como </strong>empresario <strong>quiero</strong> una interfaz intuitiva y segura  de pago <strong>para</strong> ingresar mi información y realizar el pago
+   </td>
+   <td><strong>Escenario: </strong>El empresario hace el pago por su proyecto terminado
+<p>
+<strong>Dado que</strong> el proyecto fue completado \
+<strong>Cuando</strong> el empresario llene sus datos de pago
+<p>
+<strong>Entonces</strong> se terminará el proceso y el desarrollador recibira dinero
    </td>
    <td>3
    </td>
@@ -957,7 +996,7 @@ Como</strong> freelancer \
   <tr>
    <td>E4-US101
    </td>
-   <td>Postularse para Proyectos de Desarrollo Web
+   <td>Enviar propuestas a publicaciones de proyectos
    </td>
    <td><strong>Como </strong>freelancer, <strong>quiero</strong> utilizar la aplicación <strong>para</strong> buscar proyectos de desarrollo web publicados por empresas y postularse a aquellos que se ajusten a mis habilidades y disponibilidad.
    </td>
@@ -992,9 +1031,9 @@ Como</strong> freelancer \
   <tr>
    <td>E4-US103
    </td>
-   <td>Sistema de notificaciones para la entrega de avance de la página web
+   <td>Indicaciones para la entrega de avance de la página web
    </td>
-   <td><strong>Como</strong> freelancer <strong>quiero </strong>que la aplicación me notifique las fechas que yo he establecido a los avances <strong>para </strong>entregar la página web a tiempo.  
+   <td><strong>Como</strong> freelancer <strong>quiero </strong>conocer las deadlines de entregas parciales <strong>para </strong>entregar mi avance a tiempor  
    </td>
    <td><strong>Escenario 1: </strong>El freelancer organiza la fecha de los entregables del proyecto.
 <p>
@@ -1036,16 +1075,33 @@ Como</strong> freelancer \
   <tr>
    <td>E4-US105
    </td>
-   <td>Chat con el empresario del proyecto
+   <td>Comunicación con el empresario mediante correo
    </td>
-   <td><strong>Como </strong>freelancer <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el empresario
+   <td><strong>Como </strong>desarrollador <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el empresario
    </td>
    <td><strong>Escenario: </strong>Chat con el empresario
 <p>
-<strong>Dado que</strong> soy un freelancer \
+<strong>Dado que</strong> soy un empresario \
 <strong>Cuando</strong> elija la opción “Chat” 
 <p>
-<strong>Entonces</strong> podre iniciar una conversación virtual con el empresario.
+<strong>Entonces</strong> podré ingresar un texto que se le enviará un correo al empresario
+   </td>
+   <td>4
+   </td>
+  </tr>
+  <tr>
+   <td>E4-US106
+   </td>
+   <td>Apartado de pagos recibidos y facturación
+   </td>
+   <td><strong>Como </strong>desarrollador <strong>quiero</strong> una sección de pagos <strong>para </strong>observar mis boletas y pago recibido
+   </td>
+   <td><strong>Escenario: </strong>El empresario hace el pago por su proyecto terminado
+<p>
+<strong>Dado que</strong> el proyecto fue completado \
+<strong>Cuando</strong> el desarrollador ingrese a la sección de pagos
+<p>
+<strong>Entonces</strong> podrá observar su boleta o factura
    </td>
    <td>4
    </td>
