@@ -642,10 +642,84 @@ Respecto a las necesidades del producto, se decidió plantear las clases en el s
 Las clases serán explicadas en el siguiente apartado de forma más específica.
 
 ### 4.7.2. Class Dictionary.
-Inherit (ave(superclase) -> (subclase)canario )
-Polymorphism (Ej. funcion de persona hablar() -> Peruano hablar() , Gringo hablar() todos tienen una funcion que contiene persona y van cambiando sus formas)
-Abstraction (Ej. Solo muestra el usuario, pero esta su edad, correo y veces usada que uso app en la base de datos (fuera de vista))
-Encapsulation (cuando tienes tus variables y metodos en la misma clase las estas encapsulando, aun mas se encapsulan en Private y Public )
+
+|**User**||
+| - | :- |
+|La clase User es la clase donde el usuario brinda su información personal para poder tener acceso a una cuenta en la plataforma||
+|**Atributo**|**Descripción**|
+|\_name: string|es el nombre real del usuario|
+|\_lastname: string|es el apellido completo del usuario|
+|\_role: string|es el rol del usuario el cual puede ser freelancer o empresario|
+|**Métodos**|**Descripción**|
+|CreateUser()|Con este método se crea un usuario |
+
+|**Cuenta**||
+| - | :- |
+|La clase Cuenta es la clase que representa la cuenta del usuario en la plataforma||
+|**Atributo**|**Descripción**|
+|\_email: string|es el correo electrónico, el cual es necesario para iniciar sesión |
+|\_password: string|es la contraseña, el cual es necesario para iniciar sesion y brinda seguridad a la cuenta|
+|\_createdBy:User|Nos permite identificar a nuestros 2 tipos de usuario (empresario o freelancer)|
+|\_profilePicture: string|Permite a los usuario tener una foto de perfil|
+|**Métodos**|**Descripción**|
+|CloseAccount()|Con este método el usuario podrá cerrar la cuenta |
+|ChangePassword()|Con este metodo el usuario podrá cambiar su contraseña|
+|ViewInformation()|Con este método el usuario podrá visualizar su información en la aplicación  |
+
+|**Desarrollador** ||
+| - | :- |
+|La clase Desarrollador representa la cuenta de usuario del desarrollador||
+|**Atributo**|**Descripción**|
+|\_country: string|es el país de origen del desarrollador|
+|\_cellphone: number|es el numero de celular de contacto del desarrollador|
+|\_email: string|es el email de contacto del desarrollador|
+|\_projectQuantity: number|es la cantidad de proyectos realizados en la plataforma Webmaster|
+|\_specialities|Son las tecnologías y lenguajes que domina el desarrollador|
+|**Métodos**|**Descripción**|
+|ApplyProject()|Con este método el freelancer podrá mandar su solicitud de desarrollo en el proyecto |
+|SubmitProjects()|Con este método el freelancer podrá enviar los distintos avances de los proyectos |
+|DeliverableChange()|Con este método el usuario podrá visualizar su información en la aplicación  |
+
+|**Empresario**||
+| - | :- |
+|La clase Empresario representa la cuenta de usuario del empresario||
+|**Atributo**|**Descripción**|
+|\_country: string|es el país de origen del desarrollador|
+|\_businessName: number|es el número de identificación de la empresa|
+|\_cellphone: number|es el número de celular de contacto del desarrollador|
+|\_email: string|es el email de contacto del desarrollador|
+|\_website: string|es el website de la empresa |
+|\_section: string|es el sector de la empresa|
+|**Métodos**|**Descripción**|
+|PublishProject()|Con este método los empresarios podrán publicar sus proyectos que requieren una solución de software|
+|RequestPostChanges()|Con este método los empresarios podrán cambiar la descripción del proyecto hasta que acepten a un freelancer|
+|DeletePost()|Con este método los empresarios podrán borrar sus publicaciones|
+
+|**Proyecto**||
+| - | :- |
+|La clase proyecto representa los proyectos que estarán presentes en la plataforma.||
+|**Atributo**|**Descripción**|
+|\_businessmanName: string|es el nombre del empresario quien ha creado el proyecto|
+|\_freelancerName:string|es el nombre del freelancer a cargo del desarrollo del proyecto|
+|\_description: string|es la descripción del proyecto|
+|\_projectPayment: number|es la cantidad de dinero que va a recibir el freelancer al finalizar el proyecto|
+|**Métodos**|**Descripción**|
+|UpdateState()|Con este método el proyecto actualizará su estado de acuerdo al avance del desarrollo del proyecto|
+|ViewInformation()|Con este metodo se verá la información del proyecto|
+|ViewListofDeliverables()|Con este método se verá la lista de entregables enviados y pendientes por desarrollar|
+
+|**Plan**||
+| - | :- |
+|La clase plan es la que se encarga de administrar los diversos planes ||
+|**Atributo**|**Descripción**|
+|\_startedAt: DateTime|fecha de inicio del plan|
+|\_finishedAt:DateTime|fecha de finalización del plan|
+|**Métodos**|**Descripción**|
+|ChangePlan()|Con este método se podrá cambiar de plan|
+|RenewPlan()|Con este método podrá renovar el plan|
+|CancelPlan()|Con este método podrá cancelar el plan|
+
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
 Diagrama de base de datos (la relacion entre clases PK FK el Normalizar tmbn, isiyisi 🕸)
