@@ -2135,20 +2135,20 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 <table><tr><th colspan="2" valign="top"><a name="_6cxtvwxzjfs6"></a><b>SPRINT</b></th><th colspan="6" valign="top"><b>SPRINT 1</b></th></tr>
 <tr><td colspan="2" valign="top"></td><td colspan="6" valign="top"><b>Work-Item / Task</b></td></tr>
 <tr><td valign="top"><b>User Story ID</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Tiempo (horas)</b></td><td valign="top"><b>Assigned to</b> </td><td valign="top"><b>Status (to-do/ in process/ To review/ done</b></td></tr>
-<tr><td rowspan="2" valign="top">E1-US101</td><td rowspan="2" valign="top">Barra de navegación del Landing Page</td><td valign="top">T1</td><td valign="top">Navbar section</td><td valign="top">Implementación del navbar con botón de ingreso a la aplicación WebMasters.</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">Done</td></tr>
-<tr><td valign="top">T2</td><td valign="top">Responsive design navbar section</td><td valign="top">Añadir el diseño responsive para la barra de navegación</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">Done</td></tr>
-<tr><td rowspan="2" valign="top">E1-US102</td><td rowspan="2" valign="top">Sección hero de landing page</td><td valign="top">T3</td><td valign="top">Hero section</td><td valign="top">Implementación del apartado hero section</td><td valign="top">3</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
-<tr><td valign="top">T4</td><td valign="top">Responsive design hero section</td><td valign="top">Añadir el diseño responsive para la hero section</td><td valign="top">4</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US101</td><td rowspan="2" valign="top">Barra de navegación del Landing Page</td><td valign="top">T1</td><td valign="top">Navbar section</td><td valign="top">Implementación del navbar con botón de ingreso a la aplicación WebMasters.</td><td valign="top">2</td><td valign="top"><p>Fernando</p><p>Carrasco</p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T2</td><td valign="top">Responsive design navbar section</td><td valign="top">Añadir el diseño responsive para la barra de navegación</td><td valign="top">2</td><td valign="top"><p>Fernando</p><p>Carrasco</p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US102</td><td rowspan="2" valign="top">Sección hero de landing page</td><td valign="top">T3</td><td valign="top">Hero section</td><td valign="top">Implementación del apartado hero section</td><td valign="top">3</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T4</td><td valign="top">Responsive design hero section</td><td valign="top">Añadir el diseño responsive para la hero section</td><td valign="top">4</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
 <tr><td rowspan="2" valign="top">E1-US103</td><td rowspan="2" valign="top">Sección de producto de landing page</td><td valign="top">T5</td><td valign="top">Features section</td><td valign="top">Implementar sección de características de la aplicación.</td><td valign="top">3</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
 <tr><td valign="top">T6</td><td valign="top">Responsive design features section</td><td valign="top">Añadir el diseño responsive para la features section</td><td valign="top">1</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
-<tr><td rowspan="2" valign="top">E1-US104</td><td rowspan="2" valign="top">Sección de testimonios en landing page</td><td valign="top">T7</td><td valign="top">Testimonials section</td><td valign="top">Implementar las tarjetas con los testimonios de los usuarios.</td><td valign="top">3</td><td valign="top">Samira Alvarez</td><td valign="top">Done</td></tr>
-<tr><td valign="top">T8</td><td valign="top">Responsive design  testimonials section</td><td valign="top">Añadir el diseño responsive para la sección de testimonios</td><td valign="top">0\.5 </td><td valign="top">Samira Alvarez</td><td valign="top">Done</td></tr>
-<tr><td rowspan="2" valign="top">E1-US105</td><td rowspan="2" valign="top">Sección de planes en landing page</td><td valign="top">T19</td><td valign="top">Pricing section</td><td valign="top">Implementar sección de membresía de acuerdo al segmento.</td><td valign="top">3</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
-<tr><td valign="top">T10</td><td valign="top">Responsive design  pricing section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">4</td><td valign="top">Andre Arroyo</td><td valign="top">Done</td></tr>
-<tr><td rowspan="2" valign="top">E1-US106</td><td rowspan="2" valign="top">Sección de footer a la aplicación en landing page</td><td valign="top">T11</td><td valign="top">Footer section</td><td valign="top">Implementación del footer</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">To-Do</td></tr>
-<tr><td valign="top">T12</td><td valign="top">Responsive design  footer section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">2</td><td valign="top"><p>Joseph</p><p>Llacchua</p></td><td valign="top">To-Do</td></tr>
-<tr><td rowspan="2" valign="top">E1-US107</td><td rowspan="2" valign="top">Sección para conocer al equipo de trabajo</td><td valign="top">T1</td><td valign="top">Team presentation section</td><td valign="top">Implementar sección con contactos del equipo de trabajo</td><td valign="top">3</td><td valign="top">Zaid Ramirez</td><td valign="top">Done</td></tr>
-<tr><td valign="top">T2</td><td valign="top">Responsive design  team presentation section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">1</td><td valign="top">Zaid Ramirez</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US104</td><td rowspan="2" valign="top">Sección de testimonios en landing page</td><td valign="top">T7</td><td valign="top">Testimonials section</td><td valign="top">Implementar las tarjetas con los testimonios de los usuarios.</td><td valign="top">3</td><td valign="top">Piero Ticona</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T8</td><td valign="top">Responsive design  testimonials section</td><td valign="top">Añadir el diseño responsive para la sección de testimonios</td><td valign="top">0\.5 </td><td valign="top">Piero Ticona</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US105</td><td rowspan="2" valign="top">Sección de planes en landing page</td><td valign="top">T19</td><td valign="top">Pricing section</td><td valign="top">Implementar sección de membresía de acuerdo al segmento.</td><td valign="top">3</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T10</td><td valign="top">Responsive design  pricing section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">4</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US106</td><td rowspan="2" valign="top">Sección de footer a la aplicación en landing page</td><td valign="top">T11</td><td valign="top">Footer section</td><td valign="top">Implementación del footer</td><td valign="top">2</td><td valign="top"><p>Piero</p><p>Ticona</p></td><td valign="top">To-Do</td></tr>
+<tr><td valign="top">T12</td><td valign="top">Responsive design  footer section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">2</td><td valign="top"><p>Piero</p><p>Ticona</p></td><td valign="top">To-Do</td></tr>
+<tr><td rowspan="2" valign="top">E1-US107</td><td rowspan="2" valign="top">Sección para conocer al equipo de trabajo</td><td valign="top">T1</td><td valign="top">Team presentation section</td><td valign="top">Implementar sección con contactos del equipo de trabajo</td><td valign="top">3</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T2</td><td valign="top">Responsive design  team presentation section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">1</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
 </table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review.
@@ -2217,30 +2217,56 @@ Prueba del landing en un navegador:
 El equipo de desarrollo del landing utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentará el insight del equipo a través de GitHub:
 <img src="./assets/Insights/contribuciones.png">
 
-<img src="./assets/Insights/ramas.png
+<img src="./assets/Insights/ramas.png">
 
 # Conclusiones
-{texto}
 # Conclusiones y recomendaciones.
-{texto}
+* **Impacto en el Entorno Digital**: La ambición de convertirnos en la plataforma preferida para empresas y emprendimientos que buscan destacarse en el entorno digital refleja una meta significativa que puede impulsar y guiar nuestras decisiones estratégicas a medida que la startup crece, motivando así a nuestro equipo hacia un objetivo común.
+
+* **Equipo Multidisciplinario**: La composición de nuestra startup por un equipo de cinco miembros nos proporciona un enfoque fresco y multidisciplinario. Esta diversidad puede ser una ventaja, ya que cada integrante puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo la oferta de servicios y aumentando la originalidad y eficacia del proyecto.
+
+* **Identificación de una Necesidad Clara**: From Zero ha identificado una creciente necesidad en el mercado, donde empresas y emprendimientos requieren una sólida presencia en línea para potenciar sus estrategias de marketing digital. Esta identificación precisa de una demanda real puede ser un factor determinante para el éxito, ya que abordar una necesidad concreta puede generar un gran interés y participación.
 
 
 # Bibliografía
+```
 qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
-Recuperado 20 de junio de 2022, de [LINK](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+   Recuperado 20 de junio de 2022, de https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
+```
 
+```
 LeaseIN. (2018). Importancia de contar con un equipo de soporte
-técnico. [Entrada en blog]. Recuperado de:
-[LINK](https://leasein.pe/blog/branding-empresarial-importanciasoporte-tecnico/)
+   técnico. [Entrada en blog]. Recuperado de:
+   https://leasein.pe/blog/branding-empresarial-importanciasoporte-tecnico/
+```
+
 ``` 
-formato
+Gothelf, J., & Seiden, J. (2013). 
+  Lean UX: Applying lean principles to improve user experience. O'Reilly Media. 
+  https://books.google.es/books?hl=es&lr=&id=wLw6EAAAQBAJ&oi=fnd&pg=PT37&dq=Lean+ux&ots=QuMNDmvouC&sig=36AUu53YuLt_4OXBjwdg9RSLr_4#v=onepage&q=Lean%20ux&f=false
+```
+```
+Cohn, M. (2004). User stories applied: For agile software development. Addison-Wesley. 
+  https://books.google.es/books?hl=es&lr=&id=SvIwuX4SVigC&oi=fnd&pg=PR13&dq=Cohn,+M.+(2004).+User+stories+applied:+For+agile+software+development.+Addison-Wesley.&ots=VsSb68rUSO&sig=zVJsoYVopnqITrtBXPAIzePb96w#v=onepage&q=Cohn%2C%20M.%20(2004).%20User%20stories%20applied%3A%20For%20agile%20software%20development.%20Addison-Wesley.&f=false
+```
 
-"Apellido", Ini.Ciales. & "otroAutor", O.A. (año). titulo del articulo.
-        "nombre del articulo o lo q sea, Volumen(si es que tiene), numero  de pagina"#-#. https//link.org/eeeseneko
+```
+Duckett, J. (2014). 
+  HTML and CSS: Design and build websites. John Wiley & Sons. https://wtf.tw/ref/duckett.pdf
+```
 
+```
+Ambler, S. W. (2004). The object primer: Agile model-driven development with UML 2.0. 
+  Cambridge University Press. 
+  https://www.researchgate.net/publication/235616285_The_object_primer_agile_modeling-driven_development_with_UML_20
 ```
 # Anexos
 
-datos, gráficos, imágenes, esquemas, mapas o referencias de otros autores
+**Landing page deployment**: https://fromzeroupc.netlify.app
 
-![Imagen de algo no nuestro lol](image.jpg)
+**Web Application Prototyping**: [Link a figma](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=d0AF1qIPelL3U1e7-0&scaling=scale-down&starting-point-node-id=3254%3A319&show-proto-sidebar=1)
+
+
+**Repositorio en Github**: https://github.com/upc-pre-202401-si729-wx56-g3
+
+**Presentación TB1**: [upc-pre-202401-si730-WX54- FromZero-expo-tb1]()
