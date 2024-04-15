@@ -3,8 +3,6 @@
 ## CURSO: SI729 Desarrollo de Aplicaciones Open Source | SECCIÓN WX54 
  Profesor: Hugo Allan Mori Paiva
 # Informe de TB1
-"TechConnect Solutions"
-"OfficeTech"
 ### Integrantes:
 - Jorge Gerardo Quilla Luyo - U20211B197
 - Rony Piero Ticona Luque - U201420422
@@ -16,19 +14,23 @@
 # Registro de Versiones del Informe
 | Version | Fecha | Autor | Descripcion de Modificacion |
 | ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 19/03/2024 |Grupo 1 |Se crea el documento |
+| 0.0 | 25/03/2024 | Grupo 3 | Se crea el documento |
+| 1.0 | 09/04/2024 | Grupo 3 | Se crea la rama correspondiente |
+| 1.1 | 10/04/2024 | Grupo 3 | Capitulo 1 |
+| 1.1 | 10/04/2024 | Grupo 3 | Capitulo 2 |
+| 1.1 | 11/04/2024 | Grupo 3 | Capitulo 3 |
+| 1.1 | 13/04/2024 | Grupo 3 | Capitulo 4 |
+| 1.1 | 14/04/2024 | Grupo 3 | Capitulo 5 |
 
 # Project Report Collaboration Insights
-[URL del repositorio](https://www.example.com)
-
-(Imagenes de los commits cada entrega)
+[URL del repositorio](https://github.com/upc-pre-202401-si729-wx56-g3)
 
 
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Su texto<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | Su texto de conclusion|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  Su texto<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | Su texto de conclusion |
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Durante el desarrollo del TB1, mi principal aporte fue en la elaboración de diagramas (Diagrama de clases y C4 model) aunque de realizo el planteamiento de estas de forma colaborativa para que hayan multiples ideas en la creación de estas. De igual forma, colabore en el desarrolló del landing page, asi como en secciones de la unidad 5 como el Source Code Management y la configuración del Deploy del landing. De igual forma buscamos constantemente mejoras al momento de realizadas modificaciones de acuerdo a observaciones.<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto |En este proyecto, no solo amplié mis habilidades técnicas, sino que también fortalecí mi comprensión de metodologías clave como el Mapeo del Escenario Futuro y el Mapeo de Impacto, fundamentales para alinear los objetivos del proyecto con las expectativas de los stakeholders. La etapa de Especificación de Requisitos fue fundamental, ya que nos permitió detallar y documentar cada requisito a través de Historias de Usuario y un Product Backlog bien definido. Este enfoque colaborativo y sistemático no solo aseguró la coherencia entre las funcionalidades y los objetivos del proyecto, sino que también resaltó la importancia de la adaptabilidad y la colaboración en equipo en el desarrollo de software.|
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TB1:***  Su texto<br><br>Piero Ticona:<br> ***TB1:***  Su texto<br><br>Juan Carrasco:<br> ***TB1:***  Su texto | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
 
 # Contenido
 ## Tabla de contenidos
@@ -425,10 +427,14 @@ El entrevistado Miguel Ybañez estudia la carrera de Ingeniería de Software. Ti
 
 
 ### 2.2.3. Análisis de entrevistas.
-**Segmento 1:**
-{texto}
-**Segmento 2:**
-{texto}
+**Segmento 1: Freelancer**
+
+En la entrevista, Miguel Ybañez, estudiante de Ingeniería de Software con experiencia en desarrollo web y videojuegos, así como en trabajo freelance remoto para empresas extranjeras, destaca la promesa de una buena gestión de proyectos de FromZero gracias a su sistema de entregables, respaldando la plataforma por su potencial para ofrecer más oportunidades laborales a los freelancers. Además, sugiere mejoras como la implementación de foros de discusión o chats integrados para fomentar la colaboración, resaltando la importancia de la organización y la comunicación en el éxito de los proyectos remotos.
+
+**Segmento 2: Empresas**
+
+En las entrevistas con dos personas diferentes llamadas Alexandra, se evidencia una tendencia hacia la ampliación de la presencia digital en sus respectivos negocios. La primera, relacionada con un negocio de juegos infantiles, subraya la necesidad de una página web para mejorar la rentabilidad, enfocándose en el diseño y la seguridad al contratar desarrolladores. Mientras que la segunda, dueña de un emprendimiento de postres tradicionales, considera tanto la implementación de una página web como la exploración de plataformas de freelance, como FromZero, para proyectos de software, priorizando la claridad en la comunicación con los desarrolladores y la expansión de su marca.
+
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
 **Segmento PYMEs** 
@@ -1116,21 +1122,21 @@ Como decir "home, about us, etc" basicamente lo que iria en un nav var y asi
 ### 4.2.3. SEO Tags and Meta Tags
 
 **Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
-* Titulo: ```<title> ___ </title> ```
-* Descripcion: ```<meta name = "description" content = "texto descipcion"/> ```
-* Palabras Clave: ```<meta name = "keyword" content = "keyword1, 2 3"/> ```
+* Titulo: ```FromZero - Conectando Empresas y Desarrolladores Freelance ```
+* Descripcion: ```<meta name="description" content="FromZero es la plataforma que conecta a empresas en búsqueda de soluciones de software con desarrolladores freelance dispuestos a trabajar en proyectos."> ```
+* Palabras Clave: ```<meta name="keywords" content="plataforma de contratación, desarrolladores freelance, software a medida, proyectos de desarrollo, conectar empresas con desarrolladores"> ```
+* Autores: ```<meta name="author" content="Equipo de Desarrollo de SiteForge">```
 
 ### 4.2.4. Searching Systems.
-**Que se busca?:** Que buscara el usuario  
-**Que resultados se mostraran?:** Que se mostrara  
-**Interface de busqueda:** Descripcion de como ayuda a encontrar lo deseado 
-![Search interface preview web](image.jpg)
+Los sistemas de búsqueda son herramientas informáticas que ayudan al usuario a encontrar información específica de un conjunto de datos. Siendo esto un aspecto fundamental para la experiencia de usuario. Para esto se contarán con 2 sistemas de búsqueda:
+
+- **Búsqueda Inicial**: Disponible para todos los usuarios, se ofrece una experiencia de búsqueda intuitiva a través de menús desplegables y un navbar accesible. Esto para facilitar encontrar la información deseada sin esfuerzo.
+- **Búsqueda de empresas o desarrolladores**: Según corresponda el segmento. Se contará con un filtrado de búsqueda para que se puedan buscar empresas con proyectos disponibles o revisar perfiles de desarrolladores.
 
 ### 4.2.5. Navigation Systems.
-Basicamente aqui definimos como funciona la navegacion del web app
-**Hierarchical Navigation System:** Main page a destination pages.
-**Global Navigation Systems** (Complemento del Hierachical) Movimiento vertical (te mueves por la pagina)con nav(debe poder regresar a la principal)
-**Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
+
+En el landing page, se ubicará una barra de navegación en la parte superior. Y un botón de inicio de sesión para ingresar a la aplicación. Una vez ingresado a la aplicación el usuario tendrá atajos para navegar por la aplicación en la parte superior de la pantalla.
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 
@@ -1219,8 +1225,47 @@ Basicamente aqui definimos como funciona la navegacion del web app
 <img src="./assets/web-applications/wireframes/Proyectos destacados.png" alt="Proyectos destacados">
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y este me regresa)
-![Web Aplication Wireflow](image.jpg)
+
+**Registrar Usuario_Reestablecer contraseña**
+
+![Registrar usuario y reestablecer contraseña](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
+
+**Inicio de la aplicación**
+
+![Inicio de la aplicacion](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.jpg)
+
+**Proyectos Destacados**
+
+![Ver proyectos destacados](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Proyectos%20Destacados.jpg)
+
+**Atencion al cliente**
+
+![Atencion al cliente](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20De%20soporte%20técnico%20para%20los%202%20segmentos.jpg)
+
+**Segmento Empresa**
+
+**Ver entregables de proyecto**
+
+![Ver entregables de proyecto](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
+
+**Explorar, ver perfil y contactar con desarrollador**
+
+![Explorar ver perfil y contactar con desarrollador](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
+
+**Crear proyecto**
+
+![Crear proyecto](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.jpg)
+
+**Segmento Desarrollador**
+
+**Trabajar en proyecto, ver entregables y comunicar con empresa**
+
+![Trabajar en proyecto ver entregables y comunicar con empresa](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
+
+**Explorar y postular a proyecto**
+
+![Explorar y postular proyecto](./assets/Wireflow%20Diagrams/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
+
 ### 4.4.2. Web Applications Mock-ups.
 
 **Inicio de Sesión**<br>
