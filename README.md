@@ -495,6 +495,13 @@ Segmento 2: Desarrolladores
 
 ## 3.2. User Stories.
 <table>
+  <colgroup>
+    <col style="width: 50px">
+    <col style="width: 80px">
+    <col style="width: 200px">
+    <col style="width: 400px">
+    <col style="width: 50px">
+  </colgroup>
   <tr>
    <td>Epic / Story ID
    </td>
