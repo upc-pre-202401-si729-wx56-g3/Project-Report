@@ -486,20 +486,12 @@ El entrevistado Miguel Ybañez estudia la carrera de Ingeniería de Software. Ti
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
 
-Segmento 1:
+Segmento 1: Empresas
 
-| Fases    |  fase 1 as is | fase 2| fase 3|
-| -------- | ------- | ---- | ---------------- |
-| Doing    | | texto| texto | texto| texto|
-| Thinking | | texto| texto | texto| texto|
-| Feeling  | | texto| texto | texto| texto|
+![alt text](image.png)
 
-Segmento 2:
-| Fases    |  fase 1 as is | fase 2| fase 3|
-| -------- | ------- | ---- | ---------------- |
-| Doing    | | texto| texto | texto| texto|
-| Thinking | | texto| texto | texto| texto|
-| Feeling  | | texto| texto | texto| texto|
+Segmento 2: Desarrolladores
+![alt text](image-2.png)
 
 ## 3.2. User Stories.
 
