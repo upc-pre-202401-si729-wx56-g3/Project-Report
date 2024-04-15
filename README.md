@@ -1096,21 +1096,21 @@ Como decir "home, about us, etc" basicamente lo que iria en un nav var y asi
 ### 4.2.3. SEO Tags and Meta Tags
 
 **Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
-* Titulo: ```<title> ___ </title> ```
-* Descripcion: ```<meta name = "description" content = "texto descipcion"/> ```
-* Palabras Clave: ```<meta name = "keyword" content = "keyword1, 2 3"/> ```
+* Titulo: ```FromZero - Conectando Empresas y Desarrolladores Freelance ```
+* Descripcion: ```<meta name="description" content="FromZero es la plataforma que conecta a empresas en búsqueda de soluciones de software con desarrolladores freelance dispuestos a trabajar en proyectos."> ```
+* Palabras Clave: ```<meta name="keywords" content="plataforma de contratación, desarrolladores freelance, software a medida, proyectos de desarrollo, conectar empresas con desarrolladores"> ```
+* Autores: ```<meta name="author" content="Equipo de Desarrollo de SiteForge">```
 
 ### 4.2.4. Searching Systems.
-**Que se busca?:** Que buscara el usuario  
-**Que resultados se mostraran?:** Que se mostrara  
-**Interface de busqueda:** Descripcion de como ayuda a encontrar lo deseado 
-![Search interface preview web](image.jpg)
+Los sistemas de búsqueda son herramientas informáticas que ayudan al usuario a encontrar información específica de un conjunto de datos. Siendo esto un aspecto fundamental para la experiencia de usuario. Para esto se contarán con 2 sistemas de búsqueda:
+
+- **Búsqueda Inicial**: Disponible para todos los usuarios, se ofrece una experiencia de búsqueda intuitiva a través de menús desplegables y un navbar accesible. Esto para facilitar encontrar la información deseada sin esfuerzo.
+- **Búsqueda de empresas o desarrolladores**: Según corresponda el segmento. Se contará con un filtrado de búsqueda para que se puedan buscar empresas con proyectos disponibles o revisar perfiles de desarrolladores.
 
 ### 4.2.5. Navigation Systems.
-Basicamente aqui definimos como funciona la navegacion del web app
-**Hierarchical Navigation System:** Main page a destination pages.
-**Global Navigation Systems** (Complemento del Hierachical) Movimiento vertical (te mueves por la pagina)con nav(debe poder regresar a la principal)
-**Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
+
+En el landing page, se ubicará una barra de navegación en la parte superior. Y un botón de inicio de sesión para ingresar a la aplicación. Una vez ingresado a la aplicación el usuario tendrá atajos para navegar por la aplicación en la parte superior de la pantalla.
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 
