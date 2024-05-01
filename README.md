@@ -1424,6 +1424,42 @@ Como</strong> usuario \
   <tr>
    <td>13
    </td>
+   <td>E5-US101
+   </td>
+   <td>Toolbar de navegación
+   </td>
+   <td><strong>Como </strong>usuario <strong>quiero</strong> usar una barra de navegación <strong>para </strong>navegar por las diferentes secciones de la app
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>14
+   </td>
+   <td>E5-US102
+   </td>
+   <td>Footer de la aplicación
+   </td>
+   <td><strong>Como </strong>usuario <strong>quiero</strong> acceder a un pie de página <strong>para </strong>ver información relevante y de contacto
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>15
+   </td>
+   <td>E5-US103
+   </td>
+   <td>Soporte técnico
+   </td>
+   <td><strong>Como </strong>usuario <strong>quiero</strong> acceder una sección de soporte técnico <strong>para </strong>hacer consultas o solucionar problemas técnicos
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>16
+   </td>
    <td>E3-US101
    </td>
    <td>Pantalla de inicio empresario
@@ -1434,7 +1470,7 @@ Como</strong> usuario \
    </td>
   </tr>
   <tr>
-   <td>14
+   <td>17
    </td>
    <td>E3-US102
    </td>
@@ -1446,7 +1482,7 @@ Como</strong> usuario \
    </td>
   </tr>
   <tr>
-   <td>15
+   <td>18
    </td>
    <td>E3-US103
    </td>
@@ -1458,7 +1494,7 @@ Como</strong> usuario \
    </td>
   </tr>
   <tr>
-   <td>16
+   <td>19
    </td>
    <td>E3-US104
    </td>
@@ -1470,7 +1506,7 @@ Como</strong> usuario \
    </td>
   </tr>
   <tr>
-   <td>17
+   <td>20
    </td>
    <td>E3-US105
    </td>
@@ -1484,7 +1520,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>18
+   <td>21
    </td>
    <td>E3-US106
    </td>
@@ -1496,7 +1532,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>19
+   <td>22
    </td>
    <td>E3-US107
    </td>
@@ -1508,7 +1544,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>20
+   <td>23
    </td>
    <td>E3-US108
    </td>
@@ -1520,7 +1556,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>21
+   <td>24
    </td>
    <td>E3-US109
    </td>
@@ -1532,7 +1568,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>22
+   <td>25
    </td>
    <td>E3-US110
    </td>
@@ -1544,7 +1580,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>23
+   <td>26
    </td>
    <td>E3-US111
    </td>
@@ -1556,7 +1592,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>24
+   <td>27
    </td>
    <td>E4-US101
    </td>
@@ -1568,7 +1604,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>26
+   <td>28
    </td>
    <td>E4-US102
    </td>
@@ -1580,7 +1616,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>
+   <td>29
    </td>
    <td>E4-US103
    </td>
@@ -1592,7 +1628,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>27
+   <td>30
    </td>
    <td>E4-US104
    </td>
@@ -1604,7 +1640,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>28
+   <td>31
    </td>
    <td>E4-US105
    </td>
@@ -1616,7 +1652,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
   </tr>
   <tr>
-   <td>29
+   <td>32
    </td>
    <td>E4-US106
    </td>
