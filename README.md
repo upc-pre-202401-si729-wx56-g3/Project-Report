@@ -515,13 +515,14 @@ Segmento 2: Desarrolladores
 ![alt text](image-2.png)
 
 ## 3.2. User Stories.
+
 <table>
   <colgroup>
-    <col style="width: 50px">
-    <col style="width: 80px">
-    <col style="width: 200px">
-    <col style="width: 400px">
-    <col style="width: 50px">
+    <col style="width: 5%;">
+    <col style="width: 15%;">
+    <col style="width: 25%;">
+    <col style="width: 50%;">
+    <col style="width: 5%;">
   </colgroup>
   <tr>
    <td>Epic / Story ID
@@ -692,7 +693,7 @@ Dado que</strong> el usuario se encuentra en el landing page
   <tr>
    <td>E1-US107
    </td>
-   <td>Sección plan para empresas de la pestaña membresias
+   <td>Sección plan para empresas de la pestaña membresías
    </td>
    <td><strong>Como </strong>representante de una empresa<strong>, quiero </strong>conocer los planes que se ofrecen <strong>para </strong>analizar servicios y costos y tomar decisiones
    </td>
@@ -832,26 +833,6 @@ Como</strong> empresario \
   <tr>
    <td>E3-US101
    </td>
-   <td>Publicar una solicitud de proyecto de software
-   </td>
-   <td><strong>Como</strong> empresario que necesita una página web, <strong>quiero </strong>emplear la aplicación para hacer pública una solicitud de proyecto de desarrollo web. <strong>para</strong> que los desarrolladores web independientes interesados puedan contactarnos.
-   </td>
-   <td><strong>Escenario: </strong>Publicar mi solicitud de proyecto web
-<p>
-<strong>Dado</strong> <strong>que </strong>soy un empresario y he iniciado sesión en la aplicación, 
-<p>
-<strong>Cuando</strong> visite el panel de control, donde encontrará la opción "Publicar un Proyecto". Haga clic en "Publicar un Proyecto" y proceda a completar un formulario que solicitará detalles sobre el proyecto, su presupuesto, la fecha límite y los requisitos necesarios.
-<p>
-<strong>Cuando</strong> haya completado el formulario y confirmado la publicación, el proyecto debe aparecer en la lista de proyectos disponibles para los desarrolladores web independientes.
-<p>
-<strong>Entonces</strong>, los desarrolladores web interesados en el proyecto deben poder verlo y contactarnos a través de la aplicación.
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>E3-US102
-   </td>
    <td>Pantalla de inicio empresario
    </td>
    <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar el proyecto o proyectos publicados <strong>para</strong> darme cuenta si hay propuestas de desarrolladores
@@ -863,11 +844,51 @@ Como</strong> empresario \
 <strong>Cuando</strong> esté en la pantalla de inicio \
 <strong>Entonces</strong> podré ver el proyecto o proyectos que he publicado
    </td>
-   <td>3
+   <td>8
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US102
+   </td>
+   <td>Publicar una solicitud de proyecto de software
+   </td>
+   <td><strong>Como</strong> empresario que necesita una página web, <strong>quiero </strong>emplear la aplicación para hacer pública una solicitud de proyecto de desarrollo web. <strong>para</strong> que los desarrolladores web independientes interesados puedan contactarnos.
+   </td>
+   <td><strong>Escenario: </strong>Publicar mi solicitud de proyecto web
+<p>
+<strong>Dado</strong> <strong>que </strong>soy un empresario y he iniciado sesión en la aplicación, 
+<p>
+<strong>Cuando</strong> acceda a la opción de crear nuevo proyecto y proceda a completar un formulario que solicitara detalles sobre el proyecto como presupuesto y la fecha límite.
+<p>
+<strong>Cuando</strong> haya completado el formulario y confirmado la publicación, el proyecto debe aparecer en la lista de proyectos disponibles para los desarrolladores.
+<p>
+<strong>Entonces</strong>, los desarrolladores web interesados en el proyecto deben poder verlo y contactarnos a través de la aplicación.
+   </td>
+   <td>5
    </td>
   </tr>
   <tr>
    <td>E3-US103
+   </td>
+   <td>Explorar de desarrolladores
+   </td>
+   <td><strong>Como</strong> empresario <strong>quiero</strong> acceder a una lista de desarrolladores <strong>para</strong> buscar alguno que sea de mi interes
+   </td>
+   <td><strong>Escenario 1: </strong>Búsqueda de desarrolladores.
+<p>
+<strong>Dado</strong> <strong>que </strong>soy un empresario
+<p>
+<strong>Y </strong>he iniciado sesion en la aplicación
+<p>
+<strong>Cuando</strong> ingrese a la sección de explorar desarrolladores
+<p>
+<strong>Entonces</strong>  podré ver una lista de desarrolladores y encontrar algún desarrollador de mi interes
+   </td>
+   <td>3
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US104
    </td>
    <td>Sistema de calificacion de desarrolladores
    </td>
@@ -895,11 +916,11 @@ Como</strong> empresario \
 <p>
 <strong>Entonces</strong>, calificare al desarrollador. 
    </td>
-   <td>3
+   <td>1
    </td>
   </tr>
   <tr>
-   <td>E3-US104
+   <td>E3-US105
    </td>
    <td>Visualizar repositorio de un desarrollador 
    </td>
@@ -915,13 +936,13 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces </strong>el usuario ingresará al apartado de desarrollador para visualizar sus trabajos realizados
    </td>
-   <td>3
+   <td>1
    </td>
   </tr>
   <tr>
-   <td>E3-US105
+   <td>E3-US106
    </td>
-   <td>Comunicación con el desarrollador mediante correo
+   <td>Comunicación con el desarrollador 
    </td>
    <td><strong>Como </strong>empresario <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el desarrollador
    </td>
@@ -932,11 +953,11 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces</strong> podré ingresar un texto que se le enviará un correo al desarrollador
    </td>
-   <td>3
+   <td>2
    </td>
   </tr>
   <tr>
-   <td>E3-US106
+   <td>E3-US107
    </td>
    <td>Aceptación de propuesta de solución
    </td>
@@ -949,28 +970,76 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces</strong> podrá aceptarla
    </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>E3-US107
-   </td>
-   <td>Seguimiento del proyecto
-   </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar entregas <strong>para</strong> evaluar los avances del desarrollador
-   </td>
-   <td><strong>Escenario: </strong>El usuario observa las entregas parciales de su proyecto
-<p>
-<strong>Dado que </strong>el empresario se encuentra en su dashboard \
-<strong>Cuando</strong> seleccione un proyecto en proceso
-<p>
-<strong>Entonces</strong> podrá observar las entregas parciales del mismo
-   </td>
-   <td>3
+   <td>1
    </td>
   </tr>
   <tr>
    <td>E3-US108
+   </td>
+   <td>Seguimiento de entregables del proyecto
+   </td>
+   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar una lista de entregas parciales <strong>para</strong> evaluar los avances del desarrollador
+   </td>
+   <td><strong>Escenario: </strong>El usuario observa las entregas parciales de su proyecto
+<p>
+<strong>Dado que </strong>el empresario se encuentra en su dashboard \
+<strong>Cuando</strong> seleccione un alguno de sus proyectos en proceso
+<p>
+<strong>Entonces</strong> podrá observar las entregas parciales del mismo
+   </td>
+   <td>8
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US109
+   </td>
+   <td>Visualizar un entregable
+   </td>
+   <td><strong>Como</strong> empresario <strong>quiero </strong>poder ver los detalles y archivos relacionados con un entregable <strong>para</strong> evaluar si cumple con los requerimientos y aceptarlo
+   </td>
+   <td><strong>Escenario 1</strong>: Evaluar y aceptar un entregable
+<p>
+<strong>Dado que </strong>soy un empresario y he iniciado sesion en la aplicación
+<p>
+<strong>Cuando </strong>ingrese a los entregables de un proyecto 
+<p>
+<strong>Y </strong>seleccione alguno de ellos
+<p>
+<strong>Entonces </strong>podré evaluarlo y aceptarlo
+<p>
+<strong>Escenario 2</strong>: Evaluar y NO aceptar un entregable
+<p>
+<strong>Dado que </strong>soy un empresario y he iniciado sesion en la aplicación
+<p>
+<strong>Cuando </strong>ingrese a los entregables de un proyecto 
+<p>
+<strong>Y </strong>seleccione alguno de ellos
+<p>
+<strong>Entonces </strong>podré evaluarlo y NO aceptarlo
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US110
+   </td>
+   <td>Proyectos destacados
+   </td>
+   <td><strong>Como</strong> empresario <strong>quiero </strong>ver los proyectos destacados que se han realizado mediante la app <strong>para</strong> conocer los éxitos de otras empresas y lo que es posible de lograr
+   </td>
+   <td><strong>Escenario 1</strong>: Evaluar y aceptar un entregable
+<p>
+<strong>Dado que </strong>soy un empresario y he iniciado sesion en la aplicación
+<p>
+<strong>Cuando </strong>ingrese a la sección de proyectos destacados
+<p>
+<strong>Entonces </strong>puedo visualizar los mejores proyectos que se han realizado gracias a la apliación
+   </td>
+   <td>8
+   </td>
+  </tr>
+  <tr>
+   <td>E3-US111
    </td>
    <td>Pago y cierre
    </td>
@@ -1108,363 +1177,7 @@ Como</strong> freelancer \
   </tr>
 </table>
 
-## 3.3. Impact Mapping.
 
-![Impact Mapping](image.jpg)
-
-## 3.4. Product Backlog.
-
-<table>
-  <tr>
-   <td>
-# Orden
-   </td>
-   <td>User story ID
-   </td>
-   <td>Título
-   </td>
-   <td>Descripción
-   </td>
-   <td>Story Points (1 / 2 / 3 / 5 / 8)
-   </td>
-  </tr>
-  <tr>
-   <td>1
-   </td>
-   <td>E1-US101
-   </td>
-   <td>Barra de navegación en landing page
-<p>
- 
-   </td>
-   <td><strong>Como</strong> usuario <strong>quiero </strong>una barra de navegación de landing page <strong>para </strong>tener accesos directos a la información de la aplicación 
-   </td>
-   <td>1
-   </td>
-  </tr>
-  <tr>
-   <td>2
-   </td>
-   <td>E1-US102
-   </td>
-   <td>Sección hero de landing page	
-   </td>
-   <td><strong>Como</strong> usuario
-<p>
-<strong>quiero</strong> visualizar una sección hero en el landing page
-<p>
-<strong>para</strong> tener una idea sobre lo que ofrece la aplicación<strong>	</strong>
-   </td>
-   <td>2
-   </td>
-  </tr>
-  <tr>
-   <td>3
-   </td>
-   <td>E1-US103
-   </td>
-   <td>Sección de preguntas frecuentes
-   </td>
-   <td><strong>Como</strong> usuario
-<p>
-<strong>Quiero</strong> tener acceso a una sección de preguntas frecuentes
-<p>
-<strong>para </strong>resolver mis posibles dudas
-   </td>
-   <td>2
-   </td>
-  </tr>
-  <tr>
-   <td>4
-   </td>
-   <td>E1-US104
-   </td>
-   <td>Sección de footer a la aplicación en landing page
-   </td>
-   <td><strong>Como </strong>usuario
-<p>
-<strong>quiero </strong>visualizar la sección de footer
-<p>
-<strong>para</strong> visualizar links de navegación e información de conctacto
-   </td>
-   <td>2
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>E1-US105
-   </td>
-   <td>Sección trabajo en equipo de la pestaña sobre nosotros
-   </td>
-   <td><strong>Como </strong>usuario
-<p>
-<strong>quiero</strong> acceder una sección acerca los involucrados en el proyecto
-<p>
-<strong>para</strong> conocer un poco más del equipo de trabajo
-   </td>
-   <td>2
-   </td>
-  </tr>
-  <tr>
-   <td>6
-   </td>
-   <td>E1-US106
-   </td>
-   <td>Sección de testimonios de la pestaña sobre nosotros
-   </td>
-   <td><strong>Como</strong> usuario
-<p>
-<strong>quiero</strong> leer comentarios o testimonios acerca de la página
-<p>
-<strong>para</strong> saber sobre experiencias reales de usuarios
-   </td>
-   <td>2
-   </td>
-  </tr>
-  <tr>
-   <td>7
-   </td>
-   <td>E1-US107
-   </td>
-   <td>Sección plan para empresas de la pestaña membresias
-   </td>
-   <td><strong>Como </strong>representante de una empresa<strong>, quiero </strong>conocer los planes que se ofrecen <strong>para </strong>analizar servicios y costos y tomar decisiones
-   </td>
-   <td>2
-   </td>
-  </tr>
-  <tr>
-   <td>8
-   </td>
-   <td>E1-US108
-   </td>
-   <td>Sección plan para desarrolladores de la pestaña membresías
-   </td>
-   <td><strong>Como </strong>desarrollador<strong>, quiero </strong>conocer los planes que se ofrecen <strong>para </strong>decidir si me conviene o no
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>9
-   </td>
-   <td>E1-US109
-   </td>
-   <td>Sección plan Te Ofrecemos de la pestaña membresías
-   </td>
-   <td><strong>Como </strong>posible usuario<strong>, quiero </strong>saber más acerca de los servicios de membresía <strong>para </strong>decidir si inscribirse o no
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>10
-   </td>
-   <td>E2-US101
-   </td>
-   <td>Registro de usuario
-   </td>
-   <td><strong>Como </strong>usuario <strong>quiero </strong>acceder a un apartado de registro <strong>para </strong>crear una cuenta
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>11
-   </td>
-   <td>E2-US102
-   </td>
-   <td>Iniciar Sesión
-   </td>
-   <td><strong>Como </strong>usuario de la página web<strong>, quiero </strong>acceder a una pestaña de login<strong> para </strong>iniciar sesión
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>12
-   </td>
-   <td>E2-US103
-   </td>
-   <td>Recuperación de contraseñas 
-   </td>
-   <td><strong>Como</strong> usuario <strong>quiero</strong> que la aplicación tenga un apartado que me permita recuperar mi contraseña en caso me olvide  <strong>para </strong>ingresar a mi cuenta de usuario
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>13
-   </td>
-   <td>E3-US101
-   </td>
-   <td>Publicar una solicitud de proyecto de software
-   </td>
-   <td><strong>Como</strong> empresario que necesita una página web, <strong>quiero </strong>emplear la aplicación para hacer pública una solicitud de proyecto de desarrollo web. <strong>para</strong> que los desarrolladores web independientes interesados puedan contactarnos.
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>16
-   </td>
-   <td>E3-US102
-   </td>
-   <td>Pantalla de inicio empresario
-   </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar el proyecto o proyectos publicados <strong>para</strong> darme cuenta si hay propuestas de desarrolladores
-   </td>
-   <td>5
-   </td>
-  </tr>
-  <tr>
-   <td>14
-   </td>
-   <td>E3-US103
-   </td>
-   <td>Sistema de calificacion de desarrolladores
-   </td>
-   <td><strong>Como</strong> empresario <strong>quiero</strong> un sistema de calificación <strong>para</strong> conocer la fiabilidad de los desarrolladores web.
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>22
-   </td>
-   <td>E3-US104
-   </td>
-   <td>Visualizar repositorio de un desarrollador 
-   </td>
-   <td><strong>Como</strong> empresario <strong>quiero</strong>
-<p>
-visualizar una lista con los trabajos realizados por un desarrollador <strong>para</strong> poder tener una mayor confianza al momento de necesitar contactar con alguno 
-   </td>
-   <td>8
-   </td>
-  </tr>
-  <tr>
-   <td>17
-   </td>
-   <td>E3-US105
-   </td>
-   <td>Comunicación con el desarrollador mediante correo
-   </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el desarrollador
-   </td>
-   <td>5
-   </td>
-  </tr>
-  <tr>
-   <td>15
-   </td>
-   <td>E3-US106
-   </td>
-   <td>Aceptación de propuesta de solución
-   </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong> una opción de seleccionar <strong>para</strong> para aceptar la propuesta de un desarrollador
-   </td>
-   <td>3
-   </td>
-  </tr>
-  <tr>
-   <td>18
-   </td>
-   <td>E3-US107
-   </td>
-   <td>Seguimiento del proyecto
-   </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong> visualizar entregas <strong>para</strong> evaluar los avances del desarrollador
-   </td>
-   <td>5
-   </td>
-  </tr>
-  <tr>
-   <td>23
-   </td>
-   <td>E3-US108
-   </td>
-   <td>Pago y cierre
-   </td>
-   <td><strong>Como </strong>empresario <strong>quiero</strong> una interfaz intuitiva y segura  de pago <strong>para</strong> ingresar mi información y realizar el pago
-   </td>
-   <td>8
-   </td>
-  </tr>
-  <tr>
-   <td>24
-   </td>
-   <td>E4-US101
-   </td>
-   <td>Enviar propuestas a publicaciones de proyectos
-   </td>
-   <td><strong>Como </strong>freelancer, <strong>quiero</strong> utilizar la aplicación <strong>para</strong> buscar proyectos de desarrollo web publicados por empresas y postularse a aquellos que se ajusten a mis habilidades y disponibilidad.
-   </td>
-   <td>8
-   </td>
-  </tr>
-  <tr>
-   <td>25
-   </td>
-   <td>E4-US102
-   </td>
-   <td>Pantalla de inicio del freelancer
-   </td>
-   <td><strong>Como </strong>freelancer <strong>quiero</strong> visualizar todos los proyectos que debo de desarrollar  <strong>para</strong> poder tener facilidades en el  envío de los avances
-   </td>
-   <td>5
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>E4-US103
-   </td>
-   <td>Indicaciones para la entrega de avance de la página web
-   </td>
-   <td><strong>Como</strong> freelancer <strong>quiero </strong>conocer las deadlines de entregas parciales <strong>para </strong>entregar mi avance a tiempo 
-   </td>
-   <td>8
-   </td>
-  </tr>
-  <tr>
-   <td>20
-   </td>
-   <td>E4-US104
-   </td>
-   <td>Sistema de calificación de pago de los proyectos
-   </td>
-   <td><strong>Como </strong>freelancer <strong>quiero</strong> que la aplicación organice los proyecto en función del más pagado <strong>para </strong>escoger más rápido el proyecto de software
-   </td>
-   <td>5
-   </td>
-  </tr>
-  <tr>
-   <td>21
-   </td>
-   <td>E4-US105
-   </td>
-   <td>Comunicación con el empresario mediante correo
-   </td>
-   <td><strong>Como </strong>desarrollador <strong>quiero</strong> una opción chat <strong>para</strong> poder comunicarme con el empresario
-   </td>
-   <td>5
-   </td>
-  </tr>
-  <tr>
-   <td>26
-   </td>
-   <td>E4-US106
-   </td>
-   <td>Apartado de pagos recibidos y facturación
-   </td>
-   <td><strong>Como </strong>desarrollador <strong>quiero</strong> una sección de pagos <strong>para </strong>observar mis boletas y pago recibido
-   </td>
-   <td>8
-   </td>
-  </tr>
-</table>
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
