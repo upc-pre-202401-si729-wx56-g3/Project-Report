@@ -515,17 +515,17 @@ Segmento 2: Desarrolladores
 ![alt text](image-2.png)
 
 ## 3.2. User Stories.
-
 <table>
   <colgroup>
-    <col style="width: 50px">
-    <col style="width: 80px">
+    <col style="width: 20px">
+    <col style="width: 40px">
+    <col style="width: 100px">
     <col style="width: 200px">
-    <col style="width: 400px">
-    <col style="width: 50px">
+    <col style="width: 20px">
   </colgroup>
   <tr>
-   <td>Epic / Story ID
+   <td>
+Epic / Story ID
    </td>
    <td>Título
    </td>
@@ -844,7 +844,7 @@ Como</strong> empresario \
 <strong>Cuando</strong> esté en la pantalla de inicio \
 <strong>Entonces</strong> podré ver el proyecto o proyectos que he publicado
    </td>
-   <td>8
+   <td>3
    </td>
   </tr>
   <tr>
@@ -864,7 +864,7 @@ Como</strong> empresario \
 <p>
 <strong>Entonces</strong>, los desarrolladores web interesados en el proyecto deben poder verlo y contactarnos a través de la aplicación.
    </td>
-   <td>5
+   <td>3
    </td>
   </tr>
   <tr>
@@ -916,7 +916,7 @@ Como</strong> empresario \
 <p>
 <strong>Entonces</strong>, calificare al desarrollador. 
    </td>
-   <td>1
+   <td>3
    </td>
   </tr>
   <tr>
@@ -936,7 +936,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces </strong>el usuario ingresará al apartado de desarrollador para visualizar sus trabajos realizados
    </td>
-   <td>1
+   <td>3
    </td>
   </tr>
   <tr>
@@ -953,7 +953,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces</strong> podré ingresar un texto que se le enviará un correo al desarrollador
    </td>
-   <td>2
+   <td>3
    </td>
   </tr>
   <tr>
@@ -970,7 +970,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces</strong> podrá aceptarla
    </td>
-   <td>1
+   <td>3
    </td>
   </tr>
   <tr>
@@ -987,7 +987,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces</strong> podrá observar las entregas parciales del mismo
    </td>
-   <td>8
+   <td>3
    </td>
   </tr>
   <tr>
@@ -1017,7 +1017,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces </strong>podré evaluarlo y NO aceptarlo
    </td>
-   <td>5
+   <td>3
    </td>
   </tr>
   <tr>
@@ -1035,7 +1035,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
 <p>
 <strong>Entonces </strong>puedo visualizar los mejores proyectos que se han realizado gracias a la apliación
    </td>
-   <td>8
+   <td>3
    </td>
   </tr>
   <tr>
@@ -1173,6 +1173,66 @@ Como</strong> freelancer \
 <strong>Entonces</strong> podrá observar su boleta o factura
    </td>
    <td>4
+   </td>
+  </tr>
+  <tr>
+   <td colspan="5" ><strong>Epic 5: Funcionalidades generales de usuario \
+Como</strong> usuario \
+<strong>Quiero</strong> funcionalidades generales que faciliten el uso de la aplicación \
+<strong>Para </strong>lograr mis objetivos dentro de esta
+   </td>
+  </tr>
+  <tr>
+   <td>E5-US101
+   </td>
+   <td>Toolbar de navegación
+   </td>
+   <td><strong>Como </strong>usuario <strong>quiero</strong> usar una barra de navegación <strong>para </strong>navegar por las diferentes secciones de la app
+   </td>
+   <td><strong>Escenario: </strong>El usuario usa la barra de navegación
+<p>
+<strong>Dado que</strong> el usuario ha iniciado sesión \
+<strong>Cuando</strong> se dirije hacia la barra de navegación
+<p>
+<strong>Entonces</strong> puede dar click a las diferentes opciones
+<p>
+<strong>Y </strong>ir a las distintas secciones
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>E5-US102
+   </td>
+   <td>Footer de la aplicación
+   </td>
+   <td><strong>Como </strong>usuario <strong>quiero</strong> acceder a un pie de página <strong>para </strong>ver información relevante y de contacto
+   </td>
+   <td><strong>Escenario: </strong>El usuario usa el footer de la aplicación
+<p>
+<strong>Dado que</strong> el usuario ha iniciado sesión \
+<strong>Cuando</strong> se dirije hacia el footer
+<p>
+<strong>Entonces</strong> puede ver información relevante
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>E5-US103
+   </td>
+   <td>Soporte técnico
+   </td>
+   <td><strong>Como </strong>usuario <strong>quiero</strong> acceder una sección de soporte técnico <strong>para </strong>hacer consultas o solucionar problemas técnicos
+   </td>
+   <td><strong>Escenario: </strong>El usuario usa la sección de soporte técnico
+<p>
+<strong>Dado que</strong> el usuario ha iniciado sesión \
+<strong>Cuando</strong> ingrese a la sección de soporte técnico
+<p>
+<strong>Entonces</strong> puede enviar un mensaje expresando su consulta o problema
+   </td>
+   <td>5
    </td>
   </tr>
 </table>
