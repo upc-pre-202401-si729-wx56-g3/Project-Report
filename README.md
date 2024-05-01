@@ -1564,7 +1564,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
    <td><strong>Como</strong> empresario <strong>quiero </strong>poder ver los detalles y archivos relacionados con un entregable <strong>para</strong> evaluar si cumple con los requerimientos y aceptarlo
    </td>
-   <td>
+   <td>5
    </td>
   </tr>
   <tr>
@@ -1576,7 +1576,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
    <td><strong>Como</strong> empresario <strong>quiero </strong>ver los proyectos destacados que se han realizado mediante la app <strong>para</strong> conocer los éxitos de otras empresas y lo que es posible de lograr
    </td>
-   <td>
+   <td>8
    </td>
   </tr>
   <tr>
@@ -1588,7 +1588,7 @@ visualizar una lista con los trabajos realizados por un desarrollador <strong>pa
    </td>
    <td><strong>Como </strong>empresario <strong>quiero</strong> una interfaz intuitiva y segura  de pago <strong>para</strong> ingresar mi información y realizar el pago
    </td>
-   <td>
+   <td>5
    </td>
   </tr>
   <tr>
