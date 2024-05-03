@@ -35,7 +35,7 @@
 # Student Outcome TP
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TP:***  Su texto <br><br>Jorge Quilla:<br> ***TP:*** Su texto<br><br>Piero Ticona:<br> ***TP:***  Su texto<br><br>Juan Carrasco:<br> ***TP:***  Su texto ||Jair Velasquez:<br> ***TP:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TP:*** Su texto <br><br>Piero Ticona:<br> ***TP:***  Su texto<br><br>Juan Carrasco:<br> ***TP:***  Su texto | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TP:***  Desarrollo de los componentes Home-profile y create-project <br><br>Jorge Quilla:<br> ***TP:*** Desarrollo de los componentes deliverables, sidenav y footer<br><br>Piero Ticona:<br> ***TP:***  Desarrollo de los componentes auth, support, message y lookingfordevelop<br><br>Juan Carrasco:<br> ***TP:***  Desarrollo de los componentes highlight-projects y review-deliverable ||Jair Velasquez:<br> ***TP:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TP:*** Su texto <br><br>Piero Ticona:<br> ***TP:***  Su texto<br><br>Juan Carrasco:<br> ***TP:***  Su texto | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
 
 # Contenido
 ## Tabla de contenidos
@@ -2437,13 +2437,87 @@ El equipo de desarrollo del landing utilizo las ramas para desarrollar cada secc
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2.
+
+|<a name="_6cxtvwxzjfs6"></a>Sprint #|Sprint 2|
+| :- | :- |
+|Sprint Planning Background||
+|Date|9 del 2024|
+|Time|10 horas (GMT -5)|
+|Location|Modalidad remota por Meet|
+|Prepared By|SiteForge|
+|Attendees (to planning meeting)|Todos los miembros del grupo SiteForge|
+|Sprint n – 0 Review Summary|Review del Spring 1 .|
+|Sprint n – 1 Retrospective Summary|En este sprint se planea desarrollar el Fronted de la plataforma web utilizando Angular.|
+|Sprint Goal & User Stories| El objetivo del Sprint 2 es desarrollar el fronted de la aplicación web.|
+|Sprint 1 Velocity|8|
+|Sum of Story Points|8|
+
 #### 5.2.2.2. Sprint Backlog 2.
+
+<table><tr><th colspan="2" valign="top"><a name="_6cxtvwxzjfs6"></a><b>SPRINT</b></th><th colspan="6" valign="top"><b>SPRINT 1</b></th></tr>
+<tr><td colspan="2" valign="top"></td><td colspan="6" valign="top"><b>Work-Item / Task</b></td></tr>
+<tr><td valign="top"><b>User Story ID</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Tiempo (horas)</b></td><td valign="top"><b>Assigned to</b> </td><td valign="top"><b>Status (to-do/ in process/ To review/ done</b></td></tr>
+<tr><td rowspan="2" valign="top">E1-US101</td><td rowspan="2" valign="top">Barra de navegación del Landing Page</td><td valign="top">T1</td><td valign="top">Navbar section</td><td valign="top">Implementación del navbar con botón de ingreso a la aplicación WebMasters.</td><td valign="top">2</td><td valign="top"><p>Fernando</p><p>Carrasco</p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T2</td><td valign="top">Responsive design navbar section</td><td valign="top">Añadir el diseño responsive para la barra de navegación</td><td valign="top">2</td><td valign="top"><p>Fernando</p><p>Carrasco</p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US102</td><td rowspan="2" valign="top">Sección hero de landing page</td><td valign="top">T3</td><td valign="top">Hero section</td><td valign="top">Implementación del apartado hero section</td><td valign="top">3</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T4</td><td valign="top">Responsive design hero section</td><td valign="top">Añadir el diseño responsive para la hero section</td><td valign="top">4</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US103</td><td rowspan="2" valign="top">Sección de producto de landing page</td><td valign="top">T5</td><td valign="top">Features section</td><td valign="top">Implementar sección de características de la aplicación.</td><td valign="top">3</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T6</td><td valign="top">Responsive design features section</td><td valign="top">Añadir el diseño responsive para la features section</td><td valign="top">1</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US104</td><td rowspan="2" valign="top">Sección de testimonios en landing page</td><td valign="top">T7</td><td valign="top">Testimonials section</td><td valign="top">Implementar las tarjetas con los testimonios de los usuarios.</td><td valign="top">3</td><td valign="top">Piero Ticona</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T8</td><td valign="top">Responsive design  testimonials section</td><td valign="top">Añadir el diseño responsive para la sección de testimonios</td><td valign="top">0\.5 </td><td valign="top">Piero Ticona</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US105</td><td rowspan="2" valign="top">Sección de planes en landing page</td><td valign="top">T19</td><td valign="top">Pricing section</td><td valign="top">Implementar sección de membresía de acuerdo al segmento.</td><td valign="top">3</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T10</td><td valign="top">Responsive design  pricing section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">4</td><td valign="top">Jair Velasquez</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E1-US106</td><td rowspan="2" valign="top">Sección de footer a la aplicación en landing page</td><td valign="top">T11</td><td valign="top">Footer section</td><td valign="top">Implementación del footer</td><td valign="top">2</td><td valign="top"><p>Piero</p><p>Ticona</p></td><td valign="top">To-Do</td></tr>
+<tr><td valign="top">T12</td><td valign="top">Responsive design  footer section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">2</td><td valign="top"><p>Piero</p><p>Ticona</p></td><td valign="top">To-Do</td></tr>
+<tr><td rowspan="2" valign="top">E1-US107</td><td rowspan="2" valign="top">Sección para conocer al equipo de trabajo</td><td valign="top">T1</td><td valign="top">Team presentation section</td><td valign="top">Implementar sección con contactos del equipo de trabajo</td><td valign="top">3</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T2</td><td valign="top">Responsive design  team presentation section</td><td valign="top">Añadir el diseño responsive para la sección</td><td valign="top">1</td><td valign="top">Gerardo Quilla</td><td valign="top">Done</td></tr>
+</table>
+
 #### 5.2.2.3.Development Evidence for Sprint Review. 
+
+A continuación, se presentan los commits realizados en el repositorio de la landing page en el Github.
+Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-LandingPage
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
+| :- | :- | :- | :- | :- | :- |
+|FromZero-LandingPage|develop|c37d83725370c6241b03f2c3084fcd0cb12b9232|Initial commit||26/03/2024|
+||develop|b4f78db787a4cb34cbf152d7ad84c34f1344eccb|feat: add index.html and directiroesfor css and js||09/04/2024|
+||develop|49eb5c4c33cc1ac3f890acb5603d50fa627f5c81|feat: add example.js for directory structure||09/04/2024|
+||develop|32be507c3c556d174585131055964a2ce883e083|feat: add bootstrap, html code basic and logoico||09/04/2024|
+||develop|80b55e427f570663e638c015cd6e3178f02ae6de|feat: add membership page and styles||09/04/2024|
+||develop|089f264d1d20a888f7f44ea61c691c4ad54f61d2|Merge pull request #1 from upc-pre-202401-si729-wx56-g3/feature/membership-weOffer|feat: add membership page and styles and we offer section|09/04/2024|
+||develop|896427c7fccaf0dd0d48a34021127bf9d0499bd3|feat: adding subjects 1-3||13/04/2024|
+||develop|ec53dba4fb8d94aa86dec0f22ad8ad1472137b86|feat: footer testimonial and blogs added||13/04/2024|
+||develop|98180a0fbab193723e74e820b5c15e7708dfa417|Merge pull request #2 from upc-pre-202401-si729-wx56-g3/feature/1-3|feat: adding hero section and created pages|13/04/2024|
+||develop|467a343b50eb92ce398eb4b47c0fbe1cdb9c7860|Merge pull request #3 from upc-pre-202401-si729-wx56-g3/feature/featured-section|feat: footer testimonial and blogs added|14/04/2024|
+||main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+||main|51b10c25def082c8e92eb8b6c2def9fd86464766|feat: fixing the project structure||14/04/2024|
+||main|0c68a9d22dbd3054779c4c0152cd688841e48dfe|feat: fixing # On branch main||14/04/2024|
+||main|0c0bdb8b390624c045dbd7b0f5e9dbb8472fb830|Merge branch 'develop'||14/04/2024|
+||main|875ea235bf1eb791f9400a6e73bfb9fcdbb0b0f3|feat: fixing logo icon||14/04/2024|
+
 #### 5.2.2.4.Testing Suite Evidence for Sprint Review. 
-#### 5.2.2.5.Execution Evidence for Sprint Review. 
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
+| :- | :- | :- | :- | :- | :- |
+|FromZero-LandingPage|main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+Para esta entrega, el equipo SiteForge logró la implementación la parte del fronted, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
+
+a continuación, se muestran algunas de las pantallas de la pagina web:
+
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review. 
+
+
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review. 
+
+
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+En el Sprint 2, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe. 
+Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentará la web:
 
 
 # Conclusiones
@@ -2453,6 +2527,8 @@ El equipo de desarrollo del landing utilizo las ramas para desarrollar cada secc
 * **Equipo Multidisciplinario**: La composición de nuestra startup por un equipo de cinco miembros nos proporciona un enfoque fresco y multidisciplinario. Esta diversidad puede ser una ventaja, ya que cada integrante puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo la oferta de servicios y aumentando la originalidad y eficacia del proyecto.
 
 * **Identificación de una Necesidad Clara**: From Zero ha identificado una creciente necesidad en el mercado, donde empresas y emprendimientos requieren una sólida presencia en línea para potenciar sus estrategias de marketing digital. Esta identificación precisa de una demanda real puede ser un factor determinante para el éxito, ya que abordar una necesidad concreta puede generar un gran interés y participación.
+
+
 
 
 # Bibliografía
