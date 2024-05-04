@@ -2442,7 +2442,7 @@ El equipo de desarrollo del landing utilizo las ramas para desarrollar cada secc
 |Sprint n – 1 Retrospective Summary|Se planea desarrollar avances del front-end de la aplicación web, donde se incluirán las vistas para la autenticación del usuario y vistas core del usuario empresa. Por otro lado, se espera mejorar el landing page desarrollado en el anterior sprint para agregarle un diseño responsive completo. Asimismo, hemos organizado las tareas a realizar a través de la plataforma Trello. Al finalizar este sprint, el landing page debe tener una versión actualizada y una demo de la aplicación web front-end deben estar desplegados con Netlify. Sin embargo, los datos en la aplicación web no deberían visualizarse a menos que el usuario tenga el servidor json ejecutándose.|
 |Sprint Goal & User Stories||
 |Sprint 1 Velocity|56|
-|Sum of Story Points|36|
+|Sum of Story Points|69|
 
 #### 5.2.2.2. Sprint Backlog 2.
 
@@ -2470,13 +2470,13 @@ Link a board en Trello:
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E3-US106      | Comunicación con el desarrollador         | T2 | Funcionalidad de comunicación con desarrolladores    | Implementar un sistema de mensajería para que los usuarios puedan comunicarse con los desarrolladores. | 2               | Piero Ticona | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US107      | Aceptación de propuesta de solución       | T2 | Aceptación de propuestas de solución               | Desarrollar un sistema para que los usuarios puedan aceptar propuestas de solución presentadas por los desarrolladores. | 2               | Jair Velasquez | Done                                     |
+| E3-US107      | Aceptación de propuesta de solución       | T2 | Aceptación de propuestas de solución               | Desarrollar un sistema para que los usuarios puedan aceptar propuestas de solución presentadas por los desarrolladores. | 3.5               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US108      | Seguimiento de entregables del proyecto   | T2 | Funcionalidad de seguimiento de entregables         | Implementar una funcionalidad que permita hacer seguimiento de los entregables del proyecto. | 2               | Jair Velasquez | Done                                     |
+| E3-US108      | Seguimiento de entregables del proyecto   | T2 | Funcionalidad de seguimiento de entregables         | Implementar una funcionalidad que permita hacer seguimiento de los entregables del proyecto. | 3                | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E3-US109      | Visualizar un entregable                  | T2 | Interfaz para visualizar los entregables del proyecto | Desarrollar una interfaz que permita a los usuarios visualizar los entregables del proyecto. | 2               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US110      | Proyectos destacados                      | T2 | Destacar proyectos en la plataforma                | Implementar una funcionalidad para destacar proyectos en la plataforma.               | 2               | Fernando Carrasco | Done                                     |
+| E3-US110      | Proyectos destacados                      | T2 | Destacar proyectos en la plataforma                | Implementar una funcionalidad para destacar proyectos en la plataforma.               | 3               | Fernando Carrasco | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E5-US101      | Toolbar de navegación                      | T2 | Implementar una toolbar de navegación              | Desarrollar una toolbar que facilite la navegación dentro de la aplicación.          | 2               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
@@ -2586,9 +2586,7 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 
 #### 5.2.2.4.Testing Suite Evidence for Sprint Review. 
 
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
-| :- | :- | :- | :- | :- | :- |
-|FromZero-LandingPage|main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+En el alcance del sprint 2 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 
