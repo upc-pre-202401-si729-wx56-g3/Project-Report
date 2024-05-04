@@ -21,6 +21,7 @@
 | 1.1 | 11/04/2024 | Grupo 3 | Capitulo 3 |
 | 1.1 | 13/04/2024 | Grupo 3 | Capitulo 4 |
 | 1.1 | 14/04/2024 | Grupo 3 | Capitulo 5 |
+| 2.0 | 03/05/2024 | Grupo 3 | Capitulo 5 Sprint 2 |
 
 # Project Report Collaboration Insights
 [URL del repositorio](https://github.com/upc-pre-202401-si729-wx56-g3)
@@ -36,6 +37,7 @@
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
 |Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TP:***  Desarrollo de los componentes Home-profile y create-project <br><br>Jorge Quilla:<br> ***TP:*** Desarrollo de los componentes deliverables, sidenav y footer<br><br>Piero Ticona:<br> ***TP:***  Desarrollo de los componentes auth, support, message y lookingfordevelop<br><br>Juan Carrasco:<br> ***TP:***  Desarrollo de los componentes highlight-projects y review-deliverable ||Jair Velasquez:<br> ***TP:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TP:*** Su texto <br><br>Piero Ticona:<br> ***TP:***  Su texto<br><br>Juan Carrasco:<br> ***TP:***  Su texto | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
+
 
 # Contenido
 ## Tabla de contenidos
@@ -121,9 +123,9 @@
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
-    - [5.2.2. Sprint 2](#521-sprint-2)
-      - [5.2.2.1. Sprint Planning 1](#5221-sprint-planning-1)
-      - [5.2.2.2. Sprint Backlog 1](#5222-sprint-backlog-1)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
       - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
       - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
       - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
@@ -2489,29 +2491,100 @@ Link a board en Trello:
 | E5-US103      | Soporte técnico                            | T2 | Funcionalidad de soporte técnico                  | Implementar una funcionalidad que permita a los usuarios solicitar soporte técnico dentro de la aplicación. | 2               | Piero Ticona | Done                                     |
 
 
-
 #### 5.2.2.3.Development Evidence for Sprint Review. 
 
-A continuación, se presentan los commits realizados en el repositorio de la landing page en el Github.
-Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-LandingPage
+A continuación, se presentan los commits realizados en el repositorio de la aplicacion web en el Github.
+Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-App
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
 | :- | :- | :- | :- | :- | :- |
-|FromZero-LandingPage|develop|c37d83725370c6241b03f2c3084fcd0cb12b9232|Initial commit||26/03/2024|
-||develop|b4f78db787a4cb34cbf152d7ad84c34f1344eccb|feat: add index.html and directiroesfor css and js||09/04/2024|
-||develop|49eb5c4c33cc1ac3f890acb5603d50fa627f5c81|feat: add example.js for directory structure||09/04/2024|
-||develop|32be507c3c556d174585131055964a2ce883e083|feat: add bootstrap, html code basic and logoico||09/04/2024|
-||develop|80b55e427f570663e638c015cd6e3178f02ae6de|feat: add membership page and styles||09/04/2024|
-||develop|089f264d1d20a888f7f44ea61c691c4ad54f61d2|Merge pull request #1 from upc-pre-202401-si729-wx56-g3/feature/membership-weOffer|feat: add membership page and styles and we offer section|09/04/2024|
-||develop|896427c7fccaf0dd0d48a34021127bf9d0499bd3|feat: adding subjects 1-3||13/04/2024|
-||develop|ec53dba4fb8d94aa86dec0f22ad8ad1472137b86|feat: footer testimonial and blogs added||13/04/2024|
-||develop|98180a0fbab193723e74e820b5c15e7708dfa417|Merge pull request #2 from upc-pre-202401-si729-wx56-g3/feature/1-3|feat: adding hero section and created pages|13/04/2024|
-||develop|467a343b50eb92ce398eb4b47c0fbe1cdb9c7860|Merge pull request #3 from upc-pre-202401-si729-wx56-g3/feature/featured-section|feat: footer testimonial and blogs added|14/04/2024|
-||main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
-||main|51b10c25def082c8e92eb8b6c2def9fd86464766|feat: fixing the project structure||14/04/2024|
-||main|0c68a9d22dbd3054779c4c0152cd688841e48dfe|feat: fixing # On branch main||14/04/2024|
-||main|0c0bdb8b390624c045dbd7b0f5e9dbb8472fb830|Merge branch 'develop'||14/04/2024|
-||main|875ea235bf1eb791f9400a6e73bfb9fcdbb0b0f3|feat: fixing logo icon||14/04/2024|
+|FromZero-LandingPage|develop|ee461ee13ed4dc32aff27de4d0491ae8fbec770f|Initial commit||18/04/2024|
+||develop|41eef0bc347d39edab4cac32451b325e7ddcd82b|Chore: Initial configuration||18/04/2024|
+||develop|dbb0ff97b0c6c60dca0ceaea4e3ffffb8308c7e6|chore: add basic directories||19/04/2024|
+||develop|c14c835ff2350cd8f0c361344555567a6a038ad6|chore: deleting example files||19/04/2024|
+||develop|3d0a2a9715e25d15cd068b3ec078af365711e962|Revert "chore: deleting example files"||19/04/2024||
+||develop|d908bdcd474f3f20bbd57965eb801c57dc59ad43|chore: adding tailwind css configuration||21/04/2024||
+||develop|4104a3047c99474ca3ffc8fe3cc265124394f79c|feat: adding background color||22/04/2024||
+||develop|9bdedc8a0aa49fc3b16235e053cead7032923bc1|chore: adding tailwind configuration||22/04/2024||
+||develop|2b55d94596a5b36b7ee96a7b1778272429ba2669|commit: adding form create-project base||22/04/2024||
+||develop|a4a6d47dce8eb872c518c8ffef73929e7a67f581|feat: sidenav structure and styles added||23/04/2024||
+||develop|1b738ff488f0073f68952936935b5864299380cf|feat: responsive sidenav added||23/04/2024||
+||develop|54511ec694b6e7d8a8191e5f08aa0ffff486028f|feat: footer added||24/04/2024||
+||develop|885c3e33428a0c6faad40d6c2b7a2a8b8f862078|fix: sidenav fixed||24/04/2024||
+||develop|ba1a4f8ebfd49a202b84176a36509956a24b4b59|feat: auth content added||25/04/2024||
+||develop|17f1f220ea93e3dd0ba81defd99bc077852efbd5|feat: deliverables added||26/04/2024||
+||develop|45ac671a00ba086509393f19958c28af467eac0b|commit: changes on styles in form-project||27/04/2024||
+||develop|7709ca03636f57795e0c4db728ee988ac6346381|commit: adding components and models (enterprise)||27/04/2024||
+||develop|38bc824a217ae4b4f63928fd2b61fb5862ce8433|feat: adding basic components||27/04/2024||
+||develop|f84304e38893bf7ac9c22b4d9fb8008e653d4878|feat: adding candidates-dialog and edit-profile||28/04/2024||
+||develop|c2abc39097d775f1a82d79675f8b761f5be5fda7|feat: adding candidates-dialog component||29/04/2024||
+||develop|bb8a8046f8ad9a3c48f7703edaf6299eddb7a7db|feat: adding home-page component||29/04/2024||
+||develop|08a3d6061b8b168958d0d6b38250ceac3756b5d2|feat: adding validators and dialog||29/04/2024||
+||develop|5ef6a66d64c0378c28e639894b3539ad18330a6d|feat: adding logo.ico and meta tags||29/04/2024||
+||develop|6d90b4ff4e99451d6cfc1fca96809394595f0e12|chore: deleting app-sidenav test||29/04/2024||
+||develop|9ef037968b14f1e453fce825f612efeeb37a2d4f|Merge pull request #1 from upc-pre-202401-si729-wx56-g3/feature/sidenav||29/04/2024||
+||develop|76b0b93b337fe0bbf289615d18b0386e553928dc|Merge branch 'develop' into feature/footer||29/04/2024||
+||develop|0b269b657a632a63b6be67b32c59a5ed39be385e|Merge pull request #2 from upc-pre-202401-si729-wx56-g3/feature/footer||29/04/2024||
+||develop|0d8871e72240ced651e518601884c87f77e07c1c|fix: last changes for merge||29/04/2024||
+||develop|c7513460779556e043221de5f85b6be1a76f31aa|fix: last changes for merge||29/04/2024||
+||develop|faeb3236fc7b04f2a7f9106d697d234793305a58|Merge branch 'develop' into feature/deliverables||29/04/2024||
+||develop|7532f13ac92d704c78d2f661b74022a57b1c8bc1|Merge pull request #3 from upc-pre-202401-si729-wx56-g3/feature/deliverables||29/04/2024||
+||develop|a457456e302cda00944a760f252ddf5c17325378|fix: comma fixed||29/04/2024||
+||develop|a659a2ca01c9f502b31b0226ec8eefffe35c3893|Merge branch 'develop' into feature/home-enterprise||29/04/2024||
+||develop|74099403ba7d4242ee22bd5289b5280b9828c897|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/home-enterprise||29/04/2024||
+||develop|bbeb9f52b62e8b73671deb505f665703d55f14ec|fix: fixing commas||29/04/2024||
+||develop|9b225e0c6d7842ae0860648b941919e7c4d0f27c|feat: adding responsive to create-project||29/04/2024||
+||develop|667a1242a69c86c583bd1631ea262d18b707d188|Merge branch 'develop' into feature/create-project||29/04/2024||
+||develop|971e0ff99b680e1957f4bd428cf82d34d155e9e4|Merge pull request #5 from upc-pre-202401-si729-wx56-g3/feature/create-project||29/04/2024||
+||develop|33f5f4d8ea44b80b46da4989227d083f1d8477d3|fix: fixing errors on imports||29/04/2024||
+||develop|db6409352cb69463490f7f7b533dd297cf1d108d|Merge branch 'develop' into feature/auth||29/04/2024||
+||develop|c19b31c5b82b5bcd25845fa1f3bb12675a352859|Merge pull request #6 from upc-pre-202401-si729-wx56-g3/feature/auth||29/04/2024||
+||develop|70a68d71bc191dd41d81223180aff8f4d3159fe3|feat: interface examples for testing||29/04/2024||
+||develop|939040c4c52e0aedd2a0d7548bd3acc681cb6e48|feat: message structure added||29/04/2024||
+||develop|1331b9f794a6df9f2f605a4916cc2f7465d4e913|feat: support structure added||29/04/2024||
+||develop|21ccf249ece91dd46993891f69b1d2a47051cc4f|feat: lookingfordevelop structure added||29/04/2024||
+||develop|49aa9c61166d6638fff546e191fa3052f70b9b81|added feat review deliverables||30/04/2024||
+||develop|d560d7a92b152c7d01b71d8590ddfb5f1ef6b55b|feat: added highlight projects components||30/04/2024||
+||develop|7fbf9397c92e2dae7ab244a02f308136ae36c45e|feat: project-list.component first draft||30/04/2024||
+||develop|6f53212ee0703ce6812d451a395978bd17da07a6|feat: added highlight-project images||30/04/2024||
+||develop|6cedd8ca26450ba54cf5b84596cc4a2b64a6b1d0|feat: highlight-project parte visual completada||30/04/2024||
+||develop|6508b765f7b21ab114004ae90a6e282dcb5b307a|feat: implementacion de filtros||30/04/2024||
+||develop|a9824375bac62eacafc727dabb81454f222da1c3|feat: prueba estrellas||30/04/2024||
+||develop|aa0a45a0ceedbb5ecb7569553edd0a8b187af4ef|feat: prueba estrellas 2||30/04/2024||
+||develop|91a88eef09cf8c1f1e0d5c4ad3e6c965e2776a4a|feat: message style added||30/04/2024||
+||develop|c3ed66249f16ecf3f21b90d630e71eabe9bdf335|feat: support styles added||30/04/2024||
+||develop|9f739b00074ed73ee1fcea32060e442a23a3ff0c|feat: support style added||30/04/2024||
+||develop|00d43652827b86d3036513f163ab5c6cb201096c|feat: implementacion de dialogo||30/04/2024||
+||develop|a5a44217788095c6b3b029ad815a78d1b76c4630|fix: button size||30/04/2024||
+||develop|99144233a380463079061d783231ee15b878c238|fix: cleaning app.component.html||01/05/2024||
+||develop|0a84d2581c0ea7fad34f8af3194fa2856e9dba52|Merge pull request #7 from upc-pre-202401-si729-wx56-g3/feature/highlight-projects||01/05/2024||
+||develop|e90a28cca1f94c7c03c91befb060cca2571a1ff9|fix: fixing readme.md||01/05/2024||
+||develop|8194fde2f951fe0aed1de58782b75fa2840e827f|Merge branch 'develop' into feature/message||01/05/2024||
+||develop|2af1dbf3e7dc6d75c6523371478e52147e31e8e5|Merge pull request #8 from upc-pre-202401-si729-wx56-g3/feature/message||01/05/2024||
+||develop|d192859880ef2ef0c64a0fe3952654488f07e632|fix: fixing app.component.html to merge||01/05/2024||
+||develop|1fe884e3e3b952e587317e39b421d1e64b007e07|Merge branch 'develop' into feature/support||01/05/2024||
+||develop|85aecd2a706f4fa5ed88e30b848d8becf2a9afed|Merge pull request #9 from upc-pre-202401-si729-wx56-g3/feature/support||01/05/2024||
+||develop|7d6d9a501822c08148454ad4f0fd64c744c00d78|fix: fixing app.component.html||01/05/2024||
+||develop|e4a8b6ea01b79cc60a6cc910a7ec3d80f58d3630|Merge branch 'develop' into feature/review-deliverable||01/05/2024||
+||develop|95ec4f85b3dc018eb3349ec21465f976715cb08c|Merge pull request #10 from upc-pre-202401-si729-wx56-g3/feature/review-deliverable||01/05/2024||
+||develop|f69cb4e1a1661607b5356e2ea5602ea910f019bc|fix: fixing app.component.html||01/05/2024||
+||develop|29e74446fef60930dc0cd71f09ef84600f4233e5|Merge branch 'develop' into feature/lookingfordevelop||01/05/2024||
+||develop|0c1bb3de1a780553f66b909d1b9c34ef56c8e066|Merge pull request #11 from upc-pre-202401-si729-wx56-g3/feature/lookingfordevelop||01/05/2024||
+||develop|eb2b402156e79d0178ce0a4014ef63503d8ae314|feat: adding routes for enterprise-views||01/05/2024||
+||develop|9681e1e2341ead29c5ce4f1c802ec30a941e3c0d|feat: adding login service||01/05/2024||
+||develop|e41ed17cdc8edc90d6338e6f7a620ed23565a8ce|feat: deliverables api added||01/05/2024||
+||develop|21c0f82089d78d41d5ec3de2f0d77b8cac06baf6|feat: adding new services||02/05/2024||
+||develop|f3d363a0bccbae170a779d3478dd1d2974209d11|feat: adding developer-profile component||02/05/2024||
+||develop|c9a4745966155b719511ac3e176303451fb20be3|feat: adding developer-profile||02/05/2024||
+||develop|7135de7392d3ebf65117268e264bc682b2c94bbd|commit: adding routes for developer profile||02/05/2024||
+||develop|69b3f5fc59ac886b74e18f8016c70a4b3661806c|feat: adding routing for message||03/05/2024||
+||develop|bffdf074186358934ed51baa6fb83dbceb577d87|feat: adding support route||03/05/2024||
+||develop|5169f20da10a70ab371aed57219af652455be4b4|feat: route to review deliverable added||03/05/2024||
+||develop|2a924e9c0edd4f6167798b568ec7fa6cdf055da0|fix: interfaces fixed||03/05/2024||
+||develop|9353aefdbb7a3e8a1e0736d687383647504e22c5|fix: buttons and anchors fixed||03/05/2024||
+||develop|f01ea864ee1350d6ee7507fc43024d48fc0697a6|fix: db json fixed||03/05/2024||
+||develop|0af2706ddd6145f81eecb09261d534b08130470d|feat: register service added||03/05/2024||
+||develop|6bc54dc52c947b308abb2228d7721d978907b6f3|Merge pull request #12 from upc-pre-202401-si729-wx56-g3/feature/adding-routing||04/05/2024||
 
 #### 5.2.2.4.Testing Suite Evidence for Sprint Review. 
 
@@ -2521,21 +2594,48 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 
-Para esta entrega, el equipo SiteForge logró la implementación la parte del fronted, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
+Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
 
-a continuación, se muestran algunas de las pantallas de la pagina web:
+A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app/login
+
+Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review. 
 
+En este sprint 2, todos lo miembros de SiteForge completador de forma satisfactoria las tareas propuestas. El sprint 2 se enfoco tanto en mejoras del sprint 1, como el apartado visual de la aplicacion web. El cual se concluyo de forma efectiva.
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review. 
+
+Par el actual sprint, se ha desarrollado la aplicacion web. Par su desplique se ha utilizado las siguientes herramientas:
+
+Git: Sistema de control de versiones que nos ayudó a trabajar en equipo durante todo el desarrollo de la aplicacion web.
+GitFlow: Flujo de trabajo que nos ayudó a controlar el avance de cada integrante del equipo en el desarrollo de la aplicacion web.
+GitHub: Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones del proyecto.
+Netlify: Plataforma que nos permitió alojar y desplegar de forma sencilla la aplicacion web.
+Evidencias del despliegue en Netlify: 
+- Repositorio vinculado al deploy e la pagina web:
+
+<img src="./assets/sprint2/evidencia1.png">
+
+- Prueba de lanzamiento en Netlify:
+
+<img src="./assets/sprint2/evidencia2.png">
+
+- Prueba de la aplicacion web en un navegados:
+
+<img src="./assets/sprint2/evidencia3.png">
 
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-En el Sprint 2, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe. 
-Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentará la web:
+En el Sprint 2, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe, como tambien en mejorar el landing page. 
+Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentara el insight del equipo a traves de Github:
 
+<img src="./assets/sprint2/evidencia4.png">
+
+<img src="./assets/sprint2/network1.png">
+<img src="./assets/sprint2/network2.png">
+<img src="./assets/sprint2/network3.png">
 
 # Conclusiones
 # Conclusiones y recomendaciones.
