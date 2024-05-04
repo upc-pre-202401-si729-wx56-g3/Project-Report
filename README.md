@@ -35,7 +35,7 @@
 # Student Outcome TP
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TP:***  Su texto <br><br>Jorge Quilla:<br> ***TP:*** Su texto<br><br>Piero Ticona:<br> ***TP:***  Su texto<br><br>Juan Carrasco:<br> ***TP:***  Su texto ||Jair Velasquez:<br> ***TP:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TP:*** Su texto <br><br>Piero Ticona:<br> ***TP:***  Su texto<br><br>Juan Carrasco:<br> ***TP:***  Su texto | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TP:***  Desarrollo de los componentes Home-profile y create-project <br><br>Jorge Quilla:<br> ***TP:*** Desarrollo de los componentes deliverables, sidenav y footer<br><br>Piero Ticona:<br> ***TP:***  Desarrollo de los componentes auth, support, message y lookingfordevelop<br><br>Juan Carrasco:<br> ***TP:***  Desarrollo de los componentes highlight-projects y review-deliverable ||Jair Velasquez:<br> ***TP:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TP:*** Su texto <br><br>Piero Ticona:<br> ***TP:***  Su texto<br><br>Juan Carrasco:<br> ***TP:***  Su texto | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
 
 # Contenido
 ## Tabla de contenidos
@@ -2401,10 +2401,6 @@ Para esta entrega, el equipo SiteForge logró la implementación del landing pag
 
 Link a la página del landing page: https://fromzeroupc.netlify.app
 
-<img src="./assets/Landing/herosection.png">
-<img src="./assets/Landing/proyectos.png">
-<img src="./assets/Landing/clientes.png">
-<img src="./assets/Landing/membresias.png">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -2460,46 +2456,90 @@ Link a board en Trello:
 
 | User Story ID | Title                                      | id | Title                                                 | Description                                                                         | Tiempo (horas) | Assigned to    | Status (to-do/in process/To review/done) |
 |---------------|--------------------------------------------|----|-------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------|----------------|------------------------------------------|
-| E2-US101      | Registro de usuario                        | T2 | Interfaz de usuario del inicio de crear cuenta       | Implementar un interfaz con un formulario para el registro de cuentas tanto como desarrollador y empresa. | 2               | Fernando Carrasco | Done                                     |
+| E2-US101      | Registro de usuario                        | T2 | Interfaz de usuario del inicio de crear cuenta       | Implementar un interfaz con un formulario para el registro de cuentas tanto como desarrollador y empresa. | 2               | Piero Ticona | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E2-US102      | Inicio de Sesión                           | T2 | Interfaz de usuario para iniciar sesión             | Implementar interfaz un interfaz con un formulario para el inicio de sesión para desarrollador y empresa. | 3               | Fernando Carrasco | Done                                     |
+| E2-US102      | Inicio de Sesión                           | T2 | Interfaz de usuario para iniciar sesión             | Implementar interfaz un interfaz con un formulario para el inicio de sesión para desarrollador y empresa. | 3               | Piero Ticona | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E2-US103      | Recuperación de contraseñas                | T2 | Interfaz de usuario para recuperación de contraseñas | Implementar un interfaz con un formulario para realizar petición de recuperación de contraseña. | 1.5             | Fernando Carrasco | Done                                     |
+| E2-US103      | Recuperación de contraseñas                | T2 | Interfaz de usuario para recuperación de contraseñas | Implementar un interfaz con un formulario para realizar petición de recuperación de contraseña. | 1.5             | Piero Ticona | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US101      | Pantalla de inicio empresario              | T2 | Interfaz del segmento de empresario para visualizar su perfil y proyectos. | Implementar interfaz donde el empresario pueda visualizar su perfil y proyectos.       | 3               | Fernando Carrasco | Done                                     |
+| E3-US101      | Pantalla de inicio empresario              | T2 | Interfaz del segmento de empresario para visualizar su perfil y proyectos. | Implementar interfaz donde el empresario pueda visualizar su perfil y proyectos.       | 3               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US102      | Publicar una solicitud de proyecto de software | T2 | Interfaz del segmento de empresario donde pueda crear una solicitud de proyecto. | Implementar interfaz donde el empresario pueda crear una solicitud de proyecto de softare. | 3               | Fernando Carrasco | Done                                     |
+| E3-US102      | Publicar una solicitud de proyecto de software | T2 | Interfaz del segmento de empresario donde pueda crear una solicitud de proyecto. | Implementar interfaz donde el empresario pueda crear una solicitud de proyecto de softare. | 3               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US103      | Explorar de desarrolladores                | T2 | Interfaz para explorar desarrolladores              | Implementar una interfaz para explorar los perfiles de los desarrolladores disponibles. | 2               | Jair Velasquez | Done                                     |
+| E3-US103      | Explorar de desarrolladores                | T2 | Interfaz para explorar desarrolladores              | Implementar una interfaz para explorar los perfiles de los desarrolladores disponibles. | 2               | Piero Ticona | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E3-US104      | Sistema de calificacion de desarrolladores | T2 | Sistema de calificación para desarrolladores        | Desarrollar un sistema para calificar la calidad y desempeño de los desarrolladores. | 2               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US105      | Visualizar repositorio de un desarrollador | T2 | Interfaz para visualizar el repositorio del desarrollador | Implementar una interfaz que permita a los usuarios visualizar el repositorio de un desarrollador. | 2               | Jair Velasquez | Done                                     |
+| E3-US105      | Visualizar repositorio de un desarrollador | T2 | Interfaz para visualizar el repositorio del desarrollador | Implementar una interfaz que permita a los usuarios visualizar el repositorio de un desarrollador. | 2               | Fernando Carrasco | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US106      | Comunicación con el desarrollador         | T2 | Funcionalidad de comunicación con desarrolladores    | Implementar un sistema de mensajería para que los usuarios puedan comunicarse con los desarrolladores. | 2               | Jair Velasquez | Done                                     |
+| E3-US106      | Comunicación con el desarrollador         | T2 | Funcionalidad de comunicación con desarrolladores    | Implementar un sistema de mensajería para que los usuarios puedan comunicarse con los desarrolladores. | 2               | Piero Ticona | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E3-US107      | Aceptación de propuesta de solución       | T2 | Aceptación de propuestas de solución               | Desarrollar un sistema para que los usuarios puedan aceptar propuestas de solución presentadas por los desarrolladores. | 2               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E3-US108      | Seguimiento de entregables del proyecto   | T2 | Funcionalidad de seguimiento de entregables         | Implementar una funcionalidad que permita hacer seguimiento de los entregables del proyecto. | 2               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US109      | Visualizar un entregable                  | T2 | Interfaz para visualizar los entregables del proyecto | Desarrollar una interfaz que permita a los usuarios visualizar los entregables del proyecto. | 2               | Jair Velasquez | Done                                     |
+| E3-US109      | Visualizar un entregable                  | T2 | Interfaz para visualizar los entregables del proyecto | Desarrollar una interfaz que permita a los usuarios visualizar los entregables del proyecto. | 2               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US110      | Proyectos destacados                      | T2 | Destacar proyectos en la plataforma                | Implementar una funcionalidad para destacar proyectos en la plataforma.               | 2               | Jair Velasquez | Done                                     |
+| E3-US110      | Proyectos destacados                      | T2 | Destacar proyectos en la plataforma                | Implementar una funcionalidad para destacar proyectos en la plataforma.               | 2               | Fernando Carrasco | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E5-US101      | Toolbar de navegación                      | T2 | Implementar una toolbar de navegación              | Desarrollar una toolbar que facilite la navegación dentro de la aplicación.          | 2               | Jair Velasquez | Done                                     |
+| E5-US101      | Toolbar de navegación                      | T2 | Implementar una toolbar de navegación              | Desarrollar una toolbar que facilite la navegación dentro de la aplicación.          | 2               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E5-US102      | Footer de la aplicación                    | T2 | Implementar un footer para la aplicación           | Desarrollar un footer que proporcione información y enlaces útiles en la aplicación. | 2               | Jair Velasquez | Done                                     |
+| E5-US102      | Footer de la aplicación                    | T2 | Implementar un footer para la aplicación           | Desarrollar un footer que proporcione información y enlaces útiles en la aplicación. | 2               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E5-US103      | Soporte técnico                            | T2 | Funcionalidad de soporte técnico                  | Implementar una funcionalidad que permita a los usuarios solicitar soporte técnico dentro de la aplicación. | 2               | Jair Velasquez | Done                                     |
+| E5-US103      | Soporte técnico                            | T2 | Funcionalidad de soporte técnico                  | Implementar una funcionalidad que permita a los usuarios solicitar soporte técnico dentro de la aplicación. | 2               | Piero Ticona | Done                                     |
 
 
 
 #### 5.2.2.3.Development Evidence for Sprint Review. 
+
+A continuación, se presentan los commits realizados en el repositorio de la landing page en el Github.
+Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-LandingPage
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
+| :- | :- | :- | :- | :- | :- |
+|FromZero-LandingPage|develop|ee461ee13ed4dc32aff27de4d0491ae8fbec770f|Initial commit||18/04/2024|
+||develop|41eef0bc347d39edab4cac32451b325e7ddcd82b|Chore: Initial configuration||18/04/2024|
+||develop|dbb0ff97b0c6c60dca0ceaea4e3ffffb8308c7e6|chore: add basic directories||19/04/2024|
+||develop|c14c835ff2350cd8f0c361344555567a6a038ad6|chore: deleting example files||19/04/2024|
+||develop|3d0a2a9715e25d15cd068b3ec078af365711e962|Revert "chore: deleting example files"||19/04/2024|||develop|4104a3047c99474ca3ffc8fe3cc265124394f79c|feat: adding background color||22/4/2024||
+||develop|4104a3047c99474ca3ffc8fe3cc265124394f79c|feat: adding background color||22/4/2024||
+||develop|9bdedc8a0aa49fc3b16235e053cead7032923bc1|chore: adding tailwind configuration||22/4/2024||
+||develop|2b55d94596a5b36b7ee96a7b1778272429ba2669|commit: adding form create-project base||22/4/2024||
+||develop|896427c7fccaf0dd0d48a34021127bf9d0499bd3|feat: adding background color||13/04/2024|
+||develop|ec53dba4fb8d94aa86dec0f22ad8ad1472137b86|feat: footer testimonial and blogs added||13/04/2024|
+||develop|98180a0fbab193723e74e820b5c15e7708dfa417|Merge pull request #2 from upc-pre-202401-si729-wx56-g3/feature/1-3|feat: adding hero section and created pages|13/04/2024|
+||develop|467a343b50eb92ce398eb4b47c0fbe1cdb9c7860|Merge pull request #3 from upc-pre-202401-si729-wx56-g3/feature/featured-section|feat: footer testimonial and blogs added|14/04/2024|
+||main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+||main|51b10c25def082c8e92eb8b6c2def9fd86464766|feat: fixing the project structure||14/04/2024|
+||main|0c68a9d22dbd3054779c4c0152cd688841e48dfe|feat: fixing # On branch main||14/04/2024|
+||main|0c0bdb8b390624c045dbd7b0f5e9dbb8472fb830|Merge branch 'develop'||14/04/2024|
+||main|875ea235bf1eb791f9400a6e73bfb9fcdbb0b0f3|feat: fixing logo icon||14/04/2024|
+
+
+
+
 #### 5.2.2.4.Testing Suite Evidence for Sprint Review. 
-#### 5.2.2.5.Execution Evidence for Sprint Review. 
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
+| :- | :- | :- | :- | :- | :- |
+|FromZero-LandingPage|main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+Para esta entrega, el equipo SiteForge logró la implementación la parte del fronted, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
+
+a continuación, se muestran algunas de las pantallas de la pagina web:
+
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review. 
+
+
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review. 
+
+
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+En el Sprint 2, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe. 
+Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentará la web:
 
 
 # Conclusiones
@@ -2509,6 +2549,8 @@ Link a board en Trello:
 * **Equipo Multidisciplinario**: La composición de nuestra startup por un equipo de cinco miembros nos proporciona un enfoque fresco y multidisciplinario. Esta diversidad puede ser una ventaja, ya que cada integrante puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo la oferta de servicios y aumentando la originalidad y eficacia del proyecto.
 
 * **Identificación de una Necesidad Clara**: From Zero ha identificado una creciente necesidad en el mercado, donde empresas y emprendimientos requieren una sólida presencia en línea para potenciar sus estrategias de marketing digital. Esta identificación precisa de una demanda real puede ser un factor determinante para el éxito, ya que abordar una necesidad concreta puede generar un gran interés y participación.
+
+
 
 
 # Bibliografía
