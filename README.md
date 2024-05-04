@@ -2570,6 +2570,21 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 ||develop|f69cb4e1a1661607b5356e2ea5602ea910f019bc|fix: fixing app.component.html||01/05/2024||
 ||develop|29e74446fef60930dc0cd71f09ef84600f4233e5|Merge branch 'develop' into feature/lookingfordevelop||01/05/2024||
 ||develop|0c1bb3de1a780553f66b909d1b9c34ef56c8e066|Merge pull request #11 from upc-pre-202401-si729-wx56-g3/feature/lookingfordevelop||01/05/2024||
+||develop|eb2b402156e79d0178ce0a4014ef63503d8ae314|feat: adding routes for enterprise-views||01/05/2024||
+||develop|9681e1e2341ead29c5ce4f1c802ec30a941e3c0d|feat: adding login service||01/05/2024||
+||develop|e41ed17cdc8edc90d6338e6f7a620ed23565a8ce|feat: deliverables api added||01/05/2024||
+||develop|21c0f82089d78d41d5ec3de2f0d77b8cac06baf6|feat: adding new services||02/05/2024||
+||develop|f3d363a0bccbae170a779d3478dd1d2974209d11|feat: adding developer-profile component||02/05/2024||
+||develop|c9a4745966155b719511ac3e176303451fb20be3|feat: adding developer-profile||02/05/2024||
+||develop|7135de7392d3ebf65117268e264bc682b2c94bbd|commit: adding routes for developer profile||02/05/2024||
+||develop|69b3f5fc59ac886b74e18f8016c70a4b3661806c|feat: adding routing for message||03/05/2024||
+||develop|bffdf074186358934ed51baa6fb83dbceb577d87|feat: adding support route||03/05/2024||
+||develop|5169f20da10a70ab371aed57219af652455be4b4|feat: route to review deliverable added||03/05/2024||
+||develop|2a924e9c0edd4f6167798b568ec7fa6cdf055da0|fix: interfaces fixed||03/05/2024||
+||develop|9353aefdbb7a3e8a1e0736d687383647504e22c5|fix: buttons and anchors fixed||03/05/2024||
+||develop|f01ea864ee1350d6ee7507fc43024d48fc0697a6|fix: db json fixed||03/05/2024||
+||develop|0af2706ddd6145f81eecb09261d534b08130470d|feat: register service added||03/05/2024||
+||develop|6bc54dc52c947b308abb2228d7721d978907b6f3|Merge pull request #12 from upc-pre-202401-si729-wx56-g3/feature/adding-routing||04/05/2024||
 
 
 
