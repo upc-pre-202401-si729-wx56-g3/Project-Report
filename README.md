@@ -9,7 +9,7 @@
 - Jair Velasquez Pizarro - U202218114
 - Juan Fernando Carrasco Godos - U20211D118
 
-14/04/2024
+04/05/2024
 ---
 # Registro de Versiones del Informe
 | Version | Fecha | Autor | Descripcion de Modificacion |
@@ -22,6 +22,7 @@
 | 1.1 | 13/04/2024 | Grupo 3 | Capitulo 4 |
 | 1.1 | 14/04/2024 | Grupo 3 | Capitulo 5 |
 | 2.0 | 03/05/2024 | Grupo 3 | Capitulo 5 Sprint 2 |
+| 2.0 | 03/05/2024 | Grupo 3 | Capitulo 5 Sprint 3 |
 
 # Project Report Collaboration Insights
 [URL del repositorio](https://github.com/upc-pre-202401-si729-wx56-g3)
@@ -32,6 +33,7 @@
 |-|-|-|
 |Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Durante el desarrollo del TB1, mi principal aporte fue en la elaboración de diagramas (Diagrama de clases y C4 model) aunque de realizo el planteamiento de estas de forma colaborativa para que hayan multiples ideas en la creación de estas. De igual forma, colabore en el desarrolló del landing page, asi como en secciones de la unidad 5 como el Source Code Management y la configuración del Deploy del landing. De igual forma buscamos constantemente mejoras al momento de realizadas modificaciones de acuerdo a observaciones.<br> ***TP:***  Durante el desarrollo de la TB1 mi principal aporte fue el desarrollo de la organizacion del Sprint 2, como tambien desarrolle el apartado visual de la pantalla de Home, Perfil de Empresa y Desarrollador.Adicional a esto desarrolle el apartado de creacion de Proyecto y un aporte notable en el sistema de routing de la aplicacion y consumos a la api que es nuestro caso usamos un json database de forma local.<br><br>Jorge Quilla:<br> ***TB1:*** Durante el desarrollo de la TB1, mi principal tarea fue buscar a neustros principales competidores, analizarlos y buscar una estrategia para hacerle frente. Me encargué de diseñar las entrevistas para los segmentos objetivos de nuestra aplicación. De igual forma, use herramientas de UX para User Personas, Empathy Maps, Jorney Maps y As-Is Maps.<br> ***TP:*** Aporte en el desarrollo de componentes compartidos, tales como sidenav y footer. Además de desarrollar el componente de entregables, los cuales son necesarios para la lógica del proyecto. <br><br>Piero Ticona:<br> ***TB1:***  Aporte con el capítulo I del informe. Además me encargue del diseño de mock ups de la Landing Page mediante la herramienta de figma. Hice una entrevista. Aporté al desarrollo de la landing page en html u css.<br> ***TP:***  Aporte en la parte del fronted de la aplicación web con la creación y diseño de los componentes auth, support, message y lookingfordevelop.<br><br>Juan Carrasco:<br> ***TB1:***  Aparte con el capítulo III del informe. Tambien diseñé el modelo de base datos. Aporté a la landing pages con las primeras secciones y la barra de navegación. Aprendí muchas tecnias de desarrollo durante este proyecto |En este proyecto, no solo amplié mis habilidades técnicas, sino que también fortalecí mi comprensión de metodologías clave como el Mapeo del Escenario Futuro y el Mapeo de Impacto, fundamentales para alinear los objetivos del proyecto con las expectativas de los stakeholders. La etapa de Especificación de Requisitos fue fundamental, ya que nos permitió detallar y documentar cada requisito a través de Historias de Usuario y un Product Backlog bien definido. Este enfoque colaborativo y sistemático no solo aseguró la coherencia entre las funcionalidades y los objetivos del proyecto, sino que también resaltó la importancia de la adaptabilidad y la colaboración en equipo en el desarrollo de software.|
 |Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br><br>Jorge Quilla:<br> ***TB1:*** En el sector de soluciones de software he conocido plataformas las cuales sirven como intermediarios entre una empresa y un desarrollador freelance. Gracias a ello he podido armar un cuadro de FODA de la competencia. Además, he identificado qué conceptos, palabras y expresiones son las más usadas en este sector.<br> ***TP:*** Se desarrolló la lógica de entregables, los cuales son creados por empresas, y leídos por el desarrollador freelance. Además verificar el correcto funcionamiento de las rutas dentro de la aplicación web. <br><br>Piero Ticona:<br> ***TB1:*** Dentro del campo de las soluciones de software, he tenido la ocasión de explorar plataformas que funcionan como mediadores entre compañías y desarrolladores autónomos. Esta experiencia me ha capacitado para realizar un análisis FODA de la competencia y para identificar los términos y expresiones más frecuentes en esta área de la industria.<br> ***TP:*** Se analizaron los requisitos de los componentes para cubrir las funcionalidad de la parte fronted.<br><br>Juan Carrasco:<br> ***TB1:***  En el ámbito de las soluciones de software, he tenido la oportunidad de familiarizarme con plataformas que actúan como intermediarios entre empresas y desarrolladores independientes. Este contexto me ha permitido elaborar un análisis FODA de la competencia y también identificar los términos y expresiones más comunes en esta industria. | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software. |
+
 
 # Contenido
 ## Tabla de contenidos
@@ -126,6 +128,22 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-1)
+      - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-1)
+      - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+      - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
+- [5.3. Validations Interviews](#53-validations-interviews)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-Evaluaciones-según-heurísticas)
+- [5.4. Video About-the-Product](#53-video-about-the-product)
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video About-the-Team](#video-about-the-team)
@@ -1244,6 +1262,201 @@ Como</strong> usuario \
 <strong>Entonces</strong> puede enviar un mensaje expresando su consulta o problema
    </td>
    <td>5
+   </td>
+  </tr>
+    <tr>
+   <td colspan="6" ><strong>Epic 6: Preferencias en la aplicación \
+Como</strong> empresa o freelancer \
+<strong>Quiero</strong> configurar preferencias en la aplicación \
+<strong>Para </strong>tener una mejor experiencia en la aplicación según mis preferencias
+   </td>
+  </tr>
+  <tr>
+   <td>E6-US100
+   </td>
+   <td>Preferencia de idioma
+   </td>
+   <td><strong>Como </strong>empresario o freelance <strong>quiero</strong> configurar preferencias de idioma <strong>para </strong> utilizar la aplicación según mi preferencia de idioma
+   </td>
+   <td><strong>Escenario: </strong>Modo predeterminado de preferencia de idioma
+<p>
+<strong>Dado que</strong> el empresario o freelance no haya realizado cambios de preferencias de idioma a la aplicación \
+<strong>Cuando</strong> ingrese a la aplicación
+<p>
+<strong>Entonces</strong> el idioma predeterminado es inglés
+<p>
+   </td>
+   <td>6
+   </td>
+  </tr>
+  <tr>
+   <td>E6-US101
+   </td>
+   <td>Página no encontrada
+   </td>
+   <td><strong>Como </strong>empresario o freelance <strong>quiero</strong>  ser informado de una página no encontrada en la aplicación <strong>para </strong>darme cuenta que estoy en una página errónea y volver al inicio.</td>
+   <td><strong>Escenario: </strong>Error 404
+<p>
+<strong>Dado que</strong> el empresario o freelance se encuentre en la aplicación \
+<strong>Cuando</strong> ingrese a una ruta que no existe
+<p>
+<strong>Entonces</strong> aparece una página que informa al usuario que la página no ha sido encontrada
+<strong>Y</strong>aparece una opción para ser redirigido a la página principal.
+   </td>
+   <td>6
+   </td>
+  </tr>
+      <tr>
+   <td colspan="7" ><strong>Epic 7: Backend API \
+Como</strong> desarrollador \
+<strong>Quiero</strong> utilizar un backend api \
+<strong>Para </strong>que los usuarios puedan interactuar con la aplicación 
+   </td>
+  </tr>
+  <tr>
+   <td>E7-US100
+   </td>
+   <td>Autenticación de usuario
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  autenticación de datos a través del backend API <strong>para </strong> que los usuarios puedan autenticarse en la aplicación
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET a los usuarios 
+<p>
+<strong>Entonces</strong> consigue los datos de los usuarios
+<p>
+<strong>Escenario 2: </strong>Solicitud POST
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST a los usuarios
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se crea un nuevo usuario
+<p>
+<strong>Escenario 3: </strong>Solicitud PUT
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método PUT con el ID del usuario a editar
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se cambia el elemento seleccionado
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+    <tr>
+   <td>E7-US101
+   </td>
+   <td>Información de proyectos
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información de proyectos <strong>para </strong> que los usuarios puedan manipular la información de los proyectos
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos de los proyectos
+<p>
+<strong>Escenario 2: </strong>Solicitud POST
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se crea un nuevo proyecto
+<p>
+<strong>Escenario 3: </strong>Solicitud DELETE
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método DELETE con el ID del proyecto 
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se eliminará el proyecto seleccionado
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+      <tr>
+   <td>E7-US102
+   </td>
+   <td>Información de entregables de proyectos
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información de los entregables de proyectos <strong>para </strong> que los usuarios puedan manipular la información de los entregables de proyectos
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos de los entregables del proyecto
+<p>
+<strong>Escenario 2: </strong>Solicitud POST
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se crea un nuevo entregable
+<p>
+<strong>Escenario 3: </strong>Solicitud DELETE
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método DELETE con el ID del entregable
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se eliminará el entregable seleccionado
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+        <tr>
+   <td>E7-US103
+   </td>
+   <td>Información del perfil del usuario
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información del perfil <strong>para </strong>  que pueda manipular la información de mi perfil de usuario
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos del perfil
+<p>
+<strong>Escenario 2: </strong>Solicitud PUT
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se editará la información del perfil
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+          <tr>
+   <td>E7-US104
+   </td>
+   <td>Información de proyectos destacados
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información de los proyectos destacados <strong>para </strong>  que los usuarios puedan visualizar la información de proyectos destacados.
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos de los proyectos destacados.
+<p>
+   </td>
+   <td>7
    </td>
   </tr>
 </table>
@@ -2442,7 +2655,7 @@ El equipo de desarrollo del landing utilizo las ramas para desarrollar cada secc
 |Sprint n – 1 Retrospective Summary|Se planea desarrollar avances del front-end de la aplicación web, donde se incluirán las vistas para la autenticación del usuario y vistas core del usuario empresa. Por otro lado, se espera mejorar el landing page desarrollado en el anterior sprint para agregarle un diseño responsive completo. Asimismo, hemos organizado las tareas a realizar a través de la plataforma Trello. Al finalizar este sprint, el landing page debe tener una versión actualizada y una demo de la aplicación web front-end deben estar desplegados con Netlify. Sin embargo, los datos en la aplicación web no deberían visualizarse a menos que el usuario tenga el servidor json ejecutándose.|
 |Sprint Goal & User Stories||
 |Sprint 1 Velocity|56|
-|Sum of Story Points|36|
+|Sum of Story Points|69|
 
 #### 5.2.2.2. Sprint Backlog 2.
 
@@ -2470,13 +2683,13 @@ Link a board en Trello:
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E3-US106      | Comunicación con el desarrollador         | T2 | Funcionalidad de comunicación con desarrolladores    | Implementar un sistema de mensajería para que los usuarios puedan comunicarse con los desarrolladores. | 2               | Piero Ticona | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US107      | Aceptación de propuesta de solución       | T2 | Aceptación de propuestas de solución               | Desarrollar un sistema para que los usuarios puedan aceptar propuestas de solución presentadas por los desarrolladores. | 2               | Jair Velasquez | Done                                     |
+| E3-US107      | Aceptación de propuesta de solución       | T2 | Aceptación de propuestas de solución               | Desarrollar un sistema para que los usuarios puedan aceptar propuestas de solución presentadas por los desarrolladores. | 3.5               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US108      | Seguimiento de entregables del proyecto   | T2 | Funcionalidad de seguimiento de entregables         | Implementar una funcionalidad que permita hacer seguimiento de los entregables del proyecto. | 2               | Jair Velasquez | Done                                     |
+| E3-US108      | Seguimiento de entregables del proyecto   | T2 | Funcionalidad de seguimiento de entregables         | Implementar una funcionalidad que permita hacer seguimiento de los entregables del proyecto. | 3                | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E3-US109      | Visualizar un entregable                  | T2 | Interfaz para visualizar los entregables del proyecto | Desarrollar una interfaz que permita a los usuarios visualizar los entregables del proyecto. | 2               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E3-US110      | Proyectos destacados                      | T2 | Destacar proyectos en la plataforma                | Implementar una funcionalidad para destacar proyectos en la plataforma.               | 2               | Fernando Carrasco | Done                                     |
+| E3-US110      | Proyectos destacados                      | T2 | Destacar proyectos en la plataforma                | Implementar una funcionalidad para destacar proyectos en la plataforma.               | 3               | Fernando Carrasco | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E5-US101      | Toolbar de navegación                      | T2 | Implementar una toolbar de navegación              | Desarrollar una toolbar que facilite la navegación dentro de la aplicación.          | 2               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
@@ -2586,9 +2799,7 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 
 #### 5.2.2.4.Testing Suite Evidence for Sprint Review. 
 
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
-| :- | :- | :- | :- | :- | :- |
-|FromZero-LandingPage|main|3cef62a769fa0380c6daad94e73548fb617ec20b|Merge pull request #4 from upc-pre-202401-si729-wx56-g3/feature/FAQ-aboutUs|feat: adding Feature/faq about us|14/04/2024|
+En el alcance del sprint 2 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 
@@ -2634,6 +2845,108 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 <img src="./assets/sprint2/network1.png">
 <img src="./assets/sprint2/network2.png">
 <img src="./assets/sprint2/network3.png">
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3.
+
+En el siguiente apartado, se presentará el sprint planning 3, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances del proyecto e insights de colaboración a través de Github.
+
+|<a name="_6cxtvwxzjfs6"></a>Sprint #|Sprint 3|
+| :- | :- |
+|Sprint Planning Background||
+|Date|23/05/2024|
+|Time|22 horas (GMT -5)|
+|Location|Modalidad remota por Discord|
+|Prepared By|Jair Velasquez Pizarro|
+|Attendees (to planning meeting)|Todos los miembros del grupo SiteForge|
+|Sprint n – 2 Review Summary|En el sprint 2, se han desarrollado algunas vistas del front-end (segmento empresa). Se implementó con un falso RESTful API con json server, aunque aún se necesitan realizar algunas funcionalidades CRUD core. Además, se logró desplegar la aplicación web con Netlify, siendo necesario activar el servidor json de forma local para visualizar los datos de la API.|
+|Sprint n – 3 Retrospective Summary|En este sprint 3 se planea avanzar las vistas cores restantes del front-end (segmento desarrollador). Además, se planea comenzar con el desarrollo del RESTful API con el framework de Spring Boot con los bounded context de autenticación, perfiles, creación de proyectos, seguimiento de proyectos y seguimiento de entregables. Al finalizar este sprint, se podrán observar nuevas vistas en la aplicación web y se podrá acceder al endpoint del RESTful API de manera local.|
+|Sprint Goal & User Stories||
+|Sprint 3 Velocity|56|
+|Sum of Story Points|56|
+
+#### 5.2.3.2. Sprint Backlog 3.
+
+En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.
+Link a board en Trello: https://trello.com/b/iXgCUu5m/webmaster-sprint-3
+
+| User Story ID | Title                                      | id | Title                                                 | Description                                                                         | Tiempo (horas) | Assigned to    | Status (to-do/in process/To review/done) |
+|---------------|--------------------------------------------|----|-------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------|----------------|------------------------------------------|
+| E6-US100      | Preferencia de idioma                       | T3 | Traducción Inglés y Español       | Crear el is18n para Inglés y Español |                |  |                                      |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E6-US101     | Página no encontrada                          | T3 | Vista Página no encontrada             | Crear vista para página no encontrada | 3               |  | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US100     | Autenticación de usuario                | T3 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |             |  | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US101     | Información de proyectos             | T3 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto      | 3               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US102     | Información de entregables de proyectos | T3 | Creación del entregable, lectura de datos, actualización de datos y eliminar entregable | Implementar la lógica de creación del entregable, lectura del entregable, actualización del entregable y eliminación del entregable  | 3               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US103      | Información del perfil del usuario                | T3 | Creación del perfil, lectura de datos y actualizacion de datos            | Implementar la lógica de creación del perfil, lectura de datos y actualizacion de perfil | 2               | Piero Ticona | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US104      | Información de proyectos destacados | T3 | Lectura de datos de proyectos destacados       | Implementar la lógica de lectura de datos de proyectos destacados  | 2               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+
+
+
+#### 5.2.3.3.Development Evidence for Sprint Review. 
+
+A continuación, se presentan los commits realizados en el repositorio de la aplicacion web en el Github.
+Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
+
+
+#### 5.2.3.4.Testing Suite Evidence for Sprint Review. 
+
+En el alcance del sprint 2 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
+
+A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app/login
+
+Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review. 
+
+En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de las acciones CRUD realizadas con OpenApi. En el alcance del sprint, se han desarrollado los bounded context de autenticación, perfil, actividades, reclutamiento y organizaciones.
+Se adjunta el link del repositorio de la API en Github: 
+https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
+
+| Bounded Context | Authentication | |
+|---------------|------------------------------------------|---|
+| Entity     | Endpoint URL                      | Swagger | 
+| User, Developer, Enterprise     | /api/v1/auth/                      | <img src="./assets/sprint3/AuthSwagger.png"> |  
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
+
+De igual forma que el primer y segundo sprint, se siguio utilizando el servicio de auto deploy de Netlify. Por lo que, se realizaran los mismos pasos antes mencionados.
+
+
+<img src="./assets/sprint3/evidence.png">
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+En el Sprint 2, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe, como tambien en mejorar el landing page. 
+Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentara el insight del equipo a traves de Github:
+
+<img src="./assets/sprint2/evidencia4.png">
+
+<img src="./assets/sprint2/network1.png">
+<img src="./assets/sprint2/network2.png">
+<img src="./assets/sprint2/network3.png">
+
+### 5.3 Validation Interviews.
+### 5.3.1. Diseño de Entrevistas
+### 5.3.2. Registro de Entrevistas
+   **Entrevista #01: Alexandra **
+   [Link a la entrevista](https://youtu.be/UjRGvlj7S_c)
+### 5.3.3. Evaluaciones según heurísticas
+### 5.4 Video About-the-Product
+### 5.5 Video About-the-Product
+
 
 # Conclusiones
 # Conclusiones y recomendaciones.
