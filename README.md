@@ -2909,7 +2909,15 @@ Cabe resaltar que la pagina por el momento necesita que se use el json-server de
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review. 
 
-En este sprint 2, todos lo miembros de SiteForge completador de forma satisfactoria las tareas propuestas. El sprint 2 se enfoco tanto en mejoras del sprint 1, como el apartado visual de la aplicacion web. El cual se concluyo de forma efectiva.
+En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de las acciones CRUD realizadas con OpenApi. En el alcance del sprint, se han desarrollado los bounded context de autenticación, perfil, actividades, reclutamiento y organizaciones.
+Se adjunta el link del repositorio de la API en Github: 
+https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
+
+| Bounded Context | Authentication | |
+|---------------|------------------------------------------|---|
+| Entity     | Endpoint URL                      | Swagger | 
+| User     | /api/v1/auth/                      | <img src="./assets/sprint3/AuthSwagger.png"> |  
+
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
 
