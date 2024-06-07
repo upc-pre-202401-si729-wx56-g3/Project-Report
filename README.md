@@ -2889,17 +2889,17 @@ Link a board en Trello: https://trello.com/b/iXgCUu5m/webmaster-sprint-3
 
 
 
-#### 5.2.2.3.Development Evidence for Sprint Review. 
+#### 5.2.3.3.Development Evidence for Sprint Review. 
 
 A continuación, se presentan los commits realizados en el repositorio de la aplicacion web en el Github.
 Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
 
 
-#### 5.2.2.4.Testing Suite Evidence for Sprint Review. 
+#### 5.2.3.4.Testing Suite Evidence for Sprint Review. 
 
 En el alcance del sprint 2 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
 
-#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.3.5.Execution Evidence for Sprint Review.
 
 Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
 
@@ -2907,31 +2907,16 @@ A continuación, se encuentra el link a página de la aplicacion web: https://fr
 
 Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
 
-#### 5.2.2.6.Services Documentation Evidence for Sprint Review. 
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review. 
 
 En este sprint 2, todos lo miembros de SiteForge completador de forma satisfactoria las tareas propuestas. El sprint 2 se enfoco tanto en mejoras del sprint 1, como el apartado visual de la aplicacion web. El cual se concluyo de forma efectiva.
 
-#### 5.2.2.7.Software Deployment Evidence for Sprint Review. 
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
 
-Par el actual sprint, se ha desarrollado la aplicacion web. Par su desplique se ha utilizado las siguientes herramientas:
+De igual forma que el primer y segundo sprint, se siguio utilizando el servicio de auto deploy de Netlify. Por lo que, se realizaran los mismos pasos antes mencionados.
 
-Git: Sistema de control de versiones que nos ayudó a trabajar en equipo durante todo el desarrollo de la aplicacion web.
-GitFlow: Flujo de trabajo que nos ayudó a controlar el avance de cada integrante del equipo en el desarrollo de la aplicacion web.
-GitHub: Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones del proyecto.
-Netlify: Plataforma que nos permitió alojar y desplegar de forma sencilla la aplicacion web.
-Evidencias del despliegue en Netlify: 
-- Repositorio vinculado al deploy e la pagina web:
 
-<img src="./assets/sprint2/evidencia1.png">
-
-- Prueba de lanzamiento en Netlify:
-
-<img src="./assets/sprint2/evidencia2.png">
-
-- Prueba de la aplicacion web en un navegados:
-
-<img src="./assets/sprint2/evidencia3.png">
-
+<img src="./assets/sprint3/evidence.png">
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
