@@ -2873,11 +2873,11 @@ Link a board en Trello: https://trello.com/b/iXgCUu5m/webmaster-sprint-3
 
 | User Story ID | Title                                      | id | Title                                                 | Description                                                                         | Tiempo (horas) | Assigned to    | Status (to-do/in process/To review/done) |
 |---------------|--------------------------------------------|----|-------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------|----------------|------------------------------------------|
-| E6-US100      | Preferencia de idioma                       | T3 | Traducción Inglés y Español       | Crear el is18n para Inglés y Español |                |  |                                      |
+| E6-US100      | Preferencia de idioma                       | T3 | Traducción Inglés y Español       | Crear el is18n para Inglés y Español |        3        |  |                                      |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E6-US101     | Página no encontrada                          | T3 | Vista Página no encontrada             | Crear vista para página no encontrada | 3               |  | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E7-US100     | Autenticación de usuario                | T3 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |             |  | Done                                     |
+| E7-US100     | Autenticación de usuario                | T3 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |       5      | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E7-US101     | Información de proyectos             | T3 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto      | 3               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
@@ -2927,16 +2927,15 @@ De igual forma que el primer y segundo sprint, se siguio utilizando el servicio 
 
 <img src="./assets/sprint3/evidence.png">
 
-#### 5.2.2.8.Team Collaboration Insights during Sprint.
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
 
-En el Sprint 2, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe, como tambien en mejorar el landing page. 
+En el Sprint 3, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe, como tambien en mejorar el landing page. 
 Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentara el insight del equipo a traves de Github:
 
-<img src="./assets/sprint2/evidencia4.png">
+<img src="./assets/sprint3/evidance-colla-1.png">
 
-<img src="./assets/sprint2/network1.png">
-<img src="./assets/sprint2/network2.png">
-<img src="./assets/sprint2/network3.png">
+<img src="./assets/sprint3/evidance-colla-2.png">
+<img src="./assets/sprint3/evidance-colla-3.png">
 
 ### 5.3 Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas
