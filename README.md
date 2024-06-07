@@ -2916,7 +2916,7 @@ https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
 | Bounded Context | Authentication | |
 |---------------|------------------------------------------|---|
 | Entity     | Endpoint URL                      | Swagger | 
-| User     | /api/v1/auth/                      | <img src="./assets/sprint3/AuthSwagger.png"> |  
+| User, Developer, Enterprise     | /api/v1/auth/                      | <img src="./assets/sprint3/AuthSwagger.png"> |  
 
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
