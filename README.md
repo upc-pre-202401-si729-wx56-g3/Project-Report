@@ -1263,6 +1263,201 @@ Como</strong> usuario \
    <td>5
    </td>
   </tr>
+    <tr>
+   <td colspan="6" ><strong>Epic 6: Preferencias en la aplicación \
+Como</strong> empresa o freelancer \
+<strong>Quiero</strong> configurar preferencias en la aplicación \
+<strong>Para </strong>tener una mejor experiencia en la aplicación según mis preferencias
+   </td>
+  </tr>
+  <tr>
+   <td>E6-US100
+   </td>
+   <td>Preferencia de idioma
+   </td>
+   <td><strong>Como </strong>empresario o freelance <strong>quiero</strong> configurar preferencias de idioma <strong>para </strong> utilizar la aplicación según mi preferencia de idioma
+   </td>
+   <td><strong>Escenario: </strong>Modo predeterminado de preferencia de idioma
+<p>
+<strong>Dado que</strong> el empresario o freelance no haya realizado cambios de preferencias de idioma a la aplicación \
+<strong>Cuando</strong> ingrese a la aplicación
+<p>
+<strong>Entonces</strong> el idioma predeterminado es inglés
+<p>
+   </td>
+   <td>6
+   </td>
+  </tr>
+  <tr>
+   <td>E6-US101
+   </td>
+   <td>Página no encontrada
+   </td>
+   <td><strong>Como </strong>empresario o freelance <strong>quiero</strong>  ser informado de una página no encontrada en la aplicación <strong>para </strong>darme cuenta que estoy en una página errónea y volver al inicio.</td>
+   <td><strong>Escenario: </strong>Error 404
+<p>
+<strong>Dado que</strong> el empresario o freelance se encuentre en la aplicación \
+<strong>Cuando</strong> ingrese a una ruta que no existe
+<p>
+<strong>Entonces</strong> aparece una página que informa al usuario que la página no ha sido encontrada
+<strong>Y</strong>aparece una opción para ser redirigido a la página principal.
+   </td>
+   <td>6
+   </td>
+  </tr>
+      <tr>
+   <td colspan="7" ><strong>Epic 7: Backend API \
+Como</strong> desarrollador \
+<strong>Quiero</strong> utilizar un backend api \
+<strong>Para </strong>que los usuarios puedan interactuar con la aplicación 
+   </td>
+  </tr>
+  <tr>
+   <td>E7-US100
+   </td>
+   <td>Autenticación de usuario
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  autenticación de datos a través del backend API <strong>para </strong> que los usuarios puedan autenticarse en la aplicación
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET a los usuarios 
+<p>
+<strong>Entonces</strong> consigue los datos de los usuarios
+<p>
+<strong>Escenario 2: </strong>Solicitud POST
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST a los usuarios
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se crea un nuevo usuario
+<p>
+<strong>Escenario 3: </strong>Solicitud PUT
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método PUT con el ID del usuario a editar
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se cambia el elemento seleccionado
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+    <tr>
+   <td>E7-US101
+   </td>
+   <td>Información de proyectos
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información de proyectos <strong>para </strong> que los usuarios puedan manipular la información de los proyectos
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos de los proyectos
+<p>
+<strong>Escenario 2: </strong>Solicitud POST
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se crea un nuevo proyecto
+<p>
+<strong>Escenario 3: </strong>Solicitud DELETE
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método DELETE con el ID del proyecto 
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se eliminará el proyecto seleccionado
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+      <tr>
+   <td>E7-US102
+   </td>
+   <td>Información de entregables de proyectos
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información de los entregables de proyectos <strong>para </strong> que los usuarios puedan manipular la información de los entregables de proyectos
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos de los entregables del proyecto
+<p>
+<strong>Escenario 2: </strong>Solicitud POST
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se crea un nuevo entregable
+<p>
+<strong>Escenario 3: </strong>Solicitud DELETE
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método DELETE con el ID del entregable
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se eliminará el entregable seleccionado
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+        <tr>
+   <td>E7-US103
+   </td>
+   <td>Información del perfil del usuario
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información del perfil <strong>para </strong>  que pueda manipular la información de mi perfil de usuario
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos del perfil
+<p>
+<strong>Escenario 2: </strong>Solicitud PUT
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método POST
+<strong>Y</strong> los datos son validados
+<p>
+<strong>Entonces</strong> se editará la información del perfil
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
+          <tr>
+   <td>E7-US104
+   </td>
+   <td>Información de proyectos destacados
+   </td>
+   <td><strong>Como </strong>desarrollador  <strong>quiero</strong>  funciones de información de los proyectos destacados <strong>para </strong>  que los usuarios puedan visualizar la información de proyectos destacados.
+   </td>
+   <td><strong>Escenario 1: </strong>Solicitud GET
+<p>
+<strong>Dado que</strong> desarrollador utilice el endpoint
+<strong>Cuando</strong> utilice el método GET 
+<p>
+<strong>Entonces</strong> consigue los datos de los proyectos destacados.
+<p>
+   </td>
+   <td>7
+   </td>
+  </tr>
 </table>
 
 ## 3.3. Impact Mapping.
