@@ -2879,7 +2879,7 @@ Link a board en Trello: https://trello.com/b/iXgCUu5m/webmaster-sprint-3
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E7-US100     | Autenticación de usuario                | T3 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |             |  | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
-| E7-US101     | Información de proyectos             | T3 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto      | 3               | Jair Velasquez | Done                                     |
+| E7-US101     | Información de proyectos             | T3 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto      | 3               | Gerardo Quilla | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
 | E7-US102     | Información de entregables de proyectos | T3 | Creación del entregable, lectura de datos, actualización de datos y eliminar entregable | Implementar la lógica de creación del entregable, lectura del entregable, actualización del entregable y eliminación del entregable  | 3               | Jair Velasquez | Done                                     |
 |               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
@@ -2918,7 +2918,7 @@ https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
 |---------------|------------------------------------------|---|
 | Entity     | Endpoint URL                      | Swagger | 
 | User, Developer, Enterprise     | /api/v1/auth/                      | <img src="./assets/sprint3/AuthSwagger.png"> |  
-
+|Project|/api/v1/projects|<img src="./assets/sprint3/ProjectsSwagger.png">|
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
 
