@@ -2937,6 +2937,15 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 <img src="./assets/sprint2/network2.png">
 <img src="./assets/sprint2/network3.png">
 
+### 5.3 Validation Interviews.
+### 5.3.1. Diseño de Entrevistas
+### 5.3.2. Registro de Entrevistas
+   **Entrevista #01: Alexandra **
+### 5.3.3. Evaluaciones según heurísticas
+### 5.4 Video About-the-Product
+### 5.5 Video About-the-Product
+
+
 # Conclusiones
 # Conclusiones y recomendaciones.
 * **Impacto en el Entorno Digital**: La ambición de convertirnos en la plataforma preferida para empresas y emprendimientos que buscan destacarse en el entorno digital refleja una meta significativa que puede impulsar y guiar nuestras decisiones estratégicas a medida que la startup crece, motivando así a nuestro equipo hacia un objetivo común.
