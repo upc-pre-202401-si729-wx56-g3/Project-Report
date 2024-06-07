@@ -2898,7 +2898,7 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 
 #### 5.2.3.4.Testing Suite Evidence for Sprint Review. 
 
-En el alcance del sprint 2 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
+En el alcance del sprint 3 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
@@ -2979,11 +2979,20 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 
 
 ### 5.3.2. Registro de Entrevistas
-   **Entrevista #01: Alexandra **
+   **Entrevista #01: Alexandra**
    [Link a la entrevista](https://youtu.be/UjRGvlj7S_c)
 ### 5.3.3. Evaluaciones según heurísticas
 ### 5.4 Video About-the-Product
-### 5.5 Video About-the-Product
+
+[Video en el siguiente enlace](https://upcedupe-my.sharepoint.com/personal/u20211b197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211b197_upc_edu_pe%2FDocuments%2FAbout%20de%20Product%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2c00230f-0c33-4215-b73f-c0d67fe3d9fa)
+
+
+<img src="./assets/sprint3/about-the-product.png">
+
+### 5.5 Video About-the-Team
+
+[Video en el siguiente enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/Ec6gcHut0DVEg6Lxv5DzkSwBmO2yZZrH73r1lG7vhG-EJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LN0Qwr)
+<img src="./assets/sprint3/about-the-team.png">
 
 
 # Conclusiones
