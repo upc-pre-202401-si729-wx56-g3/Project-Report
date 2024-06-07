@@ -2845,6 +2845,122 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 <img src="./assets/sprint2/network2.png">
 <img src="./assets/sprint2/network3.png">
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3.
+
+En el siguiente apartado, se presentará el sprint planning 3, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances del proyecto e insights de colaboración a través de Github.
+
+|<a name="_6cxtvwxzjfs6"></a>Sprint #|Sprint 3|
+| :- | :- |
+|Sprint Planning Background||
+|Date|23/05/2024|
+|Time|22 horas (GMT -5)|
+|Location|Modalidad remota por Discord|
+|Prepared By|Jair Velasquez Pizarro|
+|Attendees (to planning meeting)|Todos los miembros del grupo SiteForge|
+|Sprint n – 2 Review Summary|En el sprint 2, se han desarrollado algunas vistas del front-end (segmento empresa). Se implementó con un falso RESTful API con json server, aunque aún se necesitan realizar algunas funcionalidades CRUD core. Además, se logró desplegar la aplicación web con Netlify, siendo necesario activar el servidor json de forma local para visualizar los datos de la API.|
+|Sprint n – 3 Retrospective Summary|En este sprint 3 se planea avanzar las vistas cores restantes del front-end (segmento desarrollador). Además, se planea comenzar con el desarrollo del RESTful API con el framework de Spring Boot con los bounded context de autenticación, perfiles, creación de proyectos, seguimiento de proyectos y seguimiento de entregables. Al finalizar este sprint, se podrán observar nuevas vistas en la aplicación web y se podrá acceder al endpoint del RESTful API de manera local.|
+|Sprint Goal & User Stories||
+|Sprint 3 Velocity|56|
+|Sum of Story Points|56|
+
+#### 5.2.2.2. Sprint Backlog 2.
+
+En esta seccion de visualizar las tareas que se realizaron en el sprint 2, se adjunta una captura del tablero en Trello.
+Link a board en Trello:
+    <img src="./assets/sprint2/miro.png">
+
+| User Story ID | Title                                      | id | Title                                                 | Description                                                                         | Tiempo (horas) | Assigned to    | Status (to-do/in process/To review/done) |
+|---------------|--------------------------------------------|----|-------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------|----------------|------------------------------------------|
+| E2-US101      | Registro de usuario                        | T2 | Interfaz de usuario del inicio de crear cuenta       | Implementar un interfaz con un formulario para el registro de cuentas tanto como desarrollador y empresa. | 2               | Piero Ticona | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E2-US102      | Inicio de Sesión                           | T2 | Interfaz de usuario para iniciar sesión             | Implementar interfaz un interfaz con un formulario para el inicio de sesión para desarrollador y empresa. | 3               | Piero Ticona | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E2-US103      | Recuperación de contraseñas                | T2 | Interfaz de usuario para recuperación de contraseñas | Implementar un interfaz con un formulario para realizar petición de recuperación de contraseña. | 1.5             | Piero Ticona | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US101      | Pantalla de inicio empresario              | T2 | Interfaz del segmento de empresario para visualizar su perfil y proyectos. | Implementar interfaz donde el empresario pueda visualizar su perfil y proyectos.       | 3               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US102      | Publicar una solicitud de proyecto de software | T2 | Interfaz del segmento de empresario donde pueda crear una solicitud de proyecto. | Implementar interfaz donde el empresario pueda crear una solicitud de proyecto de softare. | 3               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US103      | Explorar de desarrolladores                | T2 | Interfaz para explorar desarrolladores              | Implementar una interfaz para explorar los perfiles de los desarrolladores disponibles. | 2               | Piero Ticona | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US104      | Sistema de calificacion de desarrolladores | T2 | Sistema de calificación para desarrolladores        | Desarrollar un sistema para calificar la calidad y desempeño de los desarrolladores. | 2               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US105      | Visualizar repositorio de un desarrollador | T2 | Interfaz para visualizar el repositorio del desarrollador | Implementar una interfaz que permita a los usuarios visualizar el repositorio de un desarrollador. | 2               | Fernando Carrasco | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US106      | Comunicación con el desarrollador         | T2 | Funcionalidad de comunicación con desarrolladores    | Implementar un sistema de mensajería para que los usuarios puedan comunicarse con los desarrolladores. | 2               | Piero Ticona | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US107      | Aceptación de propuesta de solución       | T2 | Aceptación de propuestas de solución               | Desarrollar un sistema para que los usuarios puedan aceptar propuestas de solución presentadas por los desarrolladores. | 3.5               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US108      | Seguimiento de entregables del proyecto   | T2 | Funcionalidad de seguimiento de entregables         | Implementar una funcionalidad que permita hacer seguimiento de los entregables del proyecto. | 3                | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US109      | Visualizar un entregable                  | T2 | Interfaz para visualizar los entregables del proyecto | Desarrollar una interfaz que permita a los usuarios visualizar los entregables del proyecto. | 2               | Gerardo Quilla | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E3-US110      | Proyectos destacados                      | T2 | Destacar proyectos en la plataforma                | Implementar una funcionalidad para destacar proyectos en la plataforma.               | 3               | Fernando Carrasco | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E5-US101      | Toolbar de navegación                      | T2 | Implementar una toolbar de navegación              | Desarrollar una toolbar que facilite la navegación dentro de la aplicación.          | 2               | Gerardo Quilla | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E5-US102      | Footer de la aplicación                    | T2 | Implementar un footer para la aplicación           | Desarrollar un footer que proporcione información y enlaces útiles en la aplicación. | 2               | Gerardo Quilla | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E5-US103      | Soporte técnico                            | T2 | Funcionalidad de soporte técnico                  | Implementar una funcionalidad que permita a los usuarios solicitar soporte técnico dentro de la aplicación. | 2               | Piero Ticona | Done                                     |
+
+
+#### 5.2.2.3.Development Evidence for Sprint Review. 
+
+A continuación, se presentan los commits realizados en el repositorio de la aplicacion web en el Github.
+Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
+
+
+#### 5.2.2.4.Testing Suite Evidence for Sprint Review. 
+
+En el alcance del sprint 2 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
+
+A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app/login
+
+Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review. 
+
+En este sprint 2, todos lo miembros de SiteForge completador de forma satisfactoria las tareas propuestas. El sprint 2 se enfoco tanto en mejoras del sprint 1, como el apartado visual de la aplicacion web. El cual se concluyo de forma efectiva.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review. 
+
+Par el actual sprint, se ha desarrollado la aplicacion web. Par su desplique se ha utilizado las siguientes herramientas:
+
+Git: Sistema de control de versiones que nos ayudó a trabajar en equipo durante todo el desarrollo de la aplicacion web.
+GitFlow: Flujo de trabajo que nos ayudó a controlar el avance de cada integrante del equipo en el desarrollo de la aplicacion web.
+GitHub: Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones del proyecto.
+Netlify: Plataforma que nos permitió alojar y desplegar de forma sencilla la aplicacion web.
+Evidencias del despliegue en Netlify: 
+- Repositorio vinculado al deploy e la pagina web:
+
+<img src="./assets/sprint2/evidencia1.png">
+
+- Prueba de lanzamiento en Netlify:
+
+<img src="./assets/sprint2/evidencia2.png">
+
+- Prueba de la aplicacion web en un navegados:
+
+<img src="./assets/sprint2/evidencia3.png">
+
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+En el Sprint 2, el equipo se enfocó en la implementación del fronted de la pagina web y en mejora del informe, como tambien en mejorar el landing page. 
+Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentara el insight del equipo a traves de Github:
+
+<img src="./assets/sprint2/evidencia4.png">
+
+<img src="./assets/sprint2/network1.png">
+<img src="./assets/sprint2/network2.png">
+<img src="./assets/sprint2/network3.png">
+
 # Conclusiones
 # Conclusiones y recomendaciones.
 * **Impacto en el Entorno Digital**: La ambición de convertirnos en la plataforma preferida para empresas y emprendimientos que buscan destacarse en el entorno digital refleja una meta significativa que puede impulsar y guiar nuestras decisiones estratégicas a medida que la startup crece, motivando así a nuestro equipo hacia un objetivo común.
