@@ -2984,16 +2984,9 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 ### 5.3.3. Evaluaciones según heurísticas
 ### 5.4 Video About-the-Product
 
-[Video en el siguiente enlace](https://upcedupe-my.sharepoint.com/personal/u20211b197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211b197_upc_edu_pe%2FDocuments%2FAbout%20de%20Product%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2c00230f-0c33-4215-b73f-c0d67fe3d9fa)
-
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/Ec6gcHut0DVEg6Lxv5DzkSwBmO2yZZrH73r1lG7vhG-EJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LN0Qwr)
 
 <img src="./assets/sprint3/about-the-product.png">
-
-### 5.5 Video About-the-Team
-
-[Video en el siguiente enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/Ec6gcHut0DVEg6Lxv5DzkSwBmO2yZZrH73r1lG7vhG-EJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LN0Qwr)
-<img src="./assets/sprint3/about-the-team.png">
-
 
 # Conclusiones
 # Conclusiones y recomendaciones.
@@ -3004,7 +2997,11 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 * **Identificación de una Necesidad Clara**: From Zero ha identificado una creciente necesidad en el mercado, donde empresas y emprendimientos requieren una sólida presencia en línea para potenciar sus estrategias de marketing digital. Esta identificación precisa de una demanda real puede ser un factor determinante para el éxito, ya que abordar una necesidad concreta puede generar un gran interés y participación.
 
 
+# Video About-The-Team
 
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/ET2gkHUSDo1Lp6pqocILtEYB1yI3b-vagvH9_Ah7dw4ZCw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xwuKge)
+
+<img src="./assets/sprint3/about-the-team.png">
 
 # Bibliografía
 ```
