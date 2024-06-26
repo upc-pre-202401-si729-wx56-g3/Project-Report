@@ -2996,6 +2996,12 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
    
    <img src="./assets/interview-images/validationInterviewMiguel.png" alt="Validation Interview Miguel">
 
+   **Entrevista #03: Alexandra Cabezas**
+   
+   [Link a la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EUaR21o0DzhEh4VCEIHfg8ABSfJNeRY9lX7ks4AXTwts8Q?e=x49rue)
+   
+   <img src="./assets/interview-images/validationInterviewAlexandraCabezas.png" alt="Validation Interview Miguel">
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 <br>
@@ -3101,9 +3107,13 @@ Durante la realización del proyecto hemos corregido las siguientes heurísticas
 # Conclusiones y recomendaciones.
 * **Impacto en el Entorno Digital**: La ambición de convertirnos en la plataforma preferida para empresas y emprendimientos que buscan destacarse en el entorno digital refleja una meta significativa que puede impulsar y guiar nuestras decisiones estratégicas a medida que la startup crece, motivando así a nuestro equipo hacia un objetivo común.
 
-* **Equipo Multidisciplinario**: La composición de nuestra startup por un equipo de cinco miembros nos proporciona un enfoque fresco y multidisciplinario. Esta diversidad puede ser una ventaja, ya que cada integrante puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo la oferta de servicios y aumentando la originalidad y eficacia del proyecto.
+* **Equipo Multidisciplinario**: La composición de nuestra startup por un equipo de cuatro miembros nos proporciona un enfoque fresco y multidisciplinario. Esta diversidad puede ser una ventaja, ya que cada integrante puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo la oferta de servicios y aumentando la originalidad y eficacia del proyecto.
 
 * **Identificación de una Necesidad Clara**: From Zero ha identificado una creciente necesidad en el mercado, donde empresas y emprendimientos requieren una sólida presencia en línea para potenciar sus estrategias de marketing digital. Esta identificación precisa de una demanda real puede ser un factor determinante para el éxito, ya que abordar una necesidad concreta puede generar un gran interés y participación.
+
+* **Manejo de sistema Domain Griven Design**: La adopción de Domain Driven Design (DDD) y la construcción de una arquitectura de software robusta y escalable fueron elementos esenciales para la estabilidad y el rendimiento de nuestra aplicación. Esta estrategia nos permitió abordar problemas complejos de manera organizada, facilitando la implementación de funcionalidades clave y asegurando la integridad del sistema. La clara separación de responsabilidades y la gestión eficiente de cambios contribuyeron a una plataforma confiable y preparada para el crecimiento futuro.
+
+
 
 
 # Video About-The-Team
