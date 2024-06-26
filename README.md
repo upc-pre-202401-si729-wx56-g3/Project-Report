@@ -139,7 +139,7 @@
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 
-- [5.3. Validations Interviews](#53-validations-interviews)
+- [5.3. Validations Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-Evaluaciones-según-heurísticas)
@@ -2937,18 +2937,20 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 <img src="./assets/sprint3/evidance-colla-2.png">
 <img src="./assets/sprint3/evidance-colla-3.png">
 
-### 5.3 Validation Interviews.
+### 5.3. Validation Interviews.
 #### 5.3.1. Diseño de Entrevistas.
 
 **Segmento objetivo: Empresarios o emprendedores**
 
   **Preguntas generales:**
+  
   1. ¿Cuál es su nombre? 
   2. ¿Cuántos años tienes? 
   3. ¿Dónde resides actualmente? 
   4. ¿Cuál es el nombre de tu empresa o emprendimiento? 
 
   **Preguntas de validación:**
+  
   1.	¿Qué opinión tiene con respecto al diseño de la aplicación?
   2.	¿Le parece intuitiva y fácil de manejar?
   3.	¿Cómo se siente en la parte de navegación, le es fácil ir de una pantalla a otra?
@@ -2963,12 +2965,14 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 **Segmento objetivo: Desarrolladores freelance**
 
   **Preguntas generales:**
+  
   1. ¿Cuál es su nombre? 
   2. ¿Cuántos años tienes? 
   3. ¿Dónde resides actualmente? 
   4. ¿Cuál es tu área de especialidad en el desarrollo de software (móvil, escritorio, web, ciberseguridad, etc.)? 
 
   **Preguntas de validación:**
+
   1.	¿Qué opinión tiene con respecto al diseño de la aplicación?
   2.	¿Le parece intuitiva y fácil de manejar?
   3.	¿Cómo se siente en la parte de navegación, le es fácil ir de una pantalla a otra?
@@ -2977,7 +2981,7 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
   6.	¿Estarías dispuesto/a a hacer uso de nuestra aplicación? ¿Por qué?
   7.	¿Cree que se hará fácil conseguir trabajo gracias a nuestra plataforma?
   8.	¿Qué opinión tiene con respecto a la opción de publicar tu portafolio?
-  9.	¿Estaría dispuesto a registrarse a WebMaster?
+  9.	¿Estaría dispuesto a registrarse a FromZero?
 
 ### 5.3.2. Registro de Entrevistas
    **Entrevista #01: Alexandra Ñañez**
