@@ -2937,6 +2937,104 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 <img src="./assets/sprint3/evidance-colla-2.png">
 <img src="./assets/sprint3/evidance-colla-3.png">
 
+
+### 5.2.3. Sprint 4
+
+#### 5.2.3.1. Sprint Planning 4.
+
+En el siguiente apartado, se presentará el sprint planning 4, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán el proyecto finalizado e insights de colaboración a través de Github.
+
+|<a name="_6cxtvwxzjfs6"></a>Sprint #|Sprint 4|
+| :- | :- |
+|Sprint Planning Background||
+|Date|26/06/2024|
+|Time|14 horas (GMT -5)|
+|Location|Modalidad remota por Discord|
+|Prepared By|Jair Velasquez Pizarro|
+|Attendees (to planning meeting)|Todos los miembros del grupo SiteForge|
+|Sprint n – 3 Review Summary|En el sprint 3, se han desarrollado algunas vistas del front-end (segmento empresa). Se implementó con un falso RESTful API con json server, aunque aún se necesitan realizar algunas funcionalidades CRUD core. Además, se logró desplegar la aplicación web con Netlify, siendo necesario activar el servidor json de forma local para visualizar los datos de la API.|
+|Sprint n – 4 Retrospective Summary|En este sprint 4 se planea avanzar las vistas cores restantes del front-end (segmento desarrollador). Además, se planea comenzar con el desarrollo del RESTful API con el framework de Spring Boot con los bounded context de autenticación, perfiles, creación de proyectos, seguimiento de proyectos y seguimiento de entregables. Al finalizar este sprint, se podrán observar nuevas vistas en la aplicación web y se podrá acceder al endpoint del RESTful API de manera local.|
+|Sprint Goal & User Stories||
+|Sprint 4 Velocity|56|
+|Sum of Story Points|56|
+
+#### 5.2.4.2. Sprint Backlog 4.
+
+En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.
+Link a board en Trello: https://trello.com/b/iXgCUu5m/webmaster-sprint-3
+
+| User Story ID | Title                                      | id | Title                                                 | Description                                                                         | Tiempo (horas) | Assigned to    | Status (to-do/in process/To review/done) |
+|---------------|--------------------------------------------|----|-------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------|----------------|------------------------------------------|
+| E6-US100      | Preferencia de idioma                       | T3 | Traducción Inglés y Español       | Crear el is18n para Inglés y Español |        3        |  |                                      |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E6-US101     | Página no encontrada                          | T3 | Vista Página no encontrada             | Crear vista para página no encontrada | 3               |  | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US100     | Autenticación de usuario                | T3 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |       5      | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US101     | Información de proyectos             | T3 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto      | 3               | Gerardo Quilla | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US102     | Información de entregables de proyectos | T3 | Creación del entregable, lectura de datos, actualización de datos y eliminar entregable | Implementar la lógica de creación del entregable, lectura del entregable, actualización del entregable y eliminación del entregable  | 3               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US103      | Información del perfil del usuario                | T3 | Creación del perfil, lectura de datos y actualizacion de datos            | Implementar la lógica de creación del perfil, lectura de datos y actualizacion de perfil | 2               | Piero Ticona | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+| E7-US104      | Información de proyectos destacados | T3 | Lectura de datos de proyectos destacados       | Implementar la lógica de lectura de datos de proyectos destacados  | 2               | Jair Velasquez | Done                                     |
+|               |                                            |    |                                                       |                                                                                     |                 |                |                                          |
+
+
+
+#### 5.2.4.3.Development Evidence for Sprint Review. 
+
+A continuación, se presentan los commits realizados en el repositorio de la aplicacion web en el Github.
+Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
+
+
+#### 5.2.4.4.Testing Suite Evidence for Sprint Review. 
+
+En el alcance del sprint 3 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+
+Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
+
+A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app/login
+
+Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
+
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review. 
+
+En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de las acciones CRUD realizadas con OpenApi. En el alcance del sprint, se han desarrollado los bounded context de autenticación, perfil, actividades, reclutamiento y organizaciones.
+Se adjunta el link del repositorio de la API en Github: 
+https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
+
+| Bounded Context | Authentication | |
+|---------------|------------------------------------------|---|
+| Entity     | Endpoint URL                      | Swagger | 
+| User, Developer, Enterprise     | /api/v1/auth/                      | <img src="./assets/sprint4/AuthSwagger.png"> |  
+|Project|/api/v1/projects|<img src="./assets/sprint4/ProjectsSwagger.png">|  
+|Deliverables|/api/v1/projects|<img src="./assets/sprint4/DeliverablesSwagger.png">|  
+|Profiles|/api/v1/projects|<img src="./assets/sprint4/ProfilesSwagger.png">|  
+|Messages|/api/v1/projects|<img src="./assets/sprint4/MessagesSwagger.png">|
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review. 
+
+De igual forma que el primer y segundo sprint, se siguio utilizando el servicio de auto deploy de Netlify. Por lo que, se realizaran los mismos pasos antes mencionados.
+
+
+<img src="./assets/sprint3/evidence.png">
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+
+En el Sprint 4, el equipo se enfocó en la implementación del fronted y backend de la aplicación web y en mejora del informe, como tambien en mejorar el landing page. 
+Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo y actualizarlo, la ventaja de usar estas ramas es que permiten actualizar y luego corroborar que no haya algún error al unirla con la rama master(develop). Ahora se presentara el insight del equipo a traves de Github:
+
+<img src="./assets/sprint4/evidance-colla-1.png">
+
+<img src="./assets/sprint4/evidance-colla-2.png">
+<img src="./assets/sprint4/evidance-colla-3.png">
+<img src="./assets/sprint4/evidance-colla-4.png">
+
+
+
 ### 5.3. Validation Interviews.
 #### 5.3.1. Diseño de Entrevistas.
 
