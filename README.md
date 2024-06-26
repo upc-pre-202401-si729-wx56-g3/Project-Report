@@ -3127,7 +3127,7 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 
    [Link a la entrevista](https://youtu.be/AxzPx9rgBl8)
 
-   <img src="./assets/interview-images/entrevista4.png" alt="entrevista4">
+   <img src="./assets/interview-images/validationInterviewGonzalo.png" alt="validation interview gonzalo">
    
 
 ### 5.3.3. Evaluaciones según heurísticas
