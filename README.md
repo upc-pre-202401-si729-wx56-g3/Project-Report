@@ -2980,8 +2980,18 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
   9.	¿Estaría dispuesto a registrarse a WebMaster?
 
 ### 5.3.2. Registro de Entrevistas
-   **Entrevista #01: Alexandra**
+   **Entrevista #01: Alexandra Ñañez**
+   
    [Link a la entrevista](https://youtu.be/UjRGvlj7S_c)
+   
+   <img src="./assets/interview-images/validationInterviewAlexandra.png" alt="Validation Interview Alexandra">
+
+   **Entrevista #02: Miguel Ybañez**
+   
+   [Link a la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/ERv1hH7cm3lFnV1r9QVsWEYBva7Vbzrn_9yA1CIG6XW3-A?e=4qAw3F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+   
+   <img src="./assets/interview-images/validationInterviewMiguel.png" alt="Validation Interview Miguel">
+
 ### 5.3.3. Evaluaciones según heurísticas
 ### 5.4 Video About-the-Product
 
