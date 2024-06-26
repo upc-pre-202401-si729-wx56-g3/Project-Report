@@ -2982,17 +2982,20 @@ Link a board en Trello: https://trello.com/b/iXgCUu5m/webmaster-sprint-3
 
 | User Story ID | Title  | id | Title | Description | Tiempo (horas) | Assigned to  | Status (to-do/in process/To review/done) |
 |-|-|-|-|-|-|-|-|
-| E6-US101     | Página no encontrada                          | T3 | Vista Página no encontrada | Crear vista para página no encontrada | 3 |  | Done |
+| E6-US101     | Página no encontrada                          | T4 | Vista Página no encontrada | Crear vista para página no encontrada | 3 |  | Done |
 |||||||||
-| E7-US100     | Autenticación de usuario                | T3 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |       5      | Jair Velasquez | Done |
+| E7-US100     | Autenticación de usuario                | T4 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |       5      | Jair Velasquez | Done |
 |||||||||
-| E7-US101     | Información de proyectos  | T3 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto | 3 | Gerardo Quilla | Done  |
+| E7-US101     | Información de proyectos  | T4 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto | 3 | Gerardo Quilla | Done  |
 |||||||||
-| E7-US102     | Información de entregables de proyectos | T3 | Creación del entregable, lectura de datos, actualización de datos y eliminar entregable | Implementar la lógica de creación del entregable, lectura del entregable, actualización del entregable y eliminación del entregable  | 3 | Jair Velasquez | Done |
+| E7-US102     | Información de entregables de proyectos | T4 | Creación del entregable, lectura de datos, actualización de datos y eliminar entregable | Implementar la lógica de creación del entregable, lectura del entregable, actualización del entregable y eliminación del entregable  | 3 | Jair Velasquez | Done |
 |||||||||
-| E7-US103      | Información del perfil del usuario | T3 | Creación del perfil, lectura de datos y actualizacion de datos | Implementar la lógica de creación del perfil, lectura de datos y actualizacion de perfil | 2 | Piero Ticona | Done |
+| E7-US103      | Información del perfil del usuario | T4 | Creación del perfil, lectura de datos y actualizacion de datos | Implementar la lógica de creación del perfil, lectura de datos y actualizacion de perfil | 2 | Piero Ticona | Done |
 |||||||||
-| E7-US104 | Información de proyectos destacados | T3 | Lectura de datos de proyectos destacados | Implementar la lógica de lectura de datos de proyectos destacados  | 2 | Jair Velasquez | Done |
+| E7-US104 | Información de proyectos destacados | T4 | Lectura de datos de proyectos destacados | Implementar la lógica de lectura de datos de proyectos destacados  | 2 | Jair Velasquez | Done |
+| E7-US106 | Comunicación con el desarrollador y soporte | T4 | Como empresario tiene la necesidad de comunicarse con el area de soporte | Implementar la lógica de lectura comunicación con area de soporte  | 4 | Jair Velasquez | Done |
+| E7-US109 | Visualizar un entregable | T4 | Poder visualizar entregas parciales de cada proyecto para evaluar su aprobación | Implementar la lógica de lectura de datos de entregables por parte de desarrollador  | 4 | Gerardo Quilla | Done |
+| E7-US105 | Comunicación con el empresario mediante correo | T4 | Comunicación entre desarrollador y empresarios mediante correo | Implementar la estructura de base de datos de mensajes.  | 3 | Piero Ticona | Done |
 
 #### 5.2.4.3.Development Evidence for Sprint Review. 
 
@@ -3248,7 +3251,7 @@ El contenido siempre debe ser responsive, ya que los usuarios van a acceder desd
 
 * **Identificación de una Necesidad Clara**: From Zero ha identificado una creciente necesidad en el mercado, donde empresas y emprendimientos requieren una sólida presencia en línea para potenciar sus estrategias de marketing digital. Esta identificación precisa de una demanda real puede ser un factor determinante para el éxito, ya que abordar una necesidad concreta puede generar un gran interés y participación.
 
-* **Manejo de sistema Domain Griven Design**: La adopción de Domain Driven Design (DDD) y la construcción de una arquitectura de software robusta y escalable fueron elementos esenciales para la estabilidad y el rendimiento de nuestra aplicación. Esta estrategia nos permitió abordar problemas complejos de manera organizada, facilitando la implementación de funcionalidades clave y asegurando la integridad del sistema. La clara separación de responsabilidades y la gestión eficiente de cambios contribuyeron a una plataforma confiable y preparada para el crecimiento futuro.
+* **Manejo de sistema Domain Driven Design**: La adopción de Domain Driven Design (DDD) y la construcción de una arquitectura de software robusta y escalable fueron elementos esenciales para la estabilidad y el rendimiento de nuestra aplicación. Esta estrategia nos permitió abordar problemas complejos de manera organizada, facilitando la implementación de funcionalidades clave y asegurando la integridad del sistema. La clara separación de responsabilidades y la gestión eficiente de cambios contribuyeron a una plataforma confiable y preparada para el crecimiento futuro.
 
 
 
