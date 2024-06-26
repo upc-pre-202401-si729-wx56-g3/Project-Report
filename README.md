@@ -1,15 +1,15 @@
 # UPC
 # INGENIERÍA DE SISTEMAS DE SOFTWARE
-## CURSO: SI729 Desarrollo de Aplicaciones Open Source | SECCIÓN WX54 
+## CURSO: SI729 Desarrollo de Aplicaciones Open Source | SECCIÓN WX56
  Profesor: Hugo Allan Mori Paiva
-# Informe de TB1
+# Informe de TF
 ### Integrantes:
 - Jorge Gerardo Quilla Luyo - U20211B197
 - Rony Piero Ticona Luque - U201420422
 - Jair Velasquez Pizarro - U202218114
 - Juan Fernando Carrasco Godos - U20211D118
 
-04/05/2024
+26/06/2024
 ---
 # Registro de Versiones del Informe
 | Version | Fecha | Autor | Descripcion de Modificacion |
@@ -23,6 +23,7 @@
 | 1.1 | 14/04/2024 | Grupo 3 | Capitulo 5 |
 | 2.0 | 03/05/2024 | Grupo 3 | Capitulo 5 Sprint 2 |
 | 2.0 | 07/06/2024 | Grupo 3 | Capitulo 5 Sprint 3 |
+| 3.0 | 26/06/2024 | Grupo 3 | Capitulo 5 Sprint 4 |
 
 # Project Report Collaboration Insights
 [URL del repositorio](https://github.com/upc-pre-202401-si729-wx56-g3)
@@ -31,8 +32,8 @@
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Durante el desarrollo del TB1, mi principal aporte fue en la elaboración de diagramas (Diagrama de clases y C4 model) aunque de realizo el planteamiento de estas de forma colaborativa para que hayan multiples ideas en la creación de estas. De igual forma, colabore en el desarrolló del landing page, asi como en secciones de la unidad 5 como el Source Code Management y la configuración del Deploy del landing. De igual forma buscamos constantemente mejoras al momento de realizadas modificaciones de acuerdo a observaciones.<br> ***TP:***  Durante el desarrollo de la TB1 mi principal aporte fue el desarrollo de la organizacion del Sprint 2, como tambien desarrolle el apartado visual de la pantalla de Home, Perfil de Empresa y Desarrollador.Adicional a esto desarrolle el apartado de creacion de Proyecto y un aporte notable en el sistema de routing de la aplicacion y consumos a la api que es nuestro caso usamos un json database de forma local. <br> ***TB2:*** <br><br> ***TF:***   <br><br>Jorge Quilla:<br> ***TB1:*** Durante el desarrollo de la TB1, mi principal tarea fue buscar a neustros principales competidores, analizarlos y buscar una estrategia para hacerle frente. Me encargué de diseñar las entrevistas para los segmentos objetivos de nuestra aplicación. De igual forma, use herramientas de UX para User Personas, Empathy Maps, Jorney Maps y As-Is Maps.<br> ***TP:*** Aporte en el desarrollo de componentes compartidos, tales como sidenav y footer. Además de desarrollar el componente de entregables, los cuales son necesarios para la lógica del proyecto.<br> ***TB2:*** En esta entrega he podido diseñar un apartado de nuestra aplicación que involucra la creación de proyectos y lectura de estos mismos, con el fin de poder enviar información al otro usuario y pueda visualizar a que proyecto quiere postular. <br> ***TF:***  <br><br>Piero Ticona:<br> ***TB1:***  Aporte con el capítulo I del informe. Además me encargue del diseño de mock ups de la Landing Page mediante la herramienta de figma. Hice una entrevista. Aporté al desarrollo de la landing page en html u css.<br> ***TP:***  Aporte en la parte del fronted de la aplicación web con la creación y diseño de los componentes auth, support, message y lookingfordevelop.<br> ***TB2:*** En esta parte del proyecto he podido diseñar un apartado para recepcionar los datos que los desarrolladores ingresan para dar muestra de una avance del proyecto. <br> ***TF:*** <br><br>Juan Carrasco:<br> ***TB1:***  Aparte con el capítulo III del informe. Tambien diseñé el modelo de base datos. Aporté a la landing pages con las primeras secciones y la barra de navegación. Aprendí muchas tecnias de desarrollo durante este proyecto. <br> ***TP:***  <br> ***TB2:***  En esta fase del desarrollo, logramos diseñar una sección clave de nuestra aplicación que se centra en la creación y visualización de proyectos. Este módulo permite a los usuarios crear proyectos y acceder a su información, lo que facilita la comunicación entre ellos al enviar detalles sobre los proyectos disponibles y permitir que los interesados los visualicen y se postulen según sus preferencias. <br> ***TF:*** |En este proyecto, no solo amplié mis habilidades técnicas, sino que también fortalecí mi comprensión de metodologías clave como el Mapeo del Escenario Futuro y el Mapeo de Impacto, fundamentales para alinear los objetivos del proyecto con las expectativas de los stakeholders. La etapa de Especificación de Requisitos fue fundamental, ya que nos permitió detallar y documentar cada requisito a través de Historias de Usuario y un Product Backlog bien definido. Este enfoque colaborativo y sistemático no solo aseguró la coherencia entre las funcionalidades y los objetivos del proyecto, sino que también resaltó la importancia de la adaptabilidad y la colaboración en equipo en el desarrollo de software. |
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br> ***TP:*** <br> ***TB2:*** <br> ***TF:*** <br><br>Jorge Quilla:<br> ***TB1:*** En el sector de soluciones de software he conocido plataformas las cuales sirven como intermediarios entre una empresa y un desarrollador freelance. Gracias a ello he podido armar un cuadro de FODA de la competencia. Además, he identificado qué conceptos, palabras y expresiones son las más usadas en este sector.<br> ***TP:*** Se desarrolló la lógica de entregables, los cuales son creados por empresas, y leídos por el desarrollador freelance. Además verificar el correcto funcionamiento de las rutas dentro de la aplicación web.<br> ***TB2:*** En esta entrega he identificado las entidades necesarias para la creacion proyectos, además de procesos que permiten desacoplar o modularizar el codigo para lograr escalabilidad y un mejor manejo de codigo en futuros cambios. <br> ***TF:***  <br><br>Piero Ticona:<br> ***TB1:*** Dentro del campo de las soluciones de software, he tenido la ocasión de explorar plataformas que funcionan como mediadores entre compañías y desarrolladores autónomos. Esta experiencia me ha capacitado para realizar un análisis FODA de la competencia y para identificar los términos y expresiones más frecuentes en esta área de la industria.<br> ***TP:*** Se analizaron los requisitos de los componentes para cubrir las funcionalidad de la parte fronted.<br> ***TB2:*** En esta entrega, he determinado las entidades clave para la creación de proyecto del servicio de entregables, además contar con un estructura ordenada para el desarrollo de la estructura de columnas. <br> ***TF:*** <br><br>Juan Carrasco:<br> ***TB1:***  En el ámbito de las soluciones de software, he tenido la oportunidad de familiarizarme con plataformas que actúan como intermediarios entre empresas y desarrolladores independientes. Este contexto me ha permitido elaborar un análisis FODA de la competencia y también identificar los términos y expresiones más comunes en esta industria. <br> ***TP:***  <br> ***TB2:***  En esta entrega, he identificado las entidades esenciales para la creación de proyectos, además de definir los procesos que permiten modularizar y desacoplar el código. Esto facilita la escalabilidad y asegura un manejo más eficiente del código en futuros cambios. Además, se han desarrollado los endpoints para ambos segmentos objetivos de nuestro proyecto: empresarios y desarrolladores. <br> ***TF:***  | <br>La integración del Mapeo del Escenario Futuro, las Historias de Usuario y el Mapeo de Impacto nos proporcionó una base sólida para alinear el desarrollo del software con las necesidades y expectativas de los usuarios. La creación de un Product Backlog bien estructurado, la configuración de un entorno de desarrollo optimizado y la implementación de convenciones de código estrictas garantizaron la calidad y eficiencia del software.|
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.| Jair Velasquez:<br> ***TB1:***  Durante el desarrollo del TB1, mi principal aporte fue en la elaboración de diagramas (Diagrama de clases y C4 model) aunque de realizo el planteamiento de estas de forma colaborativa para que hayan multiples ideas en la creación de estas. De igual forma, colabore en el desarrolló del landing page, asi como en secciones de la unidad 5 como el Source Code Management y la configuración del Deploy del landing. De igual forma buscamos constantemente mejoras al momento de realizadas modificaciones de acuerdo a observaciones.<br> ***TP:***  Durante el desarrollo de la TB1 mi principal aporte fue el desarrollo de la organizacion del Sprint 2, como tambien desarrolle el apartado visual de la pantalla de Home, Perfil de Empresa y Desarrollador.Adicional a esto desarrolle el apartado de creacion de Proyecto y un aporte notable en el sistema de routing de la aplicacion y consumos a la api que es nuestro caso usamos un json database de forma local. <br> ***TB2:*** <br><br> ***TF:***   <br><br>Jorge Quilla:<br> ***TB1:*** Durante el desarrollo de la TB1, mi principal tarea fue buscar a neustros principales competidores, analizarlos y buscar una estrategia para hacerle frente. Me encargué de diseñar las entrevistas para los segmentos objetivos de nuestra aplicación. De igual forma, use herramientas de UX para User Personas, Empathy Maps, Jorney Maps y As-Is Maps.<br> ***TP:*** Aporte en el desarrollo de componentes compartidos, tales como sidenav y footer. Además de desarrollar el componente de entregables, los cuales son necesarios para la lógica del proyecto.<br> ***TB2:*** En esta entrega he podido diseñar un apartado de nuestra aplicación que involucra la creación de proyectos y lectura de estos mismos, con el fin de poder enviar información al otro usuario y pueda visualizar a que proyecto quiere postular. <br> ***TF:*** En esta entrega he logrado ver el área de backend y frontend, he realizado cambios, he hecho commits y creado ramas. Todo esto con el fin de conectar ambas partes para un solo fin que es visualizar correctamente los datos que se ingresen a través de el front, leerlos con el backend y mostrar los datos de forma ordenada. <br><br>Piero Ticona:<br> ***TB1:***  Aporte con el capítulo I del informe. Además me encargue del diseño de mock ups de la Landing Page mediante la herramienta de figma. Hice una entrevista. Aporté al desarrollo de la landing page en html u css.<br> ***TP:***  Aporte en la parte del fronted de la aplicación web con la creación y diseño de los componentes auth, support, message y lookingfordevelop.<br> ***TB2:*** En esta parte del proyecto he podido diseñar un apartado para recepcionar los datos que los desarrolladores ingresan para dar muestra de una avance del proyecto. <br> ***TF:*** <br><br>Juan Carrasco:<br> ***TB1:***  Aparte con el capítulo III del informe. Tambien diseñé el modelo de base datos. Aporté a la landing pages con las primeras secciones y la barra de navegación. Aprendí muchas tecnias de desarrollo durante este proyecto. <br> ***TP:***  <br> ***TB2:***  En esta fase del desarrollo, logramos diseñar una sección clave de nuestra aplicación que se centra en la creación y visualización de proyectos. Este módulo permite a los usuarios crear proyectos y acceder a su información, lo que facilita la comunicación entre ellos al enviar detalles sobre los proyectos disponibles y permitir que los interesados los visualicen y se postulen según sus preferencias. <br> ***TF:*** | A lo largo de este proyecto hemos aprendido: la importancia de la lógica de programación, ya que se han aplicado conocimientos básicos para la estructura y buenas convenciones tanto de nombres de componentes, clases y variables para el backend, y orden en la base de datos; trabajar en equipo,ya que cada uno tenía a su cargo cierta parte del codigo e informe, por lo que siempre debíamos cumplir con nuestros objetivos planteados; y tambien hemos aplicado mejoras continuas al proyecto para lograr satisfacer a nuestros segmentos planteados en un inicio. |
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Jair Velasquez:<br> ***TB1:***  En el sector empresarial de soluciones de software, he participado en el diseño de experiencia de usuario (UX) y la especificación de requisitos, concentrándome en la creación de diagramas de clases y modelado de C4 con herramientas como Lucidchart. Además, he contribuido en la creación de prototipos para el landing page y la aplicación web utilizando Figma, integrando estos elementos en propuestas visuales coherentes con nuestros lineamientos de estilo.<br> ***TP:*** <br> ***TB2:*** <br> ***TF:*** <br><br>Jorge Quilla:<br> ***TB1:*** En el sector de soluciones de software he conocido plataformas las cuales sirven como intermediarios entre una empresa y un desarrollador freelance. Gracias a ello he podido armar un cuadro de FODA de la competencia. Además, he identificado qué conceptos, palabras y expresiones son las más usadas en este sector.<br> ***TP:*** Se desarrolló la lógica de entregables, los cuales son creados por empresas, y leídos por el desarrollador freelance. Además verificar el correcto funcionamiento de las rutas dentro de la aplicación web.<br> ***TB2:*** En esta entrega he identificado las entidades necesarias para la creacion proyectos, además de procesos que permiten desacoplar o modularizar el codigo para lograr escalabilidad y un mejor manejo de codigo en futuros cambios. <br> ***TF:*** En esta entrega se ha explorado las vistas, el modelo y el controlador. De acuerdo a las entrevistas realizadas con aterioridad hemos logrado cumplir varias expectativas que se tenía del proyecto en un inicio. Además, implementar un método de seguridad en nuestra aplicación para que el usuario tenga la confianza de usar nuestra app. <br><br>Piero Ticona:<br> ***TB1:*** Dentro del campo de las soluciones de software, he tenido la ocasión de explorar plataformas que funcionan como mediadores entre compañías y desarrolladores autónomos. Esta experiencia me ha capacitado para realizar un análisis FODA de la competencia y para identificar los términos y expresiones más frecuentes en esta área de la industria.<br> ***TP:*** Se analizaron los requisitos de los componentes para cubrir las funcionalidad de la parte fronted.<br> ***TB2:*** En esta entrega, he determinado las entidades clave para la creación de proyecto del servicio de entregables, además contar con un estructura ordenada para el desarrollo de la estructura de columnas. <br> ***TF:*** <br><br>Juan Carrasco:<br> ***TB1:***  En el ámbito de las soluciones de software, he tenido la oportunidad de familiarizarme con plataformas que actúan como intermediarios entre empresas y desarrolladores independientes. Este contexto me ha permitido elaborar un análisis FODA de la competencia y también identificar los términos y expresiones más comunes en esta industria. <br> ***TP:***  <br> ***TB2:***  En esta entrega, he identificado las entidades esenciales para la creación de proyectos, además de definir los procesos que permiten modularizar y desacoplar el código. Esto facilita la escalabilidad y asegura un manejo más eficiente del código en futuros cambios. Además, se han desarrollado los endpoints para ambos segmentos objetivos de nuestro proyecto: empresarios y desarrolladores. <br> ***TF:***  | <br>La implementación de backend y frontend requiere de buenas prácticas y orden en la estructura. Por lo tanto, cada entrega a lo largo del proyecto debió cumplir con los objetivos planteados para que en esta última modificación se logre completar una buena experiencia de usuario, una buena interfaz responsiva, y almacenar los datos correctamente. |
 
 
 # Contenido
@@ -130,14 +131,24 @@
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
     - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-1)
-      - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-1)
-      - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
-      - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+      - [5.2.3.3. Development Evidence for Sprint Review](#5233development-evidence-for-sprint-review)
+      - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234testing-suite-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238team-collaboration-insights-during-sprint)
+
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Sprint Backlog 4](#5242-sprint-backlog-4)
+      - [5.2.4.3. Development Evidence for Sprint Review](#5243development-evidence-for-sprint-review)
+      - [5.2.4.4. Testing Suite Evidence for Sprint Review](#5244testing-suite-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248team-collaboration-insights-during-sprint)
 
 - [5.3. Validations Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
@@ -171,7 +182,7 @@ Nuestra meta es ser el principal recurso para empresas que requieran soluciones 
 | Velasquez Pizarro Jair <br> <img src="./assets/members-profile/Jair.jpeg" alt="Imagen del compañero" style="width:60%"> | U202218114   |Ingenieria de software| C++, Java, HTML5, CSS3, Tailwind CSS Javascript, SQL. Detallista y proactivo.  |
 | Quilla Luyo Jorge Gerardo <br> <img src="./assets/members-profile/Gerardo.png" alt="Gerardo Quilla" style="width:60%"> | U20211B197   |Ingenieria de software| Python, Java, HTML5, CSS, Typescript y SQL. Puntual y responsable.  |
 | Ticona Luque, Rony Piero <br> <img src="./assets/members-profile/Piero.png" alt="Piero Ticona" style="width:60%"> | U201420422   |Ingenieria de software| Python, Java, HTML5, CSS y SQL. Ordenado y responsable.  |
-| Carrasco Godos, Juan Fernando <br> <img src="./assets/members-profile/Fernando.png" alt="Juan Carrasco" style="width:60%"> | U20211D118   |Ingenieria de software| - |
+| Carrasco Godos, Juan Fernando <br> <img src="./assets/members-profile/Fernando.png" alt="Juan Carrasco" style="width:60%"> | U20211D118   |Ingenieria de software| HTML, CSS y Typescript. |
 
 ## 1.2. Solution Profile
 Para entender adecuadamente el perfil de la solución, es imprescindible analizar la naturaleza del problema que estamos tratando de resolver. Esto implica identificar con detalle los aspectos fundamentales que nuestra solución debe abordar y establecer objetivos y restricciones que orienten nuestra definición. Con el fin de facilitar este proceso de análisis y enfoque, emplearemos herramientas ampliamente reconocidas como "Las 5W y 2H" y el "Proceso Lean UX".
@@ -2705,7 +2716,7 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body| Commited on (Date) |
 | :- | :- | :- | :- | :- | :- |
-|FromZero-LandingPage|develop|ee461ee13ed4dc32aff27de4d0491ae8fbec770f|Initial commit||18/04/2024|
+|FromZero-Frontend Web Application|develop|ee461ee13ed4dc32aff27de4d0491ae8fbec770f|Initial commit||18/04/2024|
 ||develop|41eef0bc347d39edab4cac32451b325e7ddcd82b|Chore: Initial configuration||18/04/2024|
 ||develop|dbb0ff97b0c6c60dca0ceaea4e3ffffb8308c7e6|chore: add basic directories||19/04/2024|
 ||develop|c14c835ff2350cd8f0c361344555567a6a038ad6|chore: deleting example files||19/04/2024|
@@ -2805,7 +2816,7 @@ En el alcance del sprint 2 se ha desarrollado únicamente el front-end del web a
 
 Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
 
-A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app/login
+A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app
 
 Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
 
@@ -2898,13 +2909,13 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 
 #### 5.2.3.4.Testing Suite Evidence for Sprint Review. 
 
-En el alcance del sprint 3 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
+En el alcance del sprint 3 se ha desarrollado únicamente el front-end del web application y una parte del backend, por consiguiente, no se evidencia el testing.
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
 Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
 
-A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app/login
+A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app
 
 Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
 
@@ -2917,8 +2928,8 @@ https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
 | Bounded Context | Authentication | |
 |---------------|------------------------------------------|---|
 | Entity     | Endpoint URL                      | Swagger | 
-| User, Developer, Enterprise     | /api/v1/auth/                      | <img src="./assets/sprint3/AuthSwagger.png"> |  
-|Project|/api/v1/projects|<img src="./assets/sprint3/ProjectsSwagger.png">|
+| User, Developer, Enterprise     | /v1/api/auth/                      | <img src="./assets/sprint3/AuthSwagger.png"> |  
+|Project|/v1/api/projects|<img src="./assets/sprint3/ProjectsSwagger.png">|
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review. 
 
@@ -2938,9 +2949,9 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 <img src="./assets/sprint3/evidance-colla-3.png">
 
 
-### 5.2.3. Sprint 4
+### 5.2.4. Sprint 4
 
-#### 5.2.3.1. Sprint Planning 4.
+#### 5.2.4.1. Sprint Planning 4.
 
 En el siguiente apartado, se presentará el sprint planning 4, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán el proyecto finalizado e insights de colaboración a través de Github.
 
@@ -2952,7 +2963,7 @@ En el siguiente apartado, se presentará el sprint planning 4, donde se mostrar�
 |Location|Modalidad remota por Discord|
 |Prepared By|Jair Velasquez Pizarro|
 |Attendees (to planning meeting)|Todos los miembros del grupo SiteForge|
-|Sprint n – 3 Review Summary|En el sprint 3, se han desarrollado algunas vistas del front-end (segmento empresa). Se implementó con un falso RESTful API con json server, aunque aún se necesitan realizar algunas funcionalidades CRUD core. Además, se logró desplegar la aplicación web con Netlify, siendo necesario activar el servidor json de forma local para visualizar los datos de la API.|
+|Sprint n – 3 Review Summary|En el sprint 3, se han desarrollado algunas vistas del front-end (segmento empresa). Se implementó con un RESTful API fake con json server, aunque aún se necesitan realizar algunas funcionalidades CRUD core. Además, se logró desplegar la aplicación web con Netlify, siendo necesario activar el servidor json de forma local para visualizar los datos de la API.|
 |Sprint n – 4 Retrospective Summary|En este sprint 4 se planea avanzar las vistas cores restantes del front-end (segmento desarrollador). Además, se planea comenzar con el desarrollo del RESTful API con el framework de Spring Boot con los bounded context de autenticación, perfiles, creación de proyectos, seguimiento de proyectos y seguimiento de entregables. Al finalizar este sprint, se podrán observar nuevas vistas en la aplicación web y se podrá acceder al endpoint del RESTful API de manera local.|
 |Sprint Goal & User Stories||
 |Sprint 4 Velocity|56|
@@ -2990,26 +3001,28 @@ Link del repositorio en Github: https://github.com/upc-pre-202401-si729-wx56-g3/
 
 #### 5.2.4.4.Testing Suite Evidence for Sprint Review. 
 
-En el alcance del sprint 3 se ha desarrollado únicamente el front-end del web application, por consiguiente, no se evidencia el testing.
+En el alcance del sprint 4 se ha desarrollado backend y corrección de frontend, por consiguiente, no se evidencia el testing.
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 
 Para esta entrega, el equipo SiteForge logró la implementación la parte visual de la aplicacion web y la interactividad de parte del segmento empresa, en donde se encontraran secciones con información del login, creacion de un proyecto por parte de la empresa.
 
-A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app/login
+A continuación, se encuentra el link a página de la aplicacion web: https://fromzeroupcapp.netlify.app
 
-Cabe resaltar que la pagina por el momento necesita que se use el json-server de forma local para poder obtener la informacion.
+También se está implementando el backend, con el cual se podrá acceder a la base de datos y devolver los datos convertidos en recursos que serán fáciles de entender por los usuarios.
+
+
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review. 
 
-En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de las acciones CRUD realizadas con OpenApi. En el alcance del sprint, se han desarrollado los bounded context de autenticación, perfil, actividades, reclutamiento y organizaciones.
+En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas de las acciones CRUD realizadas con OpenApi. En el alcance del sprint, se han desarrollado los bounded context de autenticación, perfil, creación de proyectos, postulaciones y entregables.
 Se adjunta el link del repositorio de la API en Github: 
 https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
 
 | Bounded Context | Authentication | |
-|---------------|------------------------------------------|---|
-| Entity     | Endpoint URL                      | Swagger | 
-| User, Developer, Enterprise     | /api/v1/auth/                      | <img src="./assets/sprint4/AuthSwagger.png"> |  
+|-|-|-|
+| Entity | Endpoint URL | Swagger | 
+| User, Developer, Enterprise | /api/v1/auth/ | <img src="./assets/sprint4/AuthSwagger.png"> |  
 |Project|/api/v1/projects|<img src="./assets/sprint4/ProjectsSwagger.png">|  
 |Deliverables|/api/v1/projects|<img src="./assets/sprint4/DeliverablesSwagger.png">|  
 |Profiles|/api/v1/projects|<img src="./assets/sprint4/ProfilesSwagger.png">|  
