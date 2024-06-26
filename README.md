@@ -3060,6 +3060,13 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
 <img src="./assets/sprint4/evidance-colla-4.png">
 
 
+<img src="./assets/sprint4/evidance-colla-5.png">
+
+<img src="./assets/sprint4/evidance-colla-6.png">
+<img src="./assets/sprint4/evidance-colla-7.png">
+<img src="./assets/sprint4/evidance-colla-8.png">
+<img src="./assets/sprint4/evidance-colla-9.png">
+<img src="./assets/sprint4/evidance-colla-10.png">
 
 ### 5.3. Validation Interviews.
 #### 5.3.1. Diseño de Entrevistas.
