@@ -1474,7 +1474,13 @@ Como</strong> desarrollador \
 
 ## 3.3. Impact Mapping.
 
-![Impact Mapping](image.jpg)
+**Impact Map Segmento Empresa**
+
+<img src="./assets/styleGuidelines/impactMapping.png" alt="impact-map-enterprise">
+
+**Impact Map Segmento Empresa**
+
+<img src="./assets/styleGuidelines/impactMappingFreelance.png" alt="impact-map-freelancer">
 
 ## 3.4. Product Backlog.
 <table>
@@ -2976,12 +2982,16 @@ Link a board en Trello: https://trello.com/b/iXgCUu5m/webmaster-sprint-3
 
 | User Story ID | Title  | id | Title | Description | Tiempo (horas) | Assigned to  | Status (to-do/in process/To review/done) |
 |-|-|-|-|-|-|-|-|
-| E6-US100 | Preferencia de idioma | T3 | Traducción Inglés y Español | Crear el is18n para Inglés y Español | 3 | - | - |
-| E6-US101     | Página no encontrada                          | T3 | Vista Página no encontrada             | Crear vista para página no encontrada | 3 |  | Done |
+| E6-US101     | Página no encontrada                          | T3 | Vista Página no encontrada | Crear vista para página no encontrada | 3 |  | Done |
+|||||||||
 | E7-US100     | Autenticación de usuario                | T3 | Validación de usuario y Seguridad de contraseña | Crear lógica para validar credenciales del usuario y implementar encriptación mediante hash para las contraseñas de los usuarios |       5      | Jair Velasquez | Done |
+|||||||||
 | E7-US101     | Información de proyectos  | T3 | Creación del proyecto, Lectura de datos, Actualización de datos y Eliminar proyecto | Implementar la lógica de creación del proyecto, lectura del proyecto, actualización del proyecto y eliminación del proyecto | 3 | Gerardo Quilla | Done  |
+|||||||||
 | E7-US102     | Información de entregables de proyectos | T3 | Creación del entregable, lectura de datos, actualización de datos y eliminar entregable | Implementar la lógica de creación del entregable, lectura del entregable, actualización del entregable y eliminación del entregable  | 3 | Jair Velasquez | Done |
+|||||||||
 | E7-US103      | Información del perfil del usuario | T3 | Creación del perfil, lectura de datos y actualizacion de datos | Implementar la lógica de creación del perfil, lectura de datos y actualizacion de perfil | 2 | Piero Ticona | Done |
+|||||||||
 | E7-US104 | Información de proyectos destacados | T3 | Lectura de datos de proyectos destacados | Implementar la lógica de lectura de datos de proyectos destacados  | 2 | Jair Velasquez | Done |
 
 #### 5.2.4.3.Development Evidence for Sprint Review. 
