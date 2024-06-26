@@ -3044,8 +3044,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 |N|Problema|Escala de severidad|Heurística/Principio violada(o)|
 | - | - | - | - |
-|1||-|-|
-|2||-|-|
+|1|El tamaño de letra en la barra de navegación (sidenav) es muy pequeña, no se logra entender.|1|Usability: Información perceptible|
+|2|El contenido de la interfaz de usuario no está centrado.|3|Usability: Diseño estético y minimalista|
+|3|El contenido no es responsive|4|Information Architecture: Navegación intuitiva|
 
 <br>
 
@@ -3053,49 +3054,57 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 <br>
 
-**Problema 1:**
+**Problema 1: El tamaño de letra en la barra de navegación (sidenav) es muy pequeña, no se logra entender**
 
-Severidad: #
+Severidad: 1
 
-Heurística violada: 
+Heurística violada: Usability: Información perceptible
 
 Problema:
 
-problema 1
+La barra de navegación está bien ubicada, los íconos son entendibles pero el tamaño de letra no se percibe a simple vista.
 
-<img src="" alt="Problema 1">
-
+<img src="./assets/heuristicas/sidenav.png" alt="sidenav">
 
 <br>Recomendación:
 
-rec
+Es una parte del diseño que puede ser simplemente arreglada, es cuestión de modificar la hoja de estilos. Procurar que el tamaño no afecte el ancho o alto del sidenav para evitar que choque con el contenido principal.
+
 <br><br>
 
-**Problema #2:**
+**Problema #2: El contenido de la interfaz de usuario no está centrado.**
 
-Severidad: #
+Severidad: 3
 
-Heurística violada: 
+Heurística violada: Usability: Diseño estético y minimalista
 
 Problema:
 
-problema 2
+Al entrar a la aplicación, a primeras impresiones se nota que el contenido no está centrado. No afecta la lógica de la aplicación, pero en ciertas vistas debería poder apreciarse sin tener que desplazarse o minimizar el zoom en la pantalla.
 
-<img src="" alt="Problema 2">
-
+<img src="./assets/heuristicas/conteido.png" alt="Contenido">
 
 <br>Recomendación:
 
-rec
+Este problema afecta la experiencia del usuario, es prioritario que el UX no tenga errores. Este problema puede tardar en arreglarse si es que no se ha seguido buenas prácticas.
 
 <br>
 
-Durante la realización del proyecto hemos corregido las siguientes heurísticas:
+**Problema 3: El contenido no es responsive**
 
-|Heurística|Descripción|
-| - | - |
-| 1 | text |
+Severidad: 4
 
+Heurística violada: Information Architecture: Navegación intuitiva
+
+Problema:
+
+Al intentar usar la aplicación con vistas de dispositivos móviles el contenido no es agradable de ver. Se recomienda arreglar de inmediato para que usuarios de otros dispositivos utilicen su aplicación sin problemas.  
+
+<img src="./assets/heuristicas/responsive.png" alt="sidenav">
+
+<br>Recomendación:
+
+El contenido siempre debe ser responsive, ya que los usuarios van a acceder desde cualquier dispositivo. Se recomienda tomar acciones de inmediato para evitar perder usuarios por la falta de dedicación al contenido responsive.
 
 ### 5.4 Video About-the-Product
 
