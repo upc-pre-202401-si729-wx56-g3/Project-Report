@@ -2997,6 +2997,100 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
    <img src="./assets/interview-images/validationInterviewMiguel.png" alt="Validation Interview Miguel">
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+<br>
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability - Inclusive Design - Information Architecture**
+
+<br>
+
+**Site o App a evaluar:**
+FromZero
+<br>
+
+**Tareas a evaluar:**
+1.	Registrar usuario como **desarrollador** o **empresa** dentro de la aplicación web
+2.	Crear proyecto (como **empresa**)
+3. Crear entregable (como **empresa**)
+4.	Postular a proyecto (como **desarrollador**)
+5.	Visualizar y aceptar candidatos (como **empresa**)
+6.	Enviar entregable (como **desarrollador**)
+7.	Aceptar o rechazar entregable (como **empresa**)
+8. Visualizar proyectos destacados (ambos usuarios)
+
+<br>
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|**Nivel**|**Descripción**|
+| - | - |
+|1|Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+<br>
+
+**TABLA DE RESUMEN:**
+
+|N|Problema|Escala de severidad|Heurística/Principio violada(o)|
+| - | - | - | - |
+|1||-|-|
+|2||-|-|
+
+<br>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+<br>
+
+**Problema 1:**
+
+Severidad: #
+
+Heurística violada: 
+
+Problema:
+
+problema 1
+
+<img src="" alt="Problema 1">
+
+
+<br>Recomendación:
+
+rec
+<br><br>
+
+**Problema #2:**
+
+Severidad: #
+
+Heurística violada: 
+
+Problema:
+
+problema 2
+
+<img src="" alt="Problema 2">
+
+
+<br>Recomendación:
+
+rec
+
+<br>
+
+Durante la realización del proyecto hemos corregido las siguientes heurísticas:
+
+|Heurística|Descripción|
+| - | - |
+| 1 | text |
+
+
 ### 5.4 Video About-the-Product
 
 [Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/Ec6gcHut0DVEg6Lxv5DzkSwBmO2yZZrH73r1lG7vhG-EJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LN0Qwr)
