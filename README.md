@@ -3262,6 +3262,12 @@ El contenido siempre debe ser responsive, ya que los usuarios van a acceder desd
 
 <img src="./assets/sprint3/about-the-team.png">
 
+# Video Exposición Final
+
+   [Link de video presentación](https://youtu.be/dyRvmIqtmq0)
+
+<img src="./assets/sprint4/video-exposicion.png">
+
 # Bibliografía
 ```
 qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
