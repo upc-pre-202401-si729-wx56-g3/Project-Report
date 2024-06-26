@@ -3022,18 +3022,27 @@ https://github.com/upc-pre-202401-si729-wx56-g3/FromZero-API
 | Bounded Context | Authentication | |
 |-|-|-|
 | Entity | Endpoint URL | Swagger | 
-| User, Developer, Enterprise | /api/v1/auth/ | <img src="./assets/sprint4/AuthSwagger.png"> |  
-|Project|/api/v1/projects|<img src="./assets/sprint4/ProjectsSwagger.png">|  
-|Deliverables|/api/v1/projects|<img src="./assets/sprint4/DeliverablesSwagger.png">|  
-|Profiles|/api/v1/projects|<img src="./assets/sprint4/ProfilesSwagger.png">|  
-|Messages|/api/v1/projects|<img src="./assets/sprint4/MessagesSwagger.png">|
+| User, Developer, Enterprise | /v1/api/auth/ | <img src="./assets/sprint4/auth.png" alt="auth"> |
+| Profiles | /v1/api/profiles/ | <img src="./assets/sprint4/profiles.png" alt="profiles" > |
+|Project|/v1/api/projects/|<img src="./assets/sprint4/projects.png" alt="projects">|  
+|Deliverables|/v1/api/deliverables/|<img src="./assets/sprint4/deliverables.png" alt="deliverables">|  
+|Messages|/v1/api/messages/|<img src="./assets/sprint4/messages.png" alt="messages">|
+|Support Tickets|/v1/api/support-tickets/|<img src="./assets/sprint4/support.png" alt="support">|
+|Highlight Projects|/v1/api/highlight-projects/|<img src="./assets/sprint4/highlight-projects.png" alt="hightlight-projects">|
 
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review. 
 
-De igual forma que el primer y segundo sprint, se siguio utilizando el servicio de auto deploy de Netlify. Por lo que, se realizaran los mismos pasos antes mencionados.
+De igual forma que los anteriores sprints, se siguio utilizando el servicio de auto deploy de Netlify. Por lo que, se realizaran los mismos pasos antes mencionados.
 
+<img src="./assets/sprint3/evidence.png" alt="deploy-frontend">
 
-<img src="./assets/sprint3/evidence.png">
+Para desplegar el backend se utilizó 
+
+<img src="" alt="deploy-backend">
+
+Para almacenar la base de datos en la nube se utilizó 
+
+<img src="" alt="deploy-database">
 
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
 
