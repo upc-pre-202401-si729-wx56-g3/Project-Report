@@ -3123,6 +3123,12 @@ Para esta entrega se utilizo las ramas para desarrollar cada sección, mejorarlo
    
    <img src="./assets/interview-images/validationInterviewAlexandraCabezas.png" alt="Validation Interview Miguel">
 
+   **Entrevista #04: Gonzalo Huamanga**
+
+   [Link a la entrevista](https://youtu.be/AxzPx9rgBl8)
+
+   <img src="./assets/interview-images/validationInterviewAlexandraCabezas.png" alt="Validation Interview Miguel">
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 <br>
